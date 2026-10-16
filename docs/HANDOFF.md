@@ -1,3 +1,5 @@
+> 최신 재현 보완: [HANDOFF_2026-10-16.md](HANDOFF_2026-10-16.md) 및 [REBUILD_RELEASE.md](REBUILD_RELEASE.md).
+
 > 최신공개자료: [게임배포](../dist/TinyToonAdventures2_KR_v1.0_Release_20261009.zip) · [작성자작업기](../workspace/publication/TinyToon2_KR_Worklog_AuthorVoice_20261009/작업기.html) · [기술지침](../workspace/publication/TinyToon12_TechnicalGuide_Reader_20261009/기술_지침.html). 이전게시자료·QA·중복재빌드는 [230보관·복원안내](SUPERSEDED_PUBLICATION_CLEANUP_230.md)를따른다.
 
 # 최종 배포·게시자료 유지 및 불필요 파일 정리 완료 — 2026-10-09

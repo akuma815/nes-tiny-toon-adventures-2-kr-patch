@@ -1,0 +1,134 @@
+[
+  {
+    "profile": {
+      "entry_id": "MAIN_05939",
+      "slot": 45,
+      "NT": 10245
+    },
+    "layout": [
+      {
+        "expanded_tiles": 10
+      },
+      {
+        "expanded_tiles": 12
+      },
+      {
+        "expanded_tiles": 1
+      },
+      {
+        "expanded_tiles": 1
+      },
+      {
+        "expanded_tiles": 8
+      },
+      {
+        "expanded_tiles": 1
+      },
+      {
+        "expanded_tiles": 1
+      },
+      {
+        "expanded_tiles": 7
+      },
+      {
+        "expanded_tiles": 10
+      },
+      {
+        "expanded_tiles": 8
+      },
+      {
+        "expanded_tiles": 1
+      },
+      {
+        "expanded_tiles": 7
+      },
+      {
+        "expanded_tiles": 9
+      },
+      {
+        "expanded_tiles": 7
+      }
+    ]
+  },
+  {
+    "profile": {
+      "entry_id": "MAIN_05999",
+      "slot": 46,
+      "NT": 8197
+    },
+    "layout": [
+      {
+        "expanded_tiles": 5
+      },
+      {
+        "expanded_tiles": 9
+      },
+      {
+        "expanded_tiles": 7
+      },
+      {
+        "expanded_tiles": 7
+      },
+      {
+        "expanded_tiles": 32
+      },
+      {
+        "expanded_tiles": 10
+      },
+      {
+        "expanded_tiles": 7
+      },
+      {
+        "expanded_tiles": 32
+      },
+      {
+        "expanded_tiles": 32
+      },
+      {
+        "expanded_tiles": 7
+      },
+      {
+        "expanded_tiles": 10
+      }
+    ]
+  },
+  {
+    "profile": {
+      "entry_id": "MAIN_059E7",
+      "slot": 47,
+      "NT": 10245
+    },
+    "layout": [
+      {
+        "expanded_tiles": 20
+      },
+      {
+        "expanded_tiles": 12
+      },
+      {
+        "expanded_tiles": 13
+      },
+      {
+        "expanded_tiles": 1
+      },
+      {
+        "expanded_tiles": 11
+      },
+      {
+        "expanded_tiles": 11
+      },
+      {
+        "expanded_tiles": 20
+      },
+      {
+        "expanded_tiles": 20
+      },
+      {
+        "expanded_tiles": 20
+      },
+      {
+        "expanded_tiles": 20
+      }
+    ]
+  }
+]

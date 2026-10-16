@@ -1,0 +1,49 @@
+[
+  {
+    "owner": "CHR128_to232_KiB",
+    "file_offset": 5,
+    "length": 1
+  },
+  {
+    "owner": "intro_irq_font_banks_128_129",
+    "file_offset": 130015,
+    "length": 1
+  },
+  {
+    "owner": "home_profile0_font_130_131",
+    "file_offset": 129860,
+    "length": 1
+  },
+  {
+    "owner": "PRG_128_to256_KiB",
+    "file_offset": 4,
+    "length": 1
+  },
+  {
+    "owner": "helper_bank2_with_original_data_retained_in_native_bank18",
+    "file_offset": 16400,
+    "length": 8192
+  },
+  {
+    "owner": "native_PRG16_to31_mirrors_bank18_bootstraps_31_fixed_and_relocated_CHR",
+    "file_offset": 131088,
+    "length": 368640,
+    "composition": "Prior045 PRG/CHR retained, newSTOP bank224225,226..231 zero",
+    "expected_source_size": 262160
+  },
+  {
+    "owner": "native_home_font_latch_FB12",
+    "file_offset": 129826,
+    "length": 3
+  },
+  {
+    "file_offset": 25704,
+    "length": 1,
+    "owner": "credits_NMI_font_native_A458_low_view"
+  },
+  {
+    "owner": "native_gameover_low_bank06_compatibility",
+    "file_offset": 49168,
+    "length": 8192
+  }
+]
