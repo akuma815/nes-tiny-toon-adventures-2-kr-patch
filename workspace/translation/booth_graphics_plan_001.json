@@ -1,0 +1,824 @@
+{
+  "date": "2026-10-05",
+  "work": 42,
+  "prior_build": "dialogue_kr_poc_038",
+  "labels": [
+    {
+      "source": "NUMBER OF",
+      "translation_ko": "현재 소지한",
+      "source_file_offset": 18065,
+      "expanded_file_offset": 149137,
+      "length": 9,
+      "source_hex": "585f574c4f5c005950",
+      "NT": 8454,
+      "actual_reads": [
+        {
+          "frame": 1474,
+          "CPU_data_address": 34433,
+          "physical_file_offset": 149137,
+          "value": 88
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34434,
+          "physical_file_offset": 149138,
+          "value": 95
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34435,
+          "physical_file_offset": 149139,
+          "value": 87
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34436,
+          "physical_file_offset": 149140,
+          "value": 76
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34437,
+          "physical_file_offset": 149141,
+          "value": 79
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34438,
+          "physical_file_offset": 149142,
+          "value": 92
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34439,
+          "physical_file_offset": 149143,
+          "value": 0
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34440,
+          "physical_file_offset": 149144,
+          "value": 89
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34441,
+          "physical_file_offset": 149145,
+          "value": 80
+        }
+      ],
+      "status": "draft",
+      "desired_padded": "현재 소지한   ",
+      "body_hex": "010200030405000000"
+    },
+    {
+      "source": "REMAINING TICKETS",
+      "translation_ko": "티켓 수",
+      "source_file_offset": 18089,
+      "expanded_file_offset": 149161,
+      "length": 17,
+      "source_hex": "5c4f574b5358535851005e534d554f5e5d",
+      "NT": 8489,
+      "actual_reads": [
+        {
+          "frame": 1474,
+          "CPU_data_address": 34457,
+          "physical_file_offset": 149161,
+          "value": 92
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34458,
+          "physical_file_offset": 149162,
+          "value": 79
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34459,
+          "physical_file_offset": 149163,
+          "value": 87
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34460,
+          "physical_file_offset": 149164,
+          "value": 75
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34461,
+          "physical_file_offset": 149165,
+          "value": 83
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34462,
+          "physical_file_offset": 149166,
+          "value": 88
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34463,
+          "physical_file_offset": 149167,
+          "value": 83
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34464,
+          "physical_file_offset": 149168,
+          "value": 88
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34465,
+          "physical_file_offset": 149169,
+          "value": 81
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34466,
+          "physical_file_offset": 149170,
+          "value": 0
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34467,
+          "physical_file_offset": 149171,
+          "value": 94
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34468,
+          "physical_file_offset": 149172,
+          "value": 83
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34469,
+          "physical_file_offset": 149173,
+          "value": 77
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34470,
+          "physical_file_offset": 149174,
+          "value": 85
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34471,
+          "physical_file_offset": 149175,
+          "value": 79
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34472,
+          "physical_file_offset": 149176,
+          "value": 94
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34473,
+          "physical_file_offset": 149177,
+          "value": 93
+        }
+      ],
+      "status": "draft",
+      "desired_padded": "티켓 수             ",
+      "body_hex": "0607000800000000000000000000000000"
+    },
+    {
+      "source": "TICKETS",
+      "translation_ko": "장",
+      "source_file_offset": 18133,
+      "expanded_file_offset": 149205,
+      "length": 7,
+      "source_hex": "5e534d554f5e5d",
+      "NT": 8563,
+      "actual_reads": [
+        {
+          "frame": 1474,
+          "CPU_data_address": 34501,
+          "physical_file_offset": 149205,
+          "value": 94
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34502,
+          "physical_file_offset": 149206,
+          "value": 83
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34503,
+          "physical_file_offset": 149207,
+          "value": 77
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34504,
+          "physical_file_offset": 149208,
+          "value": 85
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34505,
+          "physical_file_offset": 149209,
+          "value": 79
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34506,
+          "physical_file_offset": 149210,
+          "value": 94
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34507,
+          "physical_file_offset": 149211,
+          "value": 93
+        }
+      ],
+      "status": "draft",
+      "desired_padded": "장      ",
+      "body_hex": "09000000000000"
+    },
+    {
+      "source": "YOUR POINTS",
+      "translation_ko": "보유 점수",
+      "source_file_offset": 18161,
+      "expanded_file_offset": 149233,
+      "length": 11,
+      "source_hex": "63595f5c005a5953585e5d",
+      "NT": 8614,
+      "actual_reads": [
+        {
+          "frame": 1474,
+          "CPU_data_address": 34529,
+          "physical_file_offset": 149233,
+          "value": 99
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34530,
+          "physical_file_offset": 149234,
+          "value": 89
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34531,
+          "physical_file_offset": 149235,
+          "value": 95
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34532,
+          "physical_file_offset": 149236,
+          "value": 92
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34533,
+          "physical_file_offset": 149237,
+          "value": 0
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34534,
+          "physical_file_offset": 149238,
+          "value": 90
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34535,
+          "physical_file_offset": 149239,
+          "value": 89
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34536,
+          "physical_file_offset": 149240,
+          "value": 83
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34537,
+          "physical_file_offset": 149241,
+          "value": 88
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34538,
+          "physical_file_offset": 149242,
+          "value": 94
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34539,
+          "physical_file_offset": 149243,
+          "value": 93
+        }
+      ],
+      "status": "draft",
+      "desired_padded": "보유 점수      ",
+      "body_hex": "0a0b000c08000000000000"
+    },
+    {
+      "source": "POINTS",
+      "translation_ko": "점",
+      "source_file_offset": 18202,
+      "expanded_file_offset": 149274,
+      "length": 6,
+      "source_hex": "5a5953585e5d",
+      "NT": 8691,
+      "actual_reads": [
+        {
+          "frame": 1474,
+          "CPU_data_address": 34570,
+          "physical_file_offset": 149274,
+          "value": 90
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34571,
+          "physical_file_offset": 149275,
+          "value": 89
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34572,
+          "physical_file_offset": 149276,
+          "value": 83
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34573,
+          "physical_file_offset": 149277,
+          "value": 88
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34574,
+          "physical_file_offset": 149278,
+          "value": 94
+        },
+        {
+          "frame": 1474,
+          "CPU_data_address": 34575,
+          "physical_file_offset": 149279,
+          "value": 93
+        }
+      ],
+      "status": "draft",
+      "desired_padded": "점     ",
+      "body_hex": "0c0000000000"
+    }
+  ],
+  "font_bank": 204,
+  "font_range": [
+    471056,
+    473104
+  ],
+  "font_hex": "00000000000000000000000000000000000000000000000044fc946c04407c000000000000000000ea4a4aaeaaaa0a0000000000000000001010284410fe00000000000000000000fc242454548c0400000000000000000044fc966404407c000000000000000000f484f48484f404000000000000000000ea7a2aca10284400000000000000000010284400fe1010000000000000000000f4669400384438000000000000000000447c447c10fe0000000000000000000038443800fe2828000000000000000000f46c94007c447c00ffffdfdfcfcfc7c7c0c0e0e0f0f0f8f882808383c3c7f6fafcfe7f7f3f3f0f033e3c788103030704010307fffffffffc0f0f0f1f1f1f7e7effffffffffffbfbf3c3c7c78f8f8f4f40303030707070f0f3e3e3e8080800404c1c1c183838307070808090101031313f8f8f8f0f0f0e0e0e3c3c7c78f8f9f1f030307070f0f1f1f00410000000004093f7e7e7efcfcfcf8091913337367e7e7f8f8f0f0f0e0e0e000000000000000000000000000000000f3f3f0f8ffffffff0e0f0f0700000000ffff0000ffffffff00ffffff00000000f3f30307ffffffff1cfcfcf800000000e7e7e0f0ffffffff1c1f1f0f00000000cfcf0f1fffffffff70f0f0e000000000ff9f9fdfbfffffff0060602040000000ff9393dbb7ffffff006c6c244800000000000000000000000000000000000000ffffffffffffffff0000000000000000fffffffffff8f0f30000000000070f0fffffffefef2f2fe10000001f1fdfdfdfffffff425e425e5e000000ffffffffffffffff1fff30f01f000000e0e0efefefffffffffff0000ff0000000000ffffffffffffffff0703f30000000000f8fcfcfffffffffff0e0e700000000000f1f1fffffffe3de667ac70000003f3fbfbfbfffffff39d6f6d639000000ffffffffffffffff8cb584adb4000000ffffffffffffffff3fff60e03f000000c0c0dfdfdff3f3f3f3f3f3f3f30e0e0e0e0e0e0e0ef3f3f3f3f3f3f3f31c1c1c1c1c1c1c1ce7e7e7e7e7e7e7e71c1c1c1c1c1c1c1ccfcfcfcfcfcfcfcf7070707070707070ffff8bdadadadbff0000742525252400ffff36d5f3d536ff0000c92a0c2ac900ffff88bd8dbd8dff0000774272427200ffffddebf7ebddff0000221408142200fffffffffff3f7ff0000000e1f3f3f3fffffffffffffffff0000001c3effffffffffffffffffffff1f0f070301000000fffffffffffffffffefcf8f0e0c00000ffffffffffffffff0000000e11202020ffffffffffffffff0000001c22c10101ffffffffffffffff1008040201000000ffffffffffffffff0204081020c00000ffffcfbfa7b7cdff000038607c6c3b00ffff16b5b5b5b6ff0000fd6f6f6f6d00ffff6dabe7ab6dff0000db7e1c7edb00ffff117b1b7b1bff0000ffc6f6c6f600000000000000000000000000000000000000000000000000001c226363221c0000000000000000000018381818187e000000000000000000003e63030e387f000000000000000000003e630e03633e000000000000000000000e1e36667f06000000000000000000007f607e03633e000000000000000000003e607e63633e000000000000000000007f63060c1818000000000000000000003e633e63633e000000000000000000003e63633f033e000000000000000000001c36637f6363000000000000000000007e637e63637e000000000000000000003e636060633e000000000000000000007c666363667c000000000000000000007f607e60607f000000000000000000007f607e606060000000000000000000003e636067633e000000000000000000006363637f6363000000000000000000003c181818183c000000000000000000001f060606663c00000000000000000000676c787c66630000000000000000000060606060607f0000000000000000000063777f6b63630000000000000000000063737b6f6763000000000000000000003e636363633e000000000000000000007e63637e6060000000000000000000003e63636f663d000000000000000000007e63637c6663000000000000000000003e63380e633e000000000000000000007e18181818180000000000000000000063636363633e00000000000000000000636363361c080000000000000000000063636b6b7f360000000000000000000061321c1c26430000000000000000000063633e080808000000000000000000007f060c18307f000000000000000000003e630e08000800000000000000000000081c1c08000800000000000000000000000000003030000000000000000000003636120000000000000000000000000036362400000000000000000000000000007f3e1c08000000000000000000003c4299a1a199423c00000000000000000002040c0c040200000000000000000000201018181020000000000000000000000000000030102000000000000000000030102000000000ffc19898989898c1003e67676767673effe3c3e3e3e3e3e3001c3c1c1c1c1c1cffc198f8f1c78880003e67070e38777fffc198f8f1f898c1003e67070e07673efff1e1c19180f1f1000e1e3e6e7f0e0eff808f8f81f898c1007f70707e07673effc1989f819898c1003e67607e67673eff8098f1f1e3e3e3007f670e0e1c1c1cffc19898c19898c1003e67673e67673effc19898c0f898c1003e67673f07673effff8fb5b48dbdbc0000704a4b724243ffffffcfbf8fef9b0000003040701064ffffffc1f77777f70000003f3fbfbfbfffffff5d49555d5d000000ffffffffffffffff0f7f18780f000000f0f0f7f7f7ffffffffff1f0fcf0000000000e0f0f0",
+  "mapping": {
+    " ": 0,
+    "현": 1,
+    "재": 2,
+    "소": 3,
+    "지": 4,
+    "한": 5,
+    "티": 6,
+    "켓": 7,
+    "수": 8,
+    "장": 9,
+    "보": 10,
+    "유": 11,
+    "점": 12
+  },
+  "glyphs": [
+    {
+      "char": "현",
+      "code": 1,
+      "chr_hex": "000000000000000044fc946c04407c00",
+      "provider": "Galmuri7 atlas and TTF exact, no fallback"
+    },
+    {
+      "char": "재",
+      "code": 2,
+      "chr_hex": "0000000000000000ea4a4aaeaaaa0a00",
+      "provider": "Galmuri7 atlas and TTF exact, no fallback"
+    },
+    {
+      "char": "소",
+      "code": 3,
+      "chr_hex": "00000000000000001010284410fe0000",
+      "provider": "Galmuri7 atlas and TTF exact, no fallback"
+    },
+    {
+      "char": "지",
+      "code": 4,
+      "chr_hex": "0000000000000000fc242454548c0400",
+      "provider": "Galmuri7 atlas and TTF exact, no fallback"
+    },
+    {
+      "char": "한",
+      "code": 5,
+      "chr_hex": "000000000000000044fc966404407c00",
+      "provider": "Galmuri7 atlas and TTF exact, no fallback"
+    },
+    {
+      "char": "티",
+      "code": 6,
+      "chr_hex": "0000000000000000f484f48484f40400",
+      "provider": "Galmuri7 atlas and TTF exact, no fallback"
+    },
+    {
+      "char": "켓",
+      "code": 7,
+      "chr_hex": "0000000000000000ea7a2aca10284400",
+      "provider": "Galmuri7 atlas and TTF exact, no fallback"
+    },
+    {
+      "char": "수",
+      "code": 8,
+      "chr_hex": "000000000000000010284400fe101000",
+      "provider": "Galmuri7 atlas and TTF exact, no fallback"
+    },
+    {
+      "char": "장",
+      "code": 9,
+      "chr_hex": "0000000000000000f466940038443800",
+      "provider": "Galmuri7 atlas and TTF exact, no fallback"
+    },
+    {
+      "char": "보",
+      "code": 10,
+      "chr_hex": "0000000000000000447c447c10fe0000",
+      "provider": "Galmuri7 atlas and TTF exact, no fallback"
+    },
+    {
+      "char": "유",
+      "code": 11,
+      "chr_hex": "000000000000000038443800fe282800",
+      "provider": "Galmuri7 atlas and TTF exact, no fallback"
+    },
+    {
+      "char": "점",
+      "code": 12,
+      "chr_hex": "0000000000000000f46c94007c447c00",
+      "provider": "Galmuri7 atlas and TTF exact, no fallback"
+    }
+  ],
+  "Hangul_unique": 12,
+  "native_ascii_digits_punctuation_graphics_preserved": true,
+  "header": {
+    "exact_text": "매표소",
+    "AI_source": "workspace/graphics/booth_header_ai_001.png",
+    "AI_sha256": "560af447c3e93b2c9ce810cf9d63d68a8164372ced8bafd8f56ecf5a30134e8c",
+    "AI_crop_region": [
+      645,
+      256,
+      1540,
+      463
+    ],
+    "native_letter_size": [
+      43,
+      10
+    ],
+    "placement": [
+      26,
+      3
+    ],
+    "admitted_local_letter_box": [
+      3,
+      3,
+      93,
+      13
+    ],
+    "native_frame_pixels_unchanged": true,
+    "changes": [
+      {
+        "NT": 8330,
+        "tile": 136,
+        "CHR_bank": 102,
+        "source_file_offset": 235664,
+        "expanded_file_offset": 366736,
+        "source_raw_hex": "007f7f606f6f637b007f405f5f5f5f47",
+        "palette_group": 0,
+        "mapped_booth_top_occurrences": [
+          8330
+        ],
+        "final_hex": "007f7f7f7f7f7f7f007f404040404040"
+      },
+      {
+        "NT": 8331,
+        "tile": 137,
+        "CHR_bank": 102,
+        "source_file_offset": 235680,
+        "expanded_file_offset": 366752,
+        "source_raw_hex": "00ffff01cccc0c6c00ff00feffffff9f",
+        "palette_group": 0,
+        "mapped_booth_top_occurrences": [
+          8331
+        ],
+        "final_hex": "00ffffffffffffff00ff000000000000"
+      },
+      {
+        "NT": 8332,
+        "tile": 138,
+        "CHR_bank": 102,
+        "source_file_offset": 235696,
+        "expanded_file_offset": 366768,
+        "source_raw_hex": "00ffff0278fcccc000ff00fdffffffff",
+        "palette_group": 0,
+        "mapped_booth_top_occurrences": [
+          8332
+        ],
+        "final_hex": "00ffffffffffffff00ff000000000000"
+      },
+      {
+        "NT": 8333,
+        "tile": 139,
+        "CHR_bank": 102,
+        "source_file_offset": 235712,
+        "expanded_file_offset": 366784,
+        "source_raw_hex": "00ffff10c6cedcf900ff00effffffffe",
+        "palette_group": 0,
+        "mapped_booth_top_occurrences": [
+          8333
+        ],
+        "final_hex": "00ffffc1c1c1c9c900ff003e3e3e3636"
+      },
+      {
+        "NT": 8334,
+        "tile": 140,
+        "CHR_bank": 102,
+        "source_file_offset": 235728,
+        "expanded_file_offset": 366800,
+        "source_raw_hex": "00ffff007e7e607d00ff00fffffffffe",
+        "palette_group": 0,
+        "mapped_booth_top_occurrences": [
+          8334
+        ],
+        "final_hex": "00ffff131313030300ff00ecececfcfc"
+      },
+      {
+        "NT": 8335,
+        "tile": 141,
+        "CHR_bank": 102,
+        "source_file_offset": 235744,
+        "expanded_file_offset": 366816,
+        "source_raw_hex": "00ffff007e7e18db00ff00ffffffff3c",
+        "palette_group": 0,
+        "mapped_booth_top_occurrences": [
+          8335
+        ],
+        "final_hex": "00ffffc0c0e3e3c000ff003f3f1c1c3f"
+      },
+      {
+        "NT": 8336,
+        "tile": 163,
+        "CHR_bank": 102,
+        "source_file_offset": 236096,
+        "expanded_file_offset": 367168,
+        "source_raw_hex": "00fffff8fbfbfbfb00ff000707070707",
+        "palette_group": 0,
+        "mapped_booth_top_occurrences": [
+          8336
+        ],
+        "final_hex": "00ffff07071f1f0f00ff00f8f8e0e0f0"
+      },
+      {
+        "NT": 8337,
+        "tile": 164,
+        "CHR_bank": 102,
+        "source_file_offset": 236112,
+        "expanded_file_offset": 367184,
+        "source_raw_hex": "00ffff0ce1f333e300ff00f3ffffffff",
+        "palette_group": 0,
+        "mapped_booth_top_occurrences": [
+          8337
+        ],
+        "final_hex": "00fffff8f8f0828700ff0007070f7d78"
+      },
+      {
+        "NT": 8338,
+        "tile": 165,
+        "CHR_bank": 102,
+        "source_file_offset": 236128,
+        "expanded_file_offset": 367200,
+        "source_raw_hex": "00ffff0ce1f3333300ff00f3ffffffff",
+        "palette_group": 0,
+        "mapped_booth_top_occurrences": [
+          8338
+        ],
+        "final_hex": "00ffffffff7f0f0f00ff00000080f0f0"
+      },
+      {
+        "NT": 8339,
+        "tile": 166,
+        "CHR_bank": 102,
+        "source_file_offset": 236144,
+        "expanded_file_offset": 367216,
+        "source_raw_hex": "00ffff08e3f3303600ff00f7fffffff9",
+        "palette_group": 0,
+        "mapped_booth_top_occurrences": [
+          8339
+        ],
+        "final_hex": "00ffffffffffffff00ff000000000000"
+      },
+      {
+        "NT": 8340,
+        "tile": 167,
+        "CHR_bank": 102,
+        "source_file_offset": 236160,
+        "expanded_file_offset": 367232,
+        "source_raw_hex": "00ffff00f3f3c3db00ff00ffffffffe7",
+        "palette_group": 0,
+        "mapped_booth_top_occurrences": [
+          8340
+        ],
+        "final_hex": "00ffffffffffffff00ff000000000000"
+      },
+      {
+        "NT": 8341,
+        "tile": 168,
+        "CHR_bank": 102,
+        "source_file_offset": 236176,
+        "expanded_file_offset": 367248,
+        "source_raw_hex": "00fefe06363636f600fe02fafafafafa",
+        "palette_group": 0,
+        "mapped_booth_top_occurrences": [
+          8341
+        ],
+        "final_hex": "00fefefefefefefe00fe020202020202"
+      },
+      {
+        "NT": 8362,
+        "tile": 146,
+        "CHR_bank": 102,
+        "source_file_offset": 235824,
+        "expanded_file_offset": 366896,
+        "source_raw_hex": "7b7b7b7b787f7f004747474747407f00",
+        "palette_group": 0,
+        "mapped_booth_top_occurrences": [
+          8362
+        ],
+        "final_hex": "7f7f7f7f7f7f7f004040404040407f00"
+      },
+      {
+        "NT": 8363,
+        "tile": 147,
+        "CHR_bank": 102,
+        "source_file_offset": 235840,
+        "expanded_file_offset": 366912,
+        "source_raw_hex": "6c6c6c6c61ffff009f9f9f9f9e00ff00",
+        "palette_group": 0,
+        "mapped_booth_top_occurrences": [
+          8363
+        ],
+        "final_hex": "ffffffffffffff00000000000000ff00"
+      },
+      {
+        "NT": 8364,
+        "tile": 148,
+        "CHR_bank": 102,
+        "source_file_offset": 235856,
+        "expanded_file_offset": 366928,
+        "source_raw_hex": "c0ccfc7802ffff00fffffffffd00ff00",
+        "palette_group": 0,
+        "mapped_booth_top_occurrences": [
+          8364
+        ],
+        "final_hex": "ffffffffffffff00000000000000ff00"
+      },
+      {
+        "NT": 8365,
+        "tile": 149,
+        "CHR_bank": 102,
+        "source_file_offset": 235872,
+        "expanded_file_offset": 366944,
+        "source_raw_hex": "f9dccec610ffff00feffffffef00ff00",
+        "palette_group": 0,
+        "mapped_booth_top_occurrences": [
+          8365
+        ],
+        "final_hex": "c9c9c1c1ffffff0036363e3e0000ff00"
+      },
+      {
+        "NT": 8366,
+        "tile": 150,
+        "CHR_bank": 102,
+        "source_file_offset": 235888,
+        "expanded_file_offset": 366960,
+        "source_raw_hex": "7d607e7e00ffff00feffffffff00ff00",
+        "palette_group": 0,
+        "mapped_booth_top_occurrences": [
+          8366
+        ],
+        "final_hex": "0313131313ffff00fcecececec00ff00"
+      },
+      {
+        "NT": 8367,
+        "tile": 151,
+        "CHR_bank": 102,
+        "source_file_offset": 235904,
+        "expanded_file_offset": 366976,
+        "source_raw_hex": "dbdbdbdbc3ffff003c3c3c3c3c00ff00",
+        "palette_group": 0,
+        "mapped_booth_top_occurrences": [
+          8367
+        ],
+        "final_hex": "c0f3f38080ffff003f0c0c7f7f00ff00"
+      },
+      {
+        "NT": 8368,
+        "tile": 172,
+        "CHR_bank": 102,
+        "source_file_offset": 236240,
+        "expanded_file_offset": 367312,
+        "source_raw_hex": "fbfbfbfbf8ffff00070707070700ff00",
+        "palette_group": 0,
+        "mapped_booth_top_occurrences": [
+          8368
+        ],
+        "final_hex": "0f1f1f0707ffff00f0e0e0f8f800ff00"
+      },
+      {
+        "NT": 8369,
+        "tile": 173,
+        "CHR_bank": 102,
+        "source_file_offset": 236256,
+        "expanded_file_offset": 367328,
+        "source_raw_hex": "f333f3e10cffff00fffffffff300ff00",
+        "palette_group": 0,
+        "mapped_booth_top_occurrences": [
+          8369
+        ],
+        "final_hex": "9ff8f80000ffff00600707ffff00ff00"
+      },
+      {
+        "NT": 8370,
+        "tile": 174,
+        "CHR_bank": 102,
+        "source_file_offset": 236272,
+        "expanded_file_offset": 367344,
+        "source_raw_hex": "3333f3e10cffff00fffffffff300ff00",
+        "palette_group": 0,
+        "mapped_booth_top_occurrences": [
+          8370
+        ],
+        "final_hex": "cfffff0707ffff00300000f8f800ff00"
+      },
+      {
+        "NT": 8371,
+        "tile": 175,
+        "CHR_bank": 102,
+        "source_file_offset": 236288,
+        "expanded_file_offset": 367360,
+        "source_raw_hex": "3636f6e60effff00f9f9f9f9f100ff00",
+        "palette_group": 0,
+        "mapped_booth_top_occurrences": [
+          8371
+        ],
+        "final_hex": "ffffffffffffff00000000000000ff00"
+      },
+      {
+        "NT": 8372,
+        "tile": 176,
+        "CHR_bank": 102,
+        "source_file_offset": 236304,
+        "expanded_file_offset": 367376,
+        "source_raw_hex": "dbdbdbdb18ffff00e7e7e7e7e700ff00",
+        "palette_group": 0,
+        "mapped_booth_top_occurrences": [
+          8372
+        ],
+        "final_hex": "ffffffffffffff00000000000000ff00"
+      },
+      {
+        "NT": 8373,
+        "tile": 177,
+        "CHR_bank": 102,
+        "source_file_offset": 236320,
+        "expanded_file_offset": 367392,
+        "source_raw_hex": "f636363606fefe00fafafafafa02fe00",
+        "palette_group": 0,
+        "mapped_booth_top_occurrences": [
+          8373
+        ],
+        "final_hex": "fefefefefefefe00020202020202fe00"
+      }
+    ],
+    "indices_sha256": "1846d5fde8ca7f4c2c2da8e3f2a0b17251e03b40de7efb62e00c3b276ba81fa7"
+  },
+  "producer": {
+    "source_file_offsets": [
+      23718,
+      154790
+    ],
+    "expected_hex": "7c",
+    "final_hex": "cc"
+  },
+  "scope": "Five observed literal labels plus generated header; native length/compression controls/numbers/UI/other fonts preserved; runtime pending"
+}

@@ -1,0 +1,146 @@
+{
+  "date": "2026-10-05",
+  "source_sha256": "f41607b80904a2e1150a155121405dd1fed007ce98ff00a274a7891cafd7e32d",
+  "prior_build": "dialogue_kr_poc_036",
+  "prior_ROM_sha256": "9dbca87461d59ede5cf287d8842c63f498ebdd6b3830254dc2e1ad8b0a4ff21f",
+  "backup_CSV_sha256": "ccd784aa0e878cd30e4ae30690b4852f7f641e99dad9e875498ba413f9691447",
+  "CSV_sha256": "26274fdced8c950ec64d3b3dae7afbc7b92a49f8fd8fe4a31b6f92327e584c27",
+  "profiles": [
+    {
+      "entry_id": "MAIN_05939",
+      "slot": 45,
+      "source_file_offset": 22841,
+      "end_exclusive": 22937,
+      "source_raw_sha256": "ea2380dd67772de82e2fea0080cb31b915ff116d5eaa607a5b801452bed1b100",
+      "source_lines": [
+        " TINY TOON",
+        "ADVENTURES 2",
+        " ",
+        " ",
+        "   STAFF",
+        " ",
+        " ",
+        "PROGRAM",
+        " YAMASHITA",
+        " MIYAOKA",
+        " ",
+        "GRAPHIC",
+        " ISHIHARA",
+        " FUKUDA"
+      ],
+      "slots": [
+        45
+      ],
+      "pointer": 39209,
+      "text": " 타이니툰\n어드벤처 2\n \n \n   제작진\n \n \n프로그램\n YAMASHITA\n MIYAOKA\n \n그래픽\n ISHIHARA\n FUKUDA",
+      "font_bank": 201,
+      "NT": 10245,
+      "native_mode": 5,
+      "preserved_lines": [
+        2,
+        3,
+        5,
+        6,
+        8,
+        9,
+        10,
+        12,
+        13
+      ],
+      "scene": "Observed native credits root18=7/19=1/07DF1/06DE0 controlled scene,9417 mode5/6, producerA457 NMI124, scrollingFC/FF"
+    },
+    {
+      "entry_id": "MAIN_05999",
+      "slot": 46,
+      "source_file_offset": 22937,
+      "end_exclusive": 23015,
+      "source_raw_sha256": "c9d6a65e08b6c7c3daf6200561905c293ce1b6a36752680da51efce8d8841822",
+      "source_lines": [
+        "SOUND",
+        " TAKEYASU",
+        " KENKEN",
+        " YATAKA",
+        "                                ",
+        "PACKAGE D.",
+        " SUMIDA",
+        "                                ",
+        "                                ",
+        "   TEAM",
+        "PONPOKORIN"
+      ],
+      "slots": [
+        46
+      ],
+      "pointer": 39305,
+      "text": "사운드\n TAKEYASU\n KENKEN\n YATAKA\n                                \n패키지 그림\n SUMIDA\n                                \n                                \n   팀\nPONPOKORIN",
+      "font_bank": 201,
+      "NT": 8197,
+      "native_mode": 6,
+      "preserved_lines": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        10
+      ],
+      "scene": "Observed native credits root18=7/19=1/07DF1/06DE0 controlled scene,9417 mode5/6, producerA457 NMI124, scrollingFC/FF"
+    },
+    {
+      "entry_id": "MAIN_059E7",
+      "slot": 47,
+      "source_file_offset": 23015,
+      "end_exclusive": 23080,
+      "source_raw_sha256": "2ef67f4991972e1ad98854f6d4f0e656018b31fafbfa1969e18379cfb7cbaf66",
+      "source_lines": [
+        "                    ",
+        "PRESENTED BY",
+        "   KONAMI    ",
+        " ",
+        " ALL RIGHTS",
+        "  RESERVED.",
+        "                    ",
+        "                    ",
+        "                    ",
+        "                    "
+      ],
+      "slots": [
+        47
+      ],
+      "pointer": 39383,
+      "text": "                    \n제공\n   KONAMI    \n \n ALL RIGHTS\n  RESERVED.\n                    \n                    \n                    \n                    ",
+      "font_bank": 201,
+      "NT": 10245,
+      "native_mode": 5,
+      "preserved_lines": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "scene": "Observed native credits root18=7/19=1/07DF1/06DE0 controlled scene,9417 mode5/6, producerA457 NMI124, scrollingFC/FF"
+    }
+  ],
+  "native_font": 124,
+  "new_shared_font": [
+    201,
+    202
+  ],
+  "producer_expected": {
+    "file_offsets": [
+      25704,
+      156776
+    ],
+    "expected_hex": "7c",
+    "final_hex": "c9"
+  },
+  "scope": "Work37 three actual credits drafts; all42 previous drafts retained; native names/publisher/legal kept",
+  "review": "Draft, recorded scene seed; no release"
+}

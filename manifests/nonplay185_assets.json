@@ -1,0 +1,17 @@
+{
+  "work": 185,
+  "files": {
+    "qa/reports/text11_185_feasibility.json": "0da84401444c4f07683eae4f9cc990a5ec2bfd162c1a38a2b42571d9b4f9a87c",
+    "scripts/seal_nonplay171.py": "847e7b5c4030035e6cb3ea3b54daf7fbe73546e89e286029051aebfd79790a9a",
+    "scripts/survey_text11_185.py": "41aef9d72fb29332ee1db9b5f501f2bb7a3e794a017f61dc154b9645293e234a",
+    "tools/fonts/galmuri_v2_40_4_185/Galmuri-v2.40.4.zip": "c8b3d9861a62ae73c8b1178091401cd79994812437ef386413f6dd54856e60e7",
+    "workspace/fonts/galmuri11_candidate185/font_source.json": "346ac478874cc1592e41200d9f62b5388b63c8e677972fbd04a5c3cfd024283e",
+    "workspace/fonts/galmuri11_candidate185/Galmuri11.bdf": "98716d08aa5762e6ce440d5a757d107cb5d3f32a53861878be06c00aacc23304",
+    "workspace/fonts/galmuri11_candidate185/Galmuri11.ttf": "e24256f42e43713d2ea086a1e1669d78b968f5b3cc547e5c157f0606ffa5def1",
+    "workspace/fonts/galmuri11_candidate185/LICENSE.txt": "86a3ee9495f942f0243f18c103da9faca27adb88142613edb8bb852e56c892c1",
+    "workspace/review/text11_185/comparison_4x.png": "acb80cbabcfbacab2c1c6a16a4359022cd445a110b3dbb666b9634e1c153787e",
+    "workspace/review/text11_185/comparison_native.png": "3fb9bbf6028a6ad7db0c7f9c220b32156f8d89d2f2fa5e3b449bcccaf7d678e3",
+    "workspace/review/text11_185/paragraph_12x16_prototype.chr": "470819c14d0abc5a88c8953141097e84c3df3a551045569ec5c54bd49c07160e",
+    "docs/GLOBAL_TEXT11_FEASIBILITY_185.md": "cecad2950ae91eb2d45d0d226c0695077dd9ce4918b7fdfa3ad79027c6274b21"
+  }
+}

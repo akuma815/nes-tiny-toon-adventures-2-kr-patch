@@ -1,0 +1,26 @@
+{
+  "work": 104,
+  "files": {
+    "docs/CONSUMER_REVIEW_047_SUPPLEMENT.md": "549c44cd4117d5e3d29b793fb501be6f1141b3dcd878ab16034912ed04f81728",
+    "scripts/make_consumer_review104.py": "86c83338429bc8210792dbe043315c2b67fcb4ee3709fc156c7390ec8a3922a1",
+    "scripts/render_consumer_review104.py": "da24bad171f5a0b9517f585f019653bd879265783d1148eee4abca0d4e14e27e",
+    "qa/reports/consumer104_build.json": "ba89e2ee838724df20733c9685472ed2fe29fdc9d26eb7b1e7c86f3a66d9ed42",
+    "workspace/review/TinyToon2_Consumer_Review_047_20261005_104.zip": "20082bf789c4e7adf4a855daad425025b0869f973757a3e66ad61768cfb11504",
+    "workspace/review/consumer047_104_20261005/artifact_manifest.json": "828f588235dcc00e121d1e3ec9681e9905488b56b110135ad34728f73bc3a4f1",
+    "workspace/review/consumer047_104_20261005/consumer_records.json": "915a1a20e4af8e0a478428df4994cdd8cdefdc91e01cbe951aa2cb9fcfe1e2f4",
+    "workspace/review/consumer047_104_20261005/DECISIONS_PENDING.md": "e314c0d06d212804598617de7c9f7966a6222e542db85565752a252c7448001a",
+    "workspace/review/consumer047_104_20261005/README.txt": "fda353c0d26cebc6d2da9043cf576af20c490b09caf43f461605a201aa6ced04",
+    "workspace/review/consumer047_104_20261005/review.html": "e10f97d348d0d4b7f17e30b431b658bc289ba2428b5d742dcdc7276623741e9a",
+    "qa/review/consumer104_047/desktop_HOWTO.png": "9799151aee97cc8cf0963bb6fe39bcfba4f31e53e40e046f74129a7cf212e9bd",
+    "qa/review/consumer104_047/desktop_PAUSE.png": "0f24458722fb4e5885a9457bedae5a91174b1f291e7ba3d70140ccaf578bd05e",
+    "qa/review/consumer104_047/desktop_POW.png": "7f3ef26601f71ab00307ba29d84560e3fdf7f0caf3865009b646a2b09fc3d8f3",
+    "qa/review/consumer104_047/desktop_top.png": "eca308f2f9e165314fa408ac45c8200bfd9609ae061ee47b214d402df3d784ed",
+    "qa/review/consumer104_047/edge_stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "qa/review/consumer104_047/mobile_HOWTO.png": "16ad9f41f855759ba31420a26608b7e2de3313a2f03a4300d537c13cc82b53ee",
+    "qa/review/consumer104_047/mobile_PAUSE.png": "1207924a4c58cc1f5dee24c780f90654b277e6421e6dd1b84ed2098a66eeb379",
+    "qa/review/consumer104_047/mobile_POW.png": "e464cc4837b096c79daca7dba0db3524841372c523afe45f149c8040ce1aaffb",
+    "qa/review/consumer104_047/mobile_top.png": "2e8929dde073f549c8053f0fa4575e8cd1934cc4e5fed6a4d9b7e389c4a59ef6",
+    "qa/review/consumer104_047/render_report.json": "f5747dc7d065a5f5b407cf7ef5a804dec63239460a514c6290e656b74848f370",
+    "qa/review/consumer104_047/synthetic_download/TinyToon2_047_consumer_review_input.json": "96e8b9c28409c58add2323b859a30eca7bc307b203152cd38c6bdb6816e3c1bb"
+  }
+}

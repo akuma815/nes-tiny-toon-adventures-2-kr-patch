@@ -1,0 +1,318 @@
+{
+  "work": 105,
+  "source_sha256": "f41607b80904a2e1150a155121405dd1fed007ce98ff00a274a7891cafd7e32d",
+  "ROM047_sha256": "82ccec59ea23e899d0bcdb22123d67cc935a13305a843ca3f1f42fb24dc80c10",
+  "CSV_sha256": "ac22c5842e4f8d1600925e0837508c82f198157553031bd7cc3371fb6e4cf556",
+  "scope": "Correct native source→slot context ledger supplements historical grouped CSV notes; prose/raw/reference IDs/status remain frozen. Use row-specific exact_context for these two records.",
+  "context_overrides": [
+    {
+      "entry_id": "MAIN_057AC",
+      "native_slots_hex": [
+        "15"
+      ],
+      "exact_context": "Ticket booth after successful point→ticket exchange; Babs/attendant invites return. Native slot2A is a different source paragraph MAIN_05920.",
+      "frozen_CSV_group_context_erratum": "scene and notes mention shared ride lower start/2A as a grouped description. This is not a reference or consumer of this paragraph.",
+      "ROM_or_translation_defect": false
+    },
+    {
+      "entry_id": "MAIN_05920",
+      "native_slots_hex": [
+        "2A"
+      ],
+      "exact_context": "Ordinary ride lower start encouragement, Buster; separate from booth farewell MAIN_057AC slot15.",
+      "frozen_CSV_group_context_erratum": "scene includes booth successful exchange as a grouped QA description. Source reference2A belongs to ride start only.",
+      "ROM_or_translation_defect": false
+    }
+  ],
+  "native48_slots": [
+    {
+      "slot_hex": "00",
+      "CPU_pointer": 39136,
+      "source_file_offset": 22768,
+      "entry_id": "MAIN_058F0"
+    },
+    {
+      "slot_hex": "01",
+      "CPU_pointer": 38393,
+      "source_file_offset": 22025,
+      "entry_id": "MAIN_05609"
+    },
+    {
+      "slot_hex": "02",
+      "CPU_pointer": 38421,
+      "source_file_offset": 22053,
+      "entry_id": "MAIN_05625"
+    },
+    {
+      "slot_hex": "03",
+      "CPU_pointer": 38461,
+      "source_file_offset": 22093,
+      "entry_id": "MAIN_0564D"
+    },
+    {
+      "slot_hex": "04",
+      "CPU_pointer": 38485,
+      "source_file_offset": 22117,
+      "entry_id": "MAIN_05665"
+    },
+    {
+      "slot_hex": "05",
+      "CPU_pointer": 38523,
+      "source_file_offset": 22155,
+      "entry_id": "MAIN_0568B"
+    },
+    {
+      "slot_hex": "06",
+      "CPU_pointer": 38577,
+      "source_file_offset": 22209,
+      "entry_id": "MAIN_056C1"
+    },
+    {
+      "slot_hex": "07",
+      "CPU_pointer": 38622,
+      "source_file_offset": 22254,
+      "entry_id": "MAIN_056EE"
+    },
+    {
+      "slot_hex": "08",
+      "CPU_pointer": 38653,
+      "source_file_offset": 22285,
+      "entry_id": "MAIN_0570D"
+    },
+    {
+      "slot_hex": "09",
+      "CPU_pointer": 38664,
+      "source_file_offset": 22296,
+      "entry_id": "MAIN_05718"
+    },
+    {
+      "slot_hex": "0A",
+      "CPU_pointer": 38705,
+      "source_file_offset": 22337,
+      "entry_id": "MAIN_05741"
+    },
+    {
+      "slot_hex": "0B",
+      "CPU_pointer": 38717,
+      "source_file_offset": 22349,
+      "entry_id": "MAIN_0574D"
+    },
+    {
+      "slot_hex": "0C",
+      "CPU_pointer": 38720,
+      "source_file_offset": 22352,
+      "entry_id": "MAIN_05750"
+    },
+    {
+      "slot_hex": "0D",
+      "CPU_pointer": 38723,
+      "source_file_offset": 22355,
+      "entry_id": "MAIN_05753"
+    },
+    {
+      "slot_hex": "0E",
+      "CPU_pointer": 38726,
+      "source_file_offset": 22358,
+      "entry_id": "MAIN_05756"
+    },
+    {
+      "slot_hex": "0F",
+      "CPU_pointer": 38729,
+      "source_file_offset": 22361,
+      "entry_id": "MAIN_05759"
+    },
+    {
+      "slot_hex": "10",
+      "CPU_pointer": 38738,
+      "source_file_offset": 22370,
+      "entry_id": "MAIN_05762"
+    },
+    {
+      "slot_hex": "11",
+      "CPU_pointer": 38745,
+      "source_file_offset": 22377,
+      "entry_id": "MAIN_05769"
+    },
+    {
+      "slot_hex": "12",
+      "CPU_pointer": 38759,
+      "source_file_offset": 22391,
+      "entry_id": "MAIN_05777"
+    },
+    {
+      "slot_hex": "13",
+      "CPU_pointer": 38770,
+      "source_file_offset": 22402,
+      "entry_id": "MAIN_05782"
+    },
+    {
+      "slot_hex": "14",
+      "CPU_pointer": 38788,
+      "source_file_offset": 22420,
+      "entry_id": "MAIN_05794"
+    },
+    {
+      "slot_hex": "15",
+      "CPU_pointer": 38812,
+      "source_file_offset": 22444,
+      "entry_id": "MAIN_057AC"
+    },
+    {
+      "slot_hex": "16",
+      "CPU_pointer": 38824,
+      "source_file_offset": 22456,
+      "entry_id": "MAIN_057B8"
+    },
+    {
+      "slot_hex": "17",
+      "CPU_pointer": 38833,
+      "source_file_offset": 22465,
+      "entry_id": "MAIN_057C1"
+    },
+    {
+      "slot_hex": "18",
+      "CPU_pointer": 38869,
+      "source_file_offset": 22501,
+      "entry_id": "MAIN_057E5"
+    },
+    {
+      "slot_hex": "19",
+      "CPU_pointer": 38887,
+      "source_file_offset": 22519,
+      "entry_id": "MAIN_057F7"
+    },
+    {
+      "slot_hex": "1A",
+      "CPU_pointer": 38901,
+      "source_file_offset": 22533,
+      "entry_id": "MAIN_05805"
+    },
+    {
+      "slot_hex": "1B",
+      "CPU_pointer": 38923,
+      "source_file_offset": 22555,
+      "entry_id": "MAIN_0581B"
+    },
+    {
+      "slot_hex": "1C",
+      "CPU_pointer": 38932,
+      "source_file_offset": 22564,
+      "entry_id": "MAIN_05824"
+    },
+    {
+      "slot_hex": "1D",
+      "CPU_pointer": 38947,
+      "source_file_offset": 22579,
+      "entry_id": "MAIN_05833"
+    },
+    {
+      "slot_hex": "1E",
+      "CPU_pointer": 38969,
+      "source_file_offset": 22601,
+      "entry_id": "MAIN_05849"
+    },
+    {
+      "slot_hex": "1F",
+      "CPU_pointer": 38999,
+      "source_file_offset": 22631,
+      "entry_id": "MAIN_05867"
+    },
+    {
+      "slot_hex": "20",
+      "CPU_pointer": 39026,
+      "source_file_offset": 22658,
+      "entry_id": "MAIN_05882"
+    },
+    {
+      "slot_hex": "21",
+      "CPU_pointer": 39062,
+      "source_file_offset": 22694,
+      "entry_id": "MAIN_058A6"
+    },
+    {
+      "slot_hex": "22",
+      "CPU_pointer": 39101,
+      "source_file_offset": 22733,
+      "entry_id": "MAIN_058CD"
+    },
+    {
+      "slot_hex": "23",
+      "CPU_pointer": 39136,
+      "source_file_offset": 22768,
+      "entry_id": "MAIN_058F0"
+    },
+    {
+      "slot_hex": "24",
+      "CPU_pointer": 39138,
+      "source_file_offset": 22770,
+      "entry_id": "MAIN_058F2"
+    },
+    {
+      "slot_hex": "25",
+      "CPU_pointer": 39142,
+      "source_file_offset": 22774,
+      "entry_id": "MAIN_058F6"
+    },
+    {
+      "slot_hex": "26",
+      "CPU_pointer": 39146,
+      "source_file_offset": 22778,
+      "entry_id": "MAIN_058FA"
+    },
+    {
+      "slot_hex": "27",
+      "CPU_pointer": 39150,
+      "source_file_offset": 22782,
+      "entry_id": "MAIN_058FE"
+    },
+    {
+      "slot_hex": "28",
+      "CPU_pointer": 39154,
+      "source_file_offset": 22786,
+      "entry_id": "MAIN_05902"
+    },
+    {
+      "slot_hex": "29",
+      "CPU_pointer": 39164,
+      "source_file_offset": 22796,
+      "entry_id": "MAIN_0590C"
+    },
+    {
+      "slot_hex": "2A",
+      "CPU_pointer": 39184,
+      "source_file_offset": 22816,
+      "entry_id": "MAIN_05920"
+    },
+    {
+      "slot_hex": "2B",
+      "CPU_pointer": 39193,
+      "source_file_offset": 22825,
+      "entry_id": "MAIN_05929"
+    },
+    {
+      "slot_hex": "2C",
+      "CPU_pointer": 38901,
+      "source_file_offset": 22533,
+      "entry_id": "MAIN_05805"
+    },
+    {
+      "slot_hex": "2D",
+      "CPU_pointer": 39209,
+      "source_file_offset": 22841,
+      "entry_id": "MAIN_05939"
+    },
+    {
+      "slot_hex": "2E",
+      "CPU_pointer": 39305,
+      "source_file_offset": 22937,
+      "entry_id": "MAIN_05999"
+    },
+    {
+      "slot_hex": "2F",
+      "CPU_pointer": 39383,
+      "source_file_offset": 23015,
+      "entry_id": "MAIN_059E7"
+    }
+  ],
+  "human_approved": false
+}

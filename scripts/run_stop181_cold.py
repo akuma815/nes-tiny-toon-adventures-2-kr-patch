@@ -1,0 +1,59 @@
+"""Cold boot a verified dialogue development build in isolated Mesen; controller-only runtime evidence."""
+import argparse, hashlib, json, os, subprocess
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1]
+def sha(p): return hashlib.sha256(p.read_bytes()).hexdigest()
+def main():
+    ap=argparse.ArgumentParser(description=__doc__)
+    ap.add_argument('--rom', type=Path, required=True)
+    ap.add_argument('--output', type=Path, required=True)
+    ap.add_argument('--frames', type=int, default=5400)
+    ap.add_argument('--start', type=int, default=-1)
+    ap.add_argument('--inputs', type=Path, required=True)
+    ap.add_argument('--script', type=Path, default=ROOT/'scripts/capture_survey.lua')
+    a=ap.parse_args()
+    manifest=json.loads((ROOT/'manifests/source_rom.json').read_text(encoding='utf-8'))
+    rom=a.rom.resolve()
+    expected=({'output_sha256':manifest['sha256'],'output_size':262160,'source_sha256':manifest['sha256']} if rom== (ROOT/manifest['path']).resolve() else json.loads((rom.parent/'build_report.json').read_text(encoding='utf-8')))
+    assert sha(rom)==expected['output_sha256'] and rom.stat().st_size==expected['output_size']
+    assert expected['source_sha256']==manifest['sha256']
+    assert sha(ROOT/manifest['path'])==manifest['sha256']
+    rom_sha=sha(rom)
+    events=json.loads(a.inputs.read_text('utf-8'))
+    allowed={'start','select','a','b','up','down','left','right'}
+    for e in events:assert set(e)=={'frame','duration','button'} and e['button'] in allowed and 0<=e['frame']<a.frames and 1<=e['duration']<=60
+    assert len(events)<=128
+    schedule=';'.join(f"{e['frame']},{e['duration']},{e['button']}" for e in events)
+    assert 0<a.frames<=18000
+    output=a.output.resolve()
+    assert output!=ROOT/'original' and ROOT/'original' not in output.parents
+    output.mkdir(parents=True,exist_ok=False)
+    exe=ROOT/'tools/mesence_user181/Mesen.exe'
+    config=ROOT/'config/mesen_survey.json'
+    script=output/'capture_survey_used.lua'
+    script.write_bytes(a.script.read_bytes())
+    (output/'config_used.json').write_bytes(config.read_bytes())
+    assert (exe.parent/'settings.json').read_bytes()==config.read_bytes()
+    env=os.environ.copy()
+    env.update(TTA2_QA_OUT=str(output),TTA2_FRAMES=str(a.frames),TTA2_START=str(a.start),TTA2_INPUTS=schedule)
+    (output/'inputs_used.json').write_bytes(a.inputs.read_bytes())
+    command=[str(exe),'--testrunner','--donotsavesettings',str(script),str(rom),'--timeout=120','--enableStdout']
+    result=subprocess.run(command,capture_output=True,env=env,creationflags=subprocess.CREATE_NO_WINDOW,timeout=135)
+    (output/'stdout.txt').write_bytes(result.stdout)
+    (output/'stderr.txt').write_bytes(result.stderr)
+    report={'source_sha256':manifest['sha256'],'rom_sha256':rom_sha,'emulator':'MesenCE2.2.1 identical private user host','exe_path':str(exe),'exe_sha256':sha(exe),
+        'lua_sha256':sha(script),'config_sha256':sha(config),'command':command,'exit_code':result.returncode,
+        'frames':a.frames,'input':{'sequence':events,'file_sha256':sha(a.inputs),'unspecified_buttons':False},
+        'intervention':'controller input only; no state loading or RAM/ROM writes',
+        'files':{p.name:sha(p) for p in sorted(output.iterdir()) if p.is_file()},
+        'scope':'User-reported STOP primary/alternate font consumer left/bottom geometry comparison, cold controller input only; no full playthrough.'}
+    (output/'environment.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    assert result.returncode==0, f'Mesen exited {result.returncode}; inspect logs'
+    if a.script.name=='capture_survey.lua':
+        assert (output/f'frame_{a.frames:05d}.png').exists(), 'Missing final frame'
+    else:
+        assert (output/'trace_complete.txt').read_text()==str(a.frames), 'Trace incomplete'
+    assert sha(rom)==rom_sha
+    assert sha(ROOT/manifest['path'])==manifest['sha256']
+    print(json.dumps({k:v for k,v in report.items() if k not in ('files','command')},indent=2))
+if __name__=='__main__': main()

@@ -1,0 +1,52 @@
+[
+  {
+    "frame": 720,
+    "duration": 8,
+    "button": "start"
+  },
+  {
+    "frame": 1100,
+    "duration": 8,
+    "button": "right"
+  },
+  {
+    "frame": 1500,
+    "duration": 8,
+    "button": "a"
+  },
+  {
+    "frame": 2000,
+    "duration": 8,
+    "button": "a"
+  },
+  {
+    "frame": 2880,
+    "duration": 8,
+    "button": "start"
+  },
+  {
+    "frame": 3260,
+    "duration": 8,
+    "button": "right"
+  },
+  {
+    "frame": 3660,
+    "duration": 8,
+    "button": "a"
+  },
+  {
+    "frame": 4160,
+    "duration": 8,
+    "button": "a"
+  },
+  {
+    "frame": 4760,
+    "duration": 8,
+    "button": "a"
+  },
+  {
+    "frame": 5260,
+    "duration": 8,
+    "button": "b"
+  }
+]

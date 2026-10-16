@@ -1,0 +1,408 @@
+{
+  "work": 46,
+  "prior_build": "dialogue_kr_poc_040",
+  "labels": [
+    {
+      "offset": 7,
+      "NT": 8392,
+      "length": 16,
+      "source_padded": "CONGRATULATIONS!",
+      "source": "CONGRATULATIONS!",
+      "source_hex": "4d5958515c4b5e5f564b5e5359585d66",
+      "translation_ko": "축하합니다!",
+      "source_file_offset": 150034,
+      "expanded_file_offset": 281106,
+      "screen_box": [
+        64,
+        48,
+        192,
+        56
+      ],
+      "native_colors": {
+        "0": [
+          0,
+          0,
+          0
+        ],
+        "2": [
+          228,
+          229,
+          148
+        ]
+      },
+      "status": "draft",
+      "desired_padded": "     축하합니다!     ",
+      "body_hex": "00000000000102030405660000000000"
+    },
+    {
+      "offset": 26,
+      "NT": 8487,
+      "length": 12,
+      "source_padded": "LIFE BONUS  ",
+      "source": "LIFE BONUS",
+      "source_hex": "5653504f004c59585f5d0000",
+      "translation_ko": "체력 보너스",
+      "source_file_offset": 150053,
+      "expanded_file_offset": 281125,
+      "screen_box": [
+        56,
+        72,
+        152,
+        80
+      ],
+      "native_colors": {
+        "0": [
+          0,
+          0,
+          0
+        ],
+        "2": [
+          255,
+          254,
+          255
+        ]
+      },
+      "status": "draft",
+      "desired_padded": "   체력 보너스   ",
+      "body_hex": "00000006070008090a000000"
+    },
+    {
+      "offset": 43,
+      "NT": 8551,
+      "length": 12,
+      "source_padded": "CLEAR BONUS ",
+      "source": "CLEAR BONUS",
+      "source_hex": "4d564f4b5c004c59585f5d00",
+      "translation_ko": "클리어 보너스",
+      "source_file_offset": 150070,
+      "expanded_file_offset": 281142,
+      "screen_box": [
+        56,
+        88,
+        152,
+        96
+      ],
+      "native_colors": {
+        "0": [
+          0,
+          0,
+          0
+        ],
+        "2": [
+          255,
+          254,
+          255
+        ]
+      },
+      "status": "draft",
+      "desired_padded": "  클리어 보너스   ",
+      "body_hex": "00000b0c0d0008090a000000"
+    },
+    {
+      "offset": 60,
+      "NT": 8615,
+      "length": 12,
+      "source_padded": "TIME BONUS  ",
+      "source": "TIME BONUS",
+      "source_hex": "5e53574f004c59585f5d0000",
+      "translation_ko": "시간 보너스",
+      "source_file_offset": 150087,
+      "expanded_file_offset": 281159,
+      "screen_box": [
+        56,
+        104,
+        152,
+        112
+      ],
+      "native_colors": {
+        "0": [
+          0,
+          0,
+          0
+        ],
+        "2": [
+          255,
+          254,
+          255
+        ]
+      },
+      "status": "draft",
+      "desired_padded": "   시간 보너스   ",
+      "body_hex": "0000000e0f0008090a000000"
+    },
+    {
+      "offset": 77,
+      "NT": 8746,
+      "length": 11,
+      "source_padded": "NOW YOU GET",
+      "source": "NOW YOU GET",
+      "source_hex": "5859610063595f00514f5e",
+      "translation_ko": "획득 점수",
+      "source_file_offset": 150104,
+      "expanded_file_offset": 281176,
+      "screen_box": [
+        80,
+        136,
+        168,
+        144
+      ],
+      "native_colors": {
+        "0": [
+          0,
+          0,
+          0
+        ],
+        "2": [
+          243,
+          106,
+          255
+        ]
+      },
+      "status": "draft",
+      "desired_padded": "   획득 점수   ",
+      "body_hex": "0000001011001213000000"
+    },
+    {
+      "offset": 93,
+      "NT": 8816,
+      "length": 7,
+      "source_padded": " POINTS",
+      "source": "POINTS",
+      "source_hex": "005a5953585e5d",
+      "translation_ko": "점",
+      "source_file_offset": 150120,
+      "expanded_file_offset": 281192,
+      "screen_box": [
+        128,
+        152,
+        184,
+        160
+      ],
+      "native_colors": {
+        "0": [
+          0,
+          0,
+          0
+        ],
+        "2": [
+          243,
+          106,
+          255
+        ]
+      },
+      "status": "draft",
+      "desired_padded": " 점     ",
+      "body_hex": "00120000000000"
+    },
+    {
+      "offset": 103,
+      "NT": 8874,
+      "length": 11,
+      "source_padded": "YOUR POINTS",
+      "source": "YOUR POINTS",
+      "source_hex": "63595f5c005a5953585e5d",
+      "translation_ko": "보유 점수",
+      "source_file_offset": 150130,
+      "expanded_file_offset": 281202,
+      "screen_box": [
+        80,
+        168,
+        168,
+        176
+      ],
+      "native_colors": {
+        "0": [
+          0,
+          0,
+          0
+        ],
+        "2": [
+          243,
+          106,
+          255
+        ]
+      },
+      "status": "draft",
+      "desired_padded": "   보유 점수   ",
+      "body_hex": "0000000814001213000000"
+    },
+    {
+      "offset": 119,
+      "NT": 8944,
+      "length": 7,
+      "source_padded": " POINTS",
+      "source": "POINTS",
+      "source_hex": "005a5953585e5d",
+      "translation_ko": "점",
+      "source_file_offset": 150146,
+      "expanded_file_offset": 281218,
+      "screen_box": [
+        128,
+        184,
+        184,
+        192
+      ],
+      "native_colors": {
+        "0": [
+          0,
+          0,
+          0
+        ],
+        "2": [
+          243,
+          106,
+          255
+        ]
+      },
+      "status": "draft",
+      "desired_padded": " 점     ",
+      "body_hex": "00120000000000"
+    }
+  ],
+  "distinct_labels": 7,
+  "literal_blocks": 8,
+  "font_bank": 208,
+  "font_range": [
+    475152,
+    477200
+  ],
+  "font_hex": "000000000000000000000000000000000000000000000000107c6cfe107c0400000000000000000044f4046694640400000000000000000044fc9664447c7c0000000000000000008484848484f404000000000000000000f484848684f404000000000000000000ea0aea5aaaaa0a000000000000000000ec648cf4007c04000000000000000000447c447c10fe0000000000000000000084849c8484f4040000000000000000001010284400fe000000000000000000007c3c04fe1c607c000000000000000000f414f48484f40400000000000000000064949c9494640400000000000000000024242454548c04000000000000000000e424468404407c00000000000000000024dc7424fc7c040000000000000000007c407cfe007c04000000000000000000f46c94007c447c00000000000000000010284400fe101000000000000000000038443800fe28280000410000000004093f7e7e7efcfcfcf8091913337367e7e7f8f8f0f0f0e0e0e000000000000000000000000000000000f3f3f0f8ffffffff0e0f0f0700000000ffff0000ffffffff00ffffff00000000f3f30307ffffffff1cfcfcf800000000e7e7e0f0ffffffff1c1f1f0f00000000cfcf0f1fffffffff70f0f0e000000000ff9f9fdfbfffffff0060602040000000ff9393dbb7ffffff006c6c244800000000000000000000000000000000000000ffffffffffffffff0000000000000000fffffffffff8f0f30000000000070f0fffffffefef2f2fe10000001f1fdfdfdfffffff425e425e5e000000ffffffffffffffff1fff30f01f000000e0e0efefefffffffffff0000ff0000000000ffffffffffffffff0703f30000000000f8fcfcfffffffffff0e0e700000000000f1f1fffffffe3de667ac70000003f3fbfbfbfffffff39d6f6d639000000ffffffffffffffff8cb584adb4000000ffffffffffffffff3fff60e03f000000c0c0dfdfdff3f3f3f3f3f3f3f30e0e0e0e0e0e0e0ef3f3f3f3f3f3f3f31c1c1c1c1c1c1c1ce7e7e7e7e7e7e7e71c1c1c1c1c1c1c1ccfcfcfcfcfcfcfcf7070707070707070ffff8bdadadadbff0000742525252400ffff36d5f3d536ff0000c92a0c2ac900ffff88bd8dbd8dff0000774272427200ffffddebf7ebddff0000221408142200fffffffffff3f7ff0000000e1f3f3f3fffffffffffffffff0000001c3effffffffffffffffffffff1f0f070301000000fffffffffffffffffefcf8f0e0c00000ffffffffffffffff0000000e11202020ffffffffffffffff0000001c22c10101ffffffffffffffff1008040201000000ffffffffffffffff0204081020c00000ffffcfbfa7b7cdff000038607c6c3b00ffff16b5b5b5b6ff0000fd6f6f6f6d00ffff6dabe7ab6dff0000db7e1c7edb00ffff117b1b7b1bff0000ffc6f6c6f600000000000000000000000000000000000000000000000000001c226363221c0000000000000000000018381818187e000000000000000000003e63030e387f000000000000000000003e630e03633e000000000000000000000e1e36667f06000000000000000000007f607e03633e000000000000000000003e607e63633e000000000000000000007f63060c1818000000000000000000003e633e63633e000000000000000000003e63633f033e000000000000000000001c36637f6363000000000000000000007e637e63637e000000000000000000003e636060633e000000000000000000007c666363667c000000000000000000007f607e60607f000000000000000000007f607e606060000000000000000000003e636067633e000000000000000000006363637f6363000000000000000000003c181818183c000000000000000000001f060606663c00000000000000000000676c787c66630000000000000000000060606060607f0000000000000000000063777f6b63630000000000000000000063737b6f6763000000000000000000003e636363633e000000000000000000007e63637e6060000000000000000000003e63636f663d000000000000000000007e63637c6663000000000000000000003e63380e633e000000000000000000007e18181818180000000000000000000063636363633e00000000000000000000636363361c080000000000000000000063636b6b7f360000000000000000000061321c1c26430000000000000000000063633e080808000000000000000000007f060c18307f000000000000000000003e630e08000800000000000000000000081c1c08000800000000000000000000000000003030000000000000000000003636120000000000000000000000000036362400000000000000000000000000007f3e1c08000000000000000000003c4299a1a199423c00000000000000000002040c0c040200000000000000000000201018181020000000000000000000000000000030102000000000000000000030102000000000ffc19898989898c1003e67676767673effe3c3e3e3e3e3e3001c3c1c1c1c1c1cffc198f8f1c78880003e67070e38777fffc198f8f1f898c1003e67070e07673efff1e1c19180f1f1000e1e3e6e7f0e0eff808f8f81f898c1007f70707e07673effc1989f819898c1003e67607e67673eff8098f1f1e3e3e3007f670e0e1c1c1cffc19898c19898c1003e67673e67673effc19898c0f898c1003e67673f07673effff8fb5b48dbdbc0000704a4b724243ffffffcfbf8fef9b0000003040701064ffffffc1f77777f70000003f3fbfbfbfffffff5d49555d5d000000ffffffffffffffff0f7f18780f000000f0f0f7f7f7ffffffffff1f0fcf0000000000e0f0f0",
+  "mapping": {
+    " ": 0,
+    "!": 102,
+    "축": 1,
+    "하": 2,
+    "합": 3,
+    "니": 4,
+    "다": 5,
+    "체": 6,
+    "력": 7,
+    "보": 8,
+    "너": 9,
+    "스": 10,
+    "클": 11,
+    "리": 12,
+    "어": 13,
+    "시": 14,
+    "간": 15,
+    "획": 16,
+    "득": 17,
+    "점": 18,
+    "수": 19,
+    "유": 20
+  },
+  "glyphs": [
+    {
+      "char": "축",
+      "code": 1,
+      "chr_hex": "0000000000000000107c6cfe107c0400"
+    },
+    {
+      "char": "하",
+      "code": 2,
+      "chr_hex": "000000000000000044f4046694640400"
+    },
+    {
+      "char": "합",
+      "code": 3,
+      "chr_hex": "000000000000000044fc9664447c7c00"
+    },
+    {
+      "char": "니",
+      "code": 4,
+      "chr_hex": "00000000000000008484848484f40400"
+    },
+    {
+      "char": "다",
+      "code": 5,
+      "chr_hex": "0000000000000000f484848684f40400"
+    },
+    {
+      "char": "체",
+      "code": 6,
+      "chr_hex": "0000000000000000ea0aea5aaaaa0a00"
+    },
+    {
+      "char": "력",
+      "code": 7,
+      "chr_hex": "0000000000000000ec648cf4007c0400"
+    },
+    {
+      "char": "보",
+      "code": 8,
+      "chr_hex": "0000000000000000447c447c10fe0000"
+    },
+    {
+      "char": "너",
+      "code": 9,
+      "chr_hex": "000000000000000084849c8484f40400"
+    },
+    {
+      "char": "스",
+      "code": 10,
+      "chr_hex": "00000000000000001010284400fe0000"
+    },
+    {
+      "char": "클",
+      "code": 11,
+      "chr_hex": "00000000000000007c3c04fe1c607c00"
+    },
+    {
+      "char": "리",
+      "code": 12,
+      "chr_hex": "0000000000000000f414f48484f40400"
+    },
+    {
+      "char": "어",
+      "code": 13,
+      "chr_hex": "000000000000000064949c9494640400"
+    },
+    {
+      "char": "시",
+      "code": 14,
+      "chr_hex": "000000000000000024242454548c0400"
+    },
+    {
+      "char": "간",
+      "code": 15,
+      "chr_hex": "0000000000000000e424468404407c00"
+    },
+    {
+      "char": "획",
+      "code": 16,
+      "chr_hex": "000000000000000024dc7424fc7c0400"
+    },
+    {
+      "char": "득",
+      "code": 17,
+      "chr_hex": "00000000000000007c407cfe007c0400"
+    },
+    {
+      "char": "점",
+      "code": 18,
+      "chr_hex": "0000000000000000f46c94007c447c00"
+    },
+    {
+      "char": "수",
+      "code": 19,
+      "chr_hex": "000000000000000010284400fe101000"
+    },
+    {
+      "char": "유",
+      "code": 20,
+      "chr_hex": "000000000000000038443800fe282800"
+    }
+  ],
+  "Hangul_unique": 20,
+  "stream_file": 281099,
+  "stream_length": 154,
+  "stream_hex": "00207e004a0090000000000001020304056600000000004f008c00000006070008090a00000006412e008c00000b0c0d0008090a00000006412e008c0000000e0f0008090a000000064171008b000000101100121300000033000841870012000000000033008b00000008140012130000003300084187001200000000007e005c0081440455841100000404a58101030004aa040004aa1200ff",
+  "compression_controls_NT_addresses_attrs_and_digit_cells_unchanged": true,
+  "producer": {
+    "file": 260320,
+    "old": 124,
+    "new": 208
+  },
+  "CHR_size_KiB": 216,
+  "scope": "Development draft, sourcefont124 preserved andcloned208; literal lengths andnumeric/sourcecontrols fixed; runtimepending"
+}

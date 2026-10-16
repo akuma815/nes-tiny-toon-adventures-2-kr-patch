@@ -1,0 +1,8 @@
+{
+  "work": 48,
+  "method": "built-in imagegen local reference edit",
+  "reference": "extracted/graphics/gameover_001/source_logo_4x.png",
+  "prompt": "Edit the provided GAME OVER logo reference into a Korean localized logo. Replace the English words with exactly this Korean text: 게임 오버. The Hangul spelling must be exact: 게임, a single space, 오버. Keep the original playful bold slightly italic cartoon arcade lettering: solid white letter faces, a pale sky-blue thin outline, and a deep blue chunky shadow beneath and to the right. The reference is a 128 by 32 NES graphic enlarged four times for inspection. Make a clean isolated wide horizontal wordmark that remains clearly readable after reduction to 128 by 32 pixels. Fill the width with the five-character group 게임 오버 and retain a compact 4:1 shape. Use thick legible Hangul strokes and clear inner counters, no thin hairline calligraphy. Preserve the energetic original retro-game look. Use only white, pale sky blue, and deep saturated blue for the wordmark. Transparent background; no scene, panel, black rectangle, gradient, texture, glow, extra symbols, other text, English words, or numbers. Do not include Tiny Toon branding. Render only the exact Korean lettering 게임 오버, centered, fully inside the image with all outlines and shadow uncut.",
+  "transparent_background": true,
+  "scope": "Generated art, technical NES conversion and actual ROM validation remainpending"
+}

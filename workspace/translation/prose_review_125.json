@@ -1,0 +1,777 @@
+{
+  "work": 125,
+  "status": "ASSISTANT_MANUAL_FIDELITY_REVIEW",
+  "source_sha256": "f41607b80904a2e1150a155121405dd1fed007ce98ff00a274a7891cafd7e32d",
+  "ROM047_sha256": "82ccec59ea23e899d0bcdb22123d67cc935a13305a843ca3f1f42fb24dc80c10",
+  "CSV_sha256": "ac22c5842e4f8d1600925e0837508c82f198157553031bd7cc3371fb6e4cf556",
+  "drafts_reread": 45,
+  "technical_shared_records": 9,
+  "single_selected_revision": {
+    "entry_id": "MAIN_0590C",
+    "native_slot_hex": "29",
+    "source_expanded_JA": "ざんねんだけど\nチケットがたりないよ",
+    "translation_before": "아쉽지만\n티켓을 더 모아줘!",
+    "translation_candidate": "아쉽지만\n티켓이 부족해!",
+    "reason": "Explicit shortage statement replaces the added collection instruction; ordinary ride rejection, not gold-ticket gate or booth point shortage. Deliberate assistant development fidelity choice, not a claim that the historical adaptation broke the game.",
+    "native_evidence": "docs/NORMAL3_CURRENT047_CLOSEOUT.md; native ordinary-ticket3 versus cost4 rejection and current47 NT/font196 verified in work106",
+    "implementation_constraint": "font196/197 is shared with cost/F9/start/possession. macro88 expands four fixed codes 39..42; changing 을 to 이 globally would corrupt another paragraph. Use a dedicated lower-only even font226/227 from the explicitly reserved zero range, retag only slot29; preserve shared196/197 and native macro/control bytes.",
+    "candidate_status": "development draft selected; not yet inserted",
+    "human_approved": false
+  },
+  "manual_records": [
+    {
+      "entry_id": "MAIN_05609",
+      "slots_hex": [
+        "01"
+      ],
+      "original_view": "      ここはみんながしってる\n       アクミ・エイカーズ",
+      "translation_before": "여기는 모두가 아는\n애크미 에이커스",
+      "source_raw_sha256": "349e860450599cb13ec3b8d1698c6320cf4a1b1d0651d258d777406b9f92738c",
+      "exact_context": "intro_acme_acres",
+      "speaker_from_CSV": "narrator",
+      "prior_manual_note": "Acme Acres와 알려진 마을 소개의 의미를 유지. 애크미 에이커스 표기는 최종 사람 명칭 검토 대상.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_05625",
+      "slots_hex": [
+        "02"
+      ],
+      "original_view": "   あるひ まちはずれに きょだいな\n    ゆうえんちが できあがった",
+      "translation_before": "어느 날 마을 변두리에\n커다란 놀이공원이 생겼어",
+      "source_raw_sha256": "a967a34d1c172022e40fcea02f96fdc6aa4b4ed5a0541f3005f925e92e3dfa48",
+      "exact_context": "attract intro paragraph02",
+      "speaker_from_CSV": "Narration",
+      "prior_manual_note": "어느 날/마을 변두리/거대한 놀이공원이라는 세 정보가 남아 있다. 서술 반말은 다른 내레이션과 일치.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_0564D",
+      "slots_hex": [
+        "03"
+      ],
+      "original_view": "  みんなが そのわだいでもちきりのなか",
+      "translation_before": "모두가 그 얘기로 떠들썩할 때",
+      "source_raw_sha256": "3a3b13c7f8b448464bd4b9286c6bc03b127e7e8fbb69c93d8086fca05da01492",
+      "exact_context": "attract intro paragraph03; pages008_attract/frame_01560.png",
+      "speaker_from_CSV": "Narration",
+      "prior_manual_note": "みんながそのわだいでもちきり의 떠들썩한 화제와 다음 편지 문단으로 이어지는 때 연결을 유지.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_05665",
+      "slots_hex": [
+        "04"
+      ],
+      "original_view": "  {macro:81}・バニーのいえに いっつうの\n    てがみが おくられてきていた",
+      "translation_before": "버스터 바니의 집에\n편지 한 통이 도착했어",
+      "source_raw_sha256": "3be6242d7e766a906411617e6687f3421d3c342ca7c5b2126ec84511a95e3ad1",
+      "exact_context": "Intro letter delivered to Buster Bunny; native page04, pointer9655",
+      "speaker_from_CSV": "narration",
+      "prior_manual_note": "source macro81 バスター와 뒤의バニー를 버스터 바니로 문맥 치환. global macro 정의 변경은 아님.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_0568B",
+      "slots_hex": [
+        "05"
+      ],
+      "original_view": "やあ{macro:81}\nもうすぐおれさまのゆうえんちが\nかいえんすることになる\nそこで おまえを しょうたいしてやる",
+      "translation_before": "버스터, 안녕\n곧 내 놀이공원이\n문을 열게 된다\n그래서 너를 초대하마",
+      "source_raw_sha256": "61305dd42c2082b9e152d603c1735c55207431b09d09d8f79889f2b1525dc4a1",
+      "exact_context": "Natural intro page05; source frame1920",
+      "speaker_from_CSV": "anonymous letter sender",
+      "prior_manual_note": "악당의おれさま/しょうたいしてやる는 내 놀이공원/초대하마의 우쭐한 초대 말투로 남음.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_056C1",
+      "slots_hex": [
+        "06"
+      ],
+      "original_view": "なかまも つれてこい きっとびっくりするぞ！\n              なぞの\n              おおがねもち より",
+      "translation_before": "친구들도 데려와! 깜짝 놀랄 거다!\n의문의\n대부호로부터",
+      "source_raw_sha256": "34a2de8ea0ccda5f34f14e8b5df4e98e9d0cb46847ea5bd99962c9a4aa7cebdb",
+      "exact_context": "Natural intro page06; source frame2160",
+      "speaker_from_CSV": "anonymous letter sender and signature",
+      "prior_manual_note": "동료 동반/놀랄 것이다/의문의 대부호 서명 세 내용을 유지. 대부호로부터는 서명에 대응.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_056EE",
+      "slots_hex": [
+        "07"
+      ],
+      "original_view": " {macro:81}となかまたちは てがみをよんで\n        おおよろこび！",
+      "translation_before": "버스터와 친구들이 편지를 읽고\n신이 났어!",
+      "source_raw_sha256": "78d8618a1a0b19b8e765c90c9881ebafe1f09d3866490e0a293198a2f06072b8",
+      "exact_context": "Natural intro page07; source frame2400",
+      "speaker_from_CSV": "narration",
+      "prior_manual_note": "편지를 읽은 버스터 일행의 기쁨과 narration 말투가 일치.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_0570D",
+      "slots_hex": [
+        "08"
+      ],
+      "original_view": "        「ふっふっふっ」",
+      "translation_before": "「후후후」",
+      "source_raw_sha256": "efa83370df6e75088fec7d356143bd1a07b571d636cc1bb25256e7b6ac4a3fbe",
+      "exact_context": "Natural intro page08; source frame2640",
+      "speaker_from_CSV": "villain laughter; source amusement park establishing shot",
+      "prior_manual_note": "악당 웃음의 세 반복과 원래 인용 부호를 보존.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_05718",
+      "slots_hex": [
+        "09"
+      ],
+      "original_view": "「わなとしかけがいっぱいの\n  ゆうえんちで おまえたちをまってるぞ！」",
+      "translation_before": "「함정과 장치가 가득한\n놀이공원에서 너희를 기다리마!」",
+      "source_raw_sha256": "4fa8837d539ed880961b566c61b4cade2f1f74f6936f5d19b39763853dc5672c",
+      "exact_context": "Natural intro page09; source frame2760",
+      "speaker_from_CSV": "Montana villain visible in source scene",
+      "prior_manual_note": "함정/장치가 가득한 놀이공원에서 기다리겠다는 위협. 기다리마가 letter sender 말투와 일치.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_05741",
+      "slots_hex": [
+        "0A"
+      ],
+      "original_view": "さあ どれにするの？",
+      "translation_before": "자, 어디로 갈까?",
+      "source_raw_sha256": "5a9d978187e39a96a1f899fade0d137f5523cb5726e6e3f5910683f19c8e19af",
+      "exact_context": "home profile0 idle ride-selection prompt",
+      "speaker_from_CSV": "Buster (visual inference)",
+      "prior_manual_note": "선택 질문どれにする를 놀이기구 선택 문맥의 어디로 갈까로 옮김.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_0574D",
+      "slots_hex": [
+        "0B"
+      ],
+      "original_view": "{macro:84}{macro:83}",
+      "translation_before": "롤러코스터",
+      "source_raw_sha256": "b7bfdda538c5fcc24fed2cd6f0520e43829b1f28577cb41d142968c147ae64e9",
+      "exact_context": "home selection, roller coaster",
+      "speaker_from_CSV": "Buster",
+      "prior_manual_note": "macro84 제트코스터 계열을 채택된 롤러코스터 명칭으로 일관되게 표시.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_05750",
+      "slots_hex": [
+        "0C"
+      ],
+      "original_view": "{macro:85}{macro:83}",
+      "translation_before": "쇼킹카트",
+      "source_raw_sha256": "c38d0dd90a2bc1f776d910ce7278679e2158a543933d5782c3713be9e8e836d0",
+      "exact_context": "home selection, Shocking Cart",
+      "speaker_from_CSV": "Buster",
+      "prior_manual_note": "macro85 쇼킹카트 계열의 선택명. 규칙/타이틀의 같은 한국어와 일치.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_05753",
+      "slots_hex": [
+        "0D"
+      ],
+      "original_view": "{macro:86}{macro:83}",
+      "translation_before": "기차",
+      "source_raw_sha256": "eeaa4353a857fc5bde4c38c8af891070a0129e6207d39ed4ea12efe6aba404f8",
+      "exact_context": "home train selection, observed consumers022_train1350",
+      "speaker_from_CSV": "Buster",
+      "prior_manual_note": "macro86 Speed Train 계열을 짧은 기차로 옮긴 기존 초안. 공식/긴 이름을 최종 승인하지 않음.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_05756",
+      "slots_hex": [
+        "0E"
+      ],
+      "original_view": "{macro:87}{macro:83}",
+      "translation_before": "급류타기",
+      "source_raw_sha256": "f01450b3d78f5d487fbfd286cef517c84a07623c9552b08a6f9b3a7fc563dfa8",
+      "exact_context": "home water ride selection, observed consumers022_water1200",
+      "speaker_from_CSV": "Buster",
+      "prior_manual_note": "macro87 water slider 계열을 게임의 급류 통나무 놀이에 맞춘 급류타기 초안. 명칭 검토는 남음.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_05759",
+      "slots_hex": [
+        "0F"
+      ],
+      "original_view": "なぞのおしろ{macro:83}",
+      "translation_before": "수수께끼의 성",
+      "source_raw_sha256": "ed53caffc83ec4b39821e8d0858a2664d03009cd0cadecf11bfc716b635ad1bc",
+      "exact_context": "home selection, mystery castle",
+      "speaker_from_CSV": "Buster",
+      "prior_manual_note": "なぞのおしろ의 수수께끼 성 의미. 원문문구와 카드타이틀의 이름 일치.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_05762",
+      "slots_hex": [
+        "10"
+      ],
+      "original_view": "{macro:88}うりば{macro:83}",
+      "translation_before": "매표소",
+      "source_raw_sha256": "b81d8749161175fa0c0f8ff4a8d84546e2565043524bd570a770e466212d0402",
+      "exact_context": "home selection, ticket booth",
+      "speaker_from_CSV": "Buster",
+      "prior_manual_note": "ticket 판매장소를 매표소로 번역. ticket macro를 인명처럼 오해하지 않음.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_05769",
+      "slots_hex": [
+        "11"
+      ],
+      "original_view": "またあとであおうね\n                    ",
+      "translation_before": "나중에 또 보자!\n",
+      "source_raw_sha256": "173dcef465b3fec63df2264f2e979d889c1a9f1934a5605ba01466114e9db203",
+      "exact_context": "leaving home for ticket booth/ride",
+      "speaker_from_CSV": "Buster",
+      "prior_manual_note": "またあとであおうね의 다시/나중에 만남을 나중에 또 보자로 유지. 뒤 빈 행은 native지우기용.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_05777",
+      "slots_hex": [
+        "12"
+      ],
+      "original_view": "{macro:88}うりばにようこそ",
+      "translation_before": "매표소에 어서 오세요",
+      "source_raw_sha256": "03f688bb1d0af4a46bb350fbf475e2ca475abf91dd89a86a362aedcc938f524b",
+      "exact_context": "ticket booth welcome",
+      "speaker_from_CSV": "Babs",
+      "prior_manual_note": "매표소 인사의 환영과 서비스 존댓말. 실제 booth 문맥과 연결.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_05782",
+      "slots_hex": [
+        "13"
+      ],
+      "original_view": "ポイントを{macro:88}と\nこうかんしますね",
+      "translation_before": "포인트를 티켓으로\n바꿔 드릴게요",
+      "source_raw_sha256": "98233aae21fc23322ffd17d0288fa7d9ad657a8141443c21f627e363769c26ff",
+      "exact_context": "ticket booth exchange intent",
+      "speaker_from_CSV": "Babs",
+      "prior_manual_note": "포인트를 티켓과 교환한다는 방향/대상 유지. 한국어 서비스 약속 형태가 자연스럽다.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_05794",
+      "slots_hex": [
+        "14"
+      ],
+      "original_view": "ざんねんだけど\nポイントがたりないわ",
+      "translation_before": "아쉽지만\n포인트가 부족해요",
+      "source_raw_sha256": "0e10acd9bb44354f3cbf3864f3a0e670637c1a48167a91396e2b9ce0c8a63e38",
+      "exact_context": "ticket booth insufficient points",
+      "speaker_from_CSV": "Babs",
+      "prior_manual_note": "포인트 부족을 티켓 부족과 혼동하지 않음. 아쉽지만/부족해요로 원래 부드러운 거절 유지.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_057AC",
+      "slots_hex": [
+        "15"
+      ],
+      "original_view": "いつでもきてね\n                    ",
+      "translation_before": "언제든 오세요\n",
+      "source_raw_sha256": "385941ab0a0c45d775d0ed1094d1240f978a6b84c1285f133e0bb206c6b101d5",
+      "exact_context": "Ticket booth after successful point→ticket exchange; Babs/attendant invites return. Native slot2A is a different source paragraph MAIN_05920.",
+      "speaker_from_CSV": "Ticket booth attendant",
+      "prior_manual_note": "いつでもきてね의 재방문 권유/서비스 존댓말. slot15 교환 후 매표소 대사이며 slot2A 출발 대사와 별개.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_057B8",
+      "slots_hex": [
+        "16"
+      ],
+      "original_view": "いらっしゃいませ",
+      "translation_before": "어서 오세요",
+      "source_raw_sha256": "1cfecf3bb5a1f79be8db409bb40c7dfb07a7e8d332499fb6e5aa1f11fbb697af",
+      "exact_context": "Castle gate native insufficient-gold/normal-ticket route; menu_castle_001",
+      "speaker_from_CSV": "Castle gate attendant; identity unresolved",
+      "prior_manual_note": "일반적인 입장 환영. gate attendant의 정확한 캐릭터 정체는 미확정으로 유지.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_057C1",
+      "slots_hex": [
+        "17"
+      ],
+      "original_view": "ここは 4まいのゴールド{macro:88}が\nあれば はいることができます",
+      "translation_before": "골드 티켓 4장이 있으면\n입장할 수 있어요",
+      "source_raw_sha256": "473564fcc4cd6c5974429535b1b04955287c879833137c7d642365775f129ef8",
+      "exact_context": "Castle gate native insufficient-gold/normal-ticket route; menu_castle_001",
+      "speaker_from_CSV": "Castle gate attendant; identity unresolved",
+      "prior_manual_note": "입장 조건 골드 티켓4장과 가능이라는 정보가047 두 행에 남음. 문장 다듬기는90/91에서 실제 검증됨.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_057E5",
+      "slots_hex": [
+        "18"
+      ],
+      "original_view": "ざんねんですが たりませんね",
+      "translation_before": "아쉽지만 티켓이 부족해요",
+      "source_raw_sha256": "d50dd08810441efe9ae9b67a327161d2a85dbae9365728682a93c1c281530303",
+      "exact_context": "Castle gate native insufficient-gold/normal-ticket route; menu_castle_001",
+      "speaker_from_CSV": "Castle gate attendant; identity unresolved",
+      "prior_manual_note": "たりませんね를 해당 문맥의 티켓 부족으로 명시. 숫자 부족량을 임의로 추가하지 않음.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_057F7",
+      "slots_hex": [
+        "19"
+      ],
+      "original_view": "また いらしゃいませ\n                    ",
+      "translation_before": "다시 오세요\n",
+      "source_raw_sha256": "cded7de9809b6c5432de2b74f221063dc474bc3edc1b7a3ff4d1d01a13de13fd",
+      "exact_context": "Castle gate native insufficient-gold/normal-ticket route; menu_castle_001",
+      "speaker_from_CSV": "Castle gate attendant; identity unresolved",
+      "prior_manual_note": "再訪 요청의 다시 오세요. 소거용 빈 줄을 의미 있는 번역행으로 세지 않음.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_05805",
+      "slots_hex": [
+        "1A",
+        "2C"
+      ],
+      "original_view": "ノーマル{macro:88} {variable_FA}まいでも\nよろしいですよ",
+      "translation_before": "일반 티켓 {variable_FA}장으로\n입장 가능해요",
+      "source_raw_sha256": "9f22fbc08ad7d2ff8b6742c5d42d2679c6ca26b8597e0c08e369685a902529e0",
+      "exact_context": "Castle gate price and admission; native controller route and explicit gold4/normal50/49 branch seeds",
+      "speaker_from_CSV": "Castle gate attendant; identity unresolved",
+      "prior_manual_note": "일반 티켓 variableFA장도 가능하다는 대안. 현재 가능해요는 조건을 전달하지만 도를 넣을지 스타일 검토 여지가 있음; 원문/초안 그대로 보존.",
+      "manual_decision_125": "も의 대안 강조는 현재 가능해요에 축약돼 있다. 조건/금액은 유지되며 이번 단일 수정 대상은 아니다. 최종 문체 선택은 보류.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_0581B",
+      "slots_hex": [
+        "1B"
+      ],
+      "original_view": "おもちですか？",
+      "translation_before": "갖고 계세요?",
+      "source_raw_sha256": "61fbf75ba593f8368fffee0c85a1708fa94695fb7ddcadd8781428bcba9080e9",
+      "exact_context": "Castle gate native insufficient-gold/normal-ticket route; menu_castle_001",
+      "speaker_from_CSV": "Castle gate attendant; identity unresolved",
+      "prior_manual_note": "おもちですか의 소지 여부 질문. 갖고 계세요는 앞에서 설명한 티켓 조건을 가리킴.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_05824",
+      "slots_hex": [
+        "1C"
+      ],
+      "original_view": "どうぞおはいりください",
+      "translation_before": "어서 들어오세요",
+      "source_raw_sha256": "7a4d5cb1ae40c94acd05c6a4f254c1b4786fc1158ab7c84ff02d8e6ad2179b3e",
+      "exact_context": "Castle gate price and admission; native controller route and explicit gold4/normal50/49 branch seeds",
+      "speaker_from_CSV": "Castle gate attendant; identity unresolved",
+      "prior_manual_note": "허용 이후의 입장 권유. 들어오세요는 허용 분기/출입 흐름과 맞음.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_05833",
+      "slots_hex": [
+        "1D"
+      ],
+      "original_view": "ここであそぶには{variable_FA}まいの\n{macro:88}がいるよ",
+      "translation_before": "요금은 티켓 {variable_FA}장\n티켓을 내줘!",
+      "source_raw_sha256": "139eec6d1b425e2a6e41381fbe17a0e57011fcf2b794908dd1df2acd7b652640",
+      "exact_context": "Native ride card: rule9E8B/title9E9B/cost9417, RAM34 NMI top plus profile2 lower IRQ; five observed routes",
+      "speaker_from_CSV": "Buster",
+      "prior_manual_note": "놀이에 variableFA장 티켓이 필요하다는 요금 의미 유지. 티켓을 내줘는 기존 직접 권유식 초안이며 원문보다 명령이 강한지는 사람 말투 검토 대상.",
+      "manual_decision_125": "원문 요금 안내를 티켓을 내줘로 끝내는 기존 목적식 표현을 유지한다. 비용 변수와 통화를 바꾸지 않는다. 높임말/명령 강도는 최종 검토 대상.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_05849",
+      "slots_hex": [
+        "1E"
+      ],
+      "original_view": "ハイスピードの{macro:84}で\nしょうがいを クリアするんだ",
+      "translation_before": "고속 질주 롤러코스터\n장애물을 모두 피하자!",
+      "source_raw_sha256": "554176115dacc262debda28cc2b24ea9254de9fbcdc92159c6be02cb21ad7a80",
+      "exact_context": "Native ride card: rule9E8B/title9E9B/cost9417, RAM34 NMI top plus profile2 lower IRQ; five observed routes",
+      "speaker_from_CSV": "Buster",
+      "prior_manual_note": "하이스피드 코스터와 장애물 통과를 고속 질주/모두 피하자로 플레이 목적에 맞춰 옮긴 기존 초안.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_05867",
+      "slots_hex": [
+        "1F"
+      ],
+      "original_view": "てきのカートを うまくはじいて\nあなにおっことせ！",
+      "translation_before": "적 카트를 잘 튕겨내서\n구멍에 떨어뜨려!",
+      "source_raw_sha256": "a02b685e5c6fef0c56f2aaf494e6366ab36837a97cc28e93fe2e30d105e017f8",
+      "exact_context": "Native ride card: rule9E8B/title9E9B/cost9417, RAM34 NMI top plus profile2 lower IRQ; five observed routes",
+      "speaker_from_CSV": "Buster",
+      "prior_manual_note": "적 카트를 튕겨 구멍에 떨어뜨리는 목표가 유지. 적을 직접 처치하는 다른 조건으로 번역하지 않음.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_05882",
+      "slots_hex": [
+        "20"
+      ],
+      "original_view": "{macro:86}のうえをどんどんすすめ！\nいちばんまえに ボスがまってる！",
+      "translation_before": "기차   위를 계속 달려!\n맨 앞 보스에게 도전하자!",
+      "source_raw_sha256": "5ff124a05282fb0dfa71ca27650eec1029d04c6d7ea2a7624f8706c9d16bd232",
+      "exact_context": "Native ride card: rule9E8B/title9E9B/cost9417, RAM34 NMI top plus profile2 lower IRQ; five observed routes",
+      "speaker_from_CSV": "Buster",
+      "prior_manual_note": "기차 위 전진/맨 앞 보스 목표 유지. 도전하자는 기다린다는 원문의 게임목표식 전환. 내부3공백은 macro86 폭 제약이며 단순 prose 띄어쓰기 수정으로 제거하면 안 됨.",
+      "manual_decision_125": "맨 앞 보스가 기다린다는 문장을 도전하자로 바꾼 목적식 초안을 유지. macro86을 위한 내부3공백은 native 출력 제약이므로 보존.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_058A6",
+      "slots_hex": [
+        "21"
+      ],
+      "original_view": "じょうずに まるたのバランスを\nとって きゅうりゅうをすべりおりろ！",
+      "translation_before": "통나무 균형을 잘 잡고\n급류를 타고 내려가!",
+      "source_raw_sha256": "4ad233fc735d0128de3744256e39f9fa1e9375de20be6b4a700115093b78bf57",
+      "exact_context": "Native ride card: rule9E8B/title9E9B/cost9417, RAM34 NMI top plus profile2 lower IRQ; five observed routes",
+      "speaker_from_CSV": "Buster",
+      "prior_manual_note": "통나무 균형과 급류 하강 두 행동이 남아 있다. 통나무 균형/통나무의 균형은 선택적 문체 검토.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_058CD",
+      "slots_hex": [
+        "22"
+      ],
+      "original_view": "とうとうさいごのステージだ！\nいろいろなしかけに きをつけろ！",
+      "translation_before": "드디어 마지막 스테이지!\n여러 장치들을 잘 피해!",
+      "source_raw_sha256": "d96cd3843f302273ad2a5ffbe1746359edd4d85f8d999c93b843ae1919b2ff57",
+      "exact_context": "Native ride card: rule9E8B/title9E9B/cost9417, RAM34 NMI top plus profile2 lower IRQ; five observed routes",
+      "speaker_from_CSV": "Buster",
+      "prior_manual_note": "마지막 스테이지와 여러 장치 주의. 피해는 조심하라는 지시의 게임적 표현.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_058F2",
+      "slots_hex": [
+        "24"
+      ],
+      "original_view": "     {macro:84}",
+      "translation_before": "롤러코스터",
+      "source_raw_sha256": "9ba341360b0484589e9d4135e7d7976b082914d6819b027b7f99bb96a4b3bf1a",
+      "exact_context": "Native ride card: rule9E8B/title9E9B/cost9417, RAM34 NMI top plus profile2 lower IRQ; five observed routes",
+      "speaker_from_CSV": "Buster",
+      "prior_manual_note": "상단 롤러코스터 타이틀이 선택명과 일치. native중앙배치 공백과 번역의 의미를 분리.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_058F6",
+      "slots_hex": [
+        "25"
+      ],
+      "original_view": "     {macro:85}",
+      "translation_before": "쇼킹카트",
+      "source_raw_sha256": "96eb75808aff988d033606a6c0d2c9e626472e45201b0b0dbedc077d3d15e857",
+      "exact_context": "Native ride card: rule9E8B/title9E9B/cost9417, RAM34 NMI top plus profile2 lower IRQ; five observed routes",
+      "speaker_from_CSV": "Buster",
+      "prior_manual_note": "상단 쇼킹카트 타이틀이 선택명/규칙과 일치.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_058FA",
+      "slots_hex": [
+        "26"
+      ],
+      "original_view": "       {macro:86}",
+      "translation_before": "기차",
+      "source_raw_sha256": "a70ba479cfef9b43517c159eb078527adfa13567002bacd5832ac29c661e751a",
+      "exact_context": "Native ride card: rule9E8B/title9E9B/cost9417, RAM34 NMI top plus profile2 lower IRQ; five observed routes",
+      "speaker_from_CSV": "Buster",
+      "prior_manual_note": "상단 기차 타이틀이 선택명과 일치. 긴 고유 놀이기구명 채택 여부는 사람 검토 대상.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_058FE",
+      "slots_hex": [
+        "27"
+      ],
+      "original_view": "     {macro:87}",
+      "translation_before": "급류타기",
+      "source_raw_sha256": "c081b7dfd6eb2657335d04c1ba730ad4fbd857bafbb029496b5a53495f3eac0f",
+      "exact_context": "Native ride card: rule9E8B/title9E9B/cost9417, RAM34 NMI top plus profile2 lower IRQ; five observed routes",
+      "speaker_from_CSV": "Buster",
+      "prior_manual_note": "상단 급류타기 타이틀이 선택명과 일치. 원래 water slider 장르명과 관계는 명칭 검토 대상.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_05902",
+      "slots_hex": [
+        "28"
+      ],
+      "original_view": "     なぞのおしろ",
+      "translation_before": "수수께끼의 성",
+      "source_raw_sha256": "5a7c01609dc59479857d3f9937752f48f834ea263d24ccdc9ecf0524d99002e0",
+      "exact_context": "Native ride card: rule9E8B/title9E9B/cost9417, RAM34 NMI top plus profile2 lower IRQ; five observed routes",
+      "speaker_from_CSV": "Buster",
+      "prior_manual_note": "상단 수수께끼의 성이 마지막-stage 선택명과 일치.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_0590C",
+      "slots_hex": [
+        "29"
+      ],
+      "original_view": "ざんねんだけど\n{macro:88}がたりないよ",
+      "translation_before": "아쉽지만\n티켓을 더 모아줘!",
+      "source_raw_sha256": "245dfd565de354d20c491efeabcd0123a391ccf4bb40fcbc027118b0203c131f",
+      "exact_context": "Actual coaster normal3 seed branch: native9F52 slot29,9F60 slot2B; F8 normal tickets07D0..2; upper card193 unchanged",
+      "speaker_from_CSV": "Buster",
+      "prior_manual_note": "티켓 부족의 실패 안내. 더 모아줘는 플레이 목표에 맞춘 기존 명령식 초안으로 조건/통화종류를 바꾸지 않음.",
+      "manual_decision_125": "원문은 티켓이 모자란다는 실패 안내다. 기존 더 모아줘는 추가된 수집 지시다. 이번에는 부족 상태를 직접 전달하는 아쉽지만 / 티켓이 부족해!로 개발 초안을 좁혀 수정한다. 기존 조건/통화/반말/두 행 유지. 사람 최종 승인이 아니다.",
+      "development_action": "single_sentence_revision",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_05920",
+      "slots_hex": [
+        "2A"
+      ],
+      "original_view": " いっくよーん！",
+      "translation_before": "출발!",
+      "source_raw_sha256": "02c43a3b39d094ea7b882b17058d150259dc2049e07f8be198e435b28f8058af",
+      "exact_context": "Ordinary ride lower start encouragement, Buster; separate from booth farewell MAIN_057AC slot15.",
+      "speaker_from_CSV": "Buster",
+      "prior_manual_note": "いっくよーん의 가자/출발 감탄을 출발로 요약. slot2A 놀이기구 시작이며 매표소 재방문인사 slot15와 별개.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_05929",
+      "slots_hex": [
+        "2B"
+      ],
+      "original_view": "いま{variable_F8}まいの\n{macro:88}をもっています",
+      "translation_before": "지금{variable_F8}장의\n티켓을 갖고 있어",
+      "source_raw_sha256": "0652eeafa32ea00848e09b165b6cb3325a3b93301d0baa3f325699d0c0fbb669",
+      "exact_context": "Actual coaster normal3 seed branch: native9F52 slot29,9F60 slot2B; F8 normal tickets07D0..2; upper card193 unchanged",
+      "speaker_from_CSV": "Buster",
+      "prior_manual_note": "현재 variableF8장의 티켓 소지라는 정보 유지. nativeF8는 세 자리/leadingzero blank를 생성하므로 placeholder앞 공백을 단순문자열만보고 추가하지 않음.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_05939",
+      "slots_hex": [
+        "2D"
+      ],
+      "original_view": "{tile:00}{tile:5E}{tile:53}{tile:58}{tile:63}{tile:00}{tile:5E}{tile:59}{tile:59}{tile:58}\n{tile:4B}{tile:4E}{tile:60}{tile:4F}{tile:58}{tile:5E}{tile:5F}{tile:5C}{tile:4F}{tile:5D}{tile:00}{tile:43}\n{tile:00}\n{tile:00}\n   {tile:5D}{tile:5E}{tile:4B}{tile:50}{tile:50}\n{tile:00}\n{tile:00}\n{tile:5A}{tile:5C}{tile:59}{tile:51}{tile:5C}{tile:4B}{tile:57}\n{tile:00}{tile:63}{tile:4B}{tile:57}{tile:4B}{tile:5D}{tile:52}{tile:53}{tile:5E}{tile:4B}\n{tile:00}{tile:57}{tile:53}{tile:63}{tile:4B}{tile:59}{tile:55}{tile:4B}\n{tile:00}\n{tile:51}{tile:5C}{tile:4B}{tile:5A}{tile:52}{tile:53}{tile:4D}\n{tile:00}{tile:53}{tile:5D}{tile:52}{tile:53}{tile:52}{tile:4B}{tile:5C}{tile:4B}\n{tile:00}{tile:50}{tile:5F}{tile:55}{tile:5F}{tile:4E}{tile:4B}",
+      "translation_before": " 타이니툰\n어드벤처 2\n \n \n   제작진\n \n \n프로그램\n YAMASHITA\n MIYAOKA\n \n그래픽\n ISHIHARA\n FUKUDA",
+      "source_raw_sha256": "ea2380dd67772de82e2fea0080cb31b915ff116d5eaa607a5b801452bed1b100",
+      "exact_context": "Observed native credits root18=7/19=1/07DF1/06DE0 controlled scene,9417 mode5/6, producerA457 NMI124, scrollingFC/FF",
+      "speaker_from_CSV": "Credits",
+      "prior_manual_note": "게임명/제작진/프로그램/그래픽 직함은 한글, YAMASHITA/MIYAOKA/ISHIHARA/FUKUDA 인명은 sourceASCII 대로 유지한 기존 결정.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_05999",
+      "slots_hex": [
+        "2E"
+      ],
+      "original_view": "{tile:5D}{tile:59}{tile:5F}{tile:58}{tile:4E}\n{tile:00}{tile:5E}{tile:4B}{tile:55}{tile:4F}{tile:63}{tile:4B}{tile:5D}{tile:5F}\n{tile:00}{tile:55}{tile:4F}{tile:58}{tile:55}{tile:4F}{tile:58}\n{tile:00}{tile:63}{tile:4B}{tile:5E}{tile:4B}{tile:55}{tile:4B}\n                                \n{tile:5A}{tile:4B}{tile:4D}{tile:55}{tile:4B}{tile:51}{tile:4F}{tile:00}{tile:4E}{tile:67}\n{tile:00}{tile:5D}{tile:5F}{tile:57}{tile:53}{tile:4E}{tile:4B}\n                                \n                                \n   {tile:5E}{tile:4F}{tile:4B}{tile:57}\n{tile:5A}{tile:59}{tile:58}{tile:5A}{tile:59}{tile:55}{tile:59}{tile:5C}{tile:53}{tile:58}",
+      "translation_before": "사운드\n TAKEYASU\n KENKEN\n YATAKA\n                                \n패키지 그림\n SUMIDA\n                                \n                                \n   팀\nPONPOKORIN",
+      "source_raw_sha256": "c9d6a65e08b6c7c3daf6200561905c293ce1b6a36752680da51efce8d8841822",
+      "exact_context": "Observed native credits root18=7/19=1/07DF1/06DE0 controlled scene,9417 mode5/6, producerA457 NMI124, scrollingFC/FF",
+      "speaker_from_CSV": "Credits",
+      "prior_manual_note": "사운드/패키지그림/팀 직함을 한글로 표시하며 TAKEYASU/KENKEN/YATAKA/SUMIDA/PONPOKORIN 철자는 source대로 보존.",
+      "manual_decision_125": "원문 PACKAGE D.의 D를 근거 없이 풀지 않는다. 기존 패키지 그림의 직함 선택은 사람 검토 대상으로 남긴다. 인명/팀 철자는 유지.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MAIN_059E7",
+      "slots_hex": [
+        "2F"
+      ],
+      "original_view": "                    \n{tile:5A}{tile:5C}{tile:4F}{tile:5D}{tile:4F}{tile:58}{tile:5E}{tile:4F}{tile:4E}{tile:00}{tile:4C}{tile:63}\n   {tile:55}{tile:59}{tile:58}{tile:4B}{tile:57}{tile:53}    \n{tile:00}\n{tile:00}{tile:4B}{tile:56}{tile:56}{tile:00}{tile:5C}{tile:53}{tile:51}{tile:52}{tile:5E}{tile:5D}\n{tile:00}{tile:00}{tile:5C}{tile:4F}{tile:5D}{tile:4F}{tile:5C}{tile:60}{tile:4F}{tile:4E}{tile:67}\n                    \n                    \n                    \n                    ",
+      "translation_before": "                    \n제공\n   KONAMI    \n \n ALL RIGHTS\n  RESERVED.\n                    \n                    \n                    \n                    ",
+      "source_raw_sha256": "2ef67f4991972e1ad98854f6d4f0e656018b31fafbfa1969e18379cfb7cbaf66",
+      "exact_context": "Observed native credits root18=7/19=1/07DF1/06DE0 controlled scene,9417 mode5/6, producerA457 NMI124, scrollingFC/FF",
+      "speaker_from_CSV": "Credits",
+      "prior_manual_note": "PRESENTED BY를 제공으로 옮기고 KONAMI/ALL RIGHTS RESERVED는 source표시 보존. 공백행은 native스크롤/소거 범위.",
+      "manual_decision_125": "원문과 표시 문맥을 다시 대조했다. 기존 의미와 말투를 유지하는 개발 초안으로 보존하며, 고유명사와 최종 문체는 사람 검토 대상으로 남긴다.",
+      "development_action": "retain_draft",
+      "human_approved": false
+    }
+  ],
+  "technical_records": [
+    {
+      "entry_id": "MAIN_058F0",
+      "status": "untranslated",
+      "source_tokens": "{variable_F9}{end}",
+      "reason": "native dynamic dispatcher",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MACRO_061C3",
+      "status": "untranslated",
+      "source_tokens": "{tile:4D}{tile:67}{tile:40}{tile:43}{tile:66}{end}",
+      "reason": "shared native macro; inline Korean consumers use their own fonts; not an independent unfilled prose draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MACRO_061C9",
+      "status": "untranslated",
+      "source_tokens": "{tile:56}{tile:61}{tile:43}{tile:48}{end}",
+      "reason": "shared native macro; inline Korean consumers use their own fonts; not an independent unfilled prose draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MACRO_061CE",
+      "status": "untranslated",
+      "source_tokens": "{tile:00}{tile:10}{tile:67}{tile:26}{end}",
+      "reason": "shared native macro; inline Korean consumers use their own fonts; not an independent unfilled prose draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MACRO_061D3",
+      "status": "untranslated",
+      "source_tokens": "{tile:3F}{tile:67}{tile:33}{tile:65}{tile:47}{tile:3D}{tile:66}{tile:40}{tile:43}{tile:66}{end}",
+      "reason": "shared native macro; inline Korean consumers use their own fonts; not an independent unfilled prose draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MACRO_061DE",
+      "status": "untranslated",
+      "source_tokens": "{tile:3F}{tile:64}{tile:65}{tile:3A}{tile:61}{tile:3B}{tile:67}{tile:39}{tile:66}{tile:47}{end}",
+      "reason": "shared native macro; inline Korean consumers use their own fonts; not an independent unfilled prose draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MACRO_061E9",
+      "status": "untranslated",
+      "source_tokens": "{tile:07}{tile:06}{tile:2E}{tile:0C}{tile:2F}{end}",
+      "reason": "shared native macro; inline Korean consumers use their own fonts; not an independent unfilled prose draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MACRO_061EF",
+      "status": "untranslated",
+      "source_tokens": "{tile:07}{tile:30}{tile:03}{tile:28}{tile:30}{tile:03}{tile:0D}{tile:1D}{tile:67}{tile:28}{end}",
+      "reason": "shared native macro; inline Korean consumers use their own fonts; not an independent unfilled prose draft",
+      "human_approved": false
+    },
+    {
+      "entry_id": "MACRO_061FA",
+      "status": "untranslated",
+      "source_tokens": "{tile:44}{tile:3C}{tile:65}{tile:47}{end}",
+      "reason": "shared native macro; inline Korean consumers use their own fonts; not an independent unfilled prose draft",
+      "human_approved": false
+    }
+  ],
+  "prior_context_review": "qa/reports/context105_review.json",
+  "prior_context_review_sha256": "aa3d8d898615aac7dd3e86f30cbb50d2010d934327887727409b36dcaeb18020",
+  "context_ledger_sha256": "f085ed822e44e2ff9c946297549879dda1e2bfa029beb7b213fea61e275149ae",
+  "human_approved": false,
+  "ROM_CSV_edited": false,
+  "release_eligible": false,
+  "limits": [
+    "Assistant manual review; no human approval or official Korean names inferred",
+    "No new build/apply/runtime/direct game-image QA",
+    "Registered inventory is not global corpus closure; natural whole game/hardware/PCM and graphics decisions remain open",
+    "No rule-based batch prose rewriting; only the individually grounded shortage sentence is selected"
+  ],
+  "next_action": "Implement only MAIN_0590C draft in a new048 candidate with private226/227 font; validate source writes, native timing and reproducibility before actual rejection/next-paragraph QA."
+}

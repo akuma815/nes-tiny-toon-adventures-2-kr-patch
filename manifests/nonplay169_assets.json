@@ -1,0 +1,25 @@
+{
+  "work": 169,
+  "files": {
+    "build/dialogue_kr_poc_049/TinyToon2_dialogue_kr_poc.nes": "31dfae821a603d8923b9a32bc1c0bb1ef19b6b98bd2f1670b29e4ea5e4b0f0aa",
+    "docs/POC_TITLE.md": "cdff1aed9b54c62fd425214373204d353ed96302f43ebdc65b3c6eeb238bdb95",
+    "extracted/chr/survey_20261004_001/chr_page_0F.png": "f0909236a7faa19f51eb0110ba698c3f8f6f560f29492ff9490548427e924df9",
+    "extracted/chr/survey_20261004_001/chr_page_17.png": "c93d107fc764a82cc8100c5c96b6542f357c944f36bf6bb54833c64d34265b15",
+    "original/rom/Tiny Toon Adventures 2 - Montana Land e Youkoso (Japan).nes": "f41607b80904a2e1150a155121405dd1fed007ce98ff00a274a7891cafd7e32d",
+    "qa/dialogue/pages130_intro049/environment.json": "61dd7ff9ff797672ec4250f476e1637a136ac7f76b4bf1fe362966c88375d9f8",
+    "qa/dialogue/pages130_intro049/frame_00720.png": "772d8ff10d5612fd3016f580111fd9ba8c8c1c2ae77381563567f31f52f4ef95",
+    "qa/dialogue/pages130_intro049/frame_00720_mapping.csv": "2586614a74f53bb9594d4819de9fde8b0e20c728992ef95af43dad9c684b1e6b",
+    "qa/dialogue/pages130_intro049/frame_00720_oam.bin": "f2dd12fb5a7834d04808830991913b6aee8fbfdba28fb9deeead460849fe27fe",
+    "qa/dialogue/pages130_intro049/frame_00720_ppu.bin": "f72e1d14f807eed41b66d998e4c14659d255347a6f8dc650604c027aabd49293",
+    "qa/dialogue/pages130_intro049/frame_00720_ram.bin": "38389977be5903ebc659bb69048c6bcd09a1dafc815353ac62f53b2acaff8e11",
+    "qa/reports/nonplay169_scope_title_consumer.json": "48404d4121cc8003bc833dcaef250d7d1b2f35887b69fd658baf2e05180c5a0d",
+    "scripts/analyze_pow_metasprites096.py": "2529ac4c063b402656ed5e80de08bc986b035490895b88567615a50be85f64cd",
+    "scripts/resolve_scope169.py": "c8fa0e61a7b9f92b4e6712b3fce231ddee5a89445adcfaf97c4d1b6d3a3e819e",
+    "scripts/seal_nonplay166.py": "9ab7b9f5035f3048b0dc0ae0e3e2341836b01c526339c25e54083e5187870978",
+    "workspace/translation/nonplay_inventory049_166.json": "1c4b2ba933aa261cb895d880a8e71a241d828ce436d67a1dbba635f112d47ec1",
+    "workspace/translation/nonplay_inventory049_169.json": "7b89a7ca67b795bf0a9af7f71c3823ab12bddb519b2ef54d7260f6d519f63b97",
+    "workspace/translation/scope_decisions_20261007_169.json": "2a3cc020090e1cddd82076d46d1d52f9d3a54586d16dda887e8aec90e298a4fd",
+    "workspace/translation/text_ja.csv": "43bc5fe4218d8d01d29425f4dacdc5e92b7eae3db40cb1bb1852ca3e4e7f990f",
+    "docs/SCOPE_RETENTION_AND_TITLE_PROMPT_CONNECTION.md": "d502a6433b0d7040018b92c2ff531b20285fe41ee1714d1ba8249d79e1db94ab"
+  }
+}

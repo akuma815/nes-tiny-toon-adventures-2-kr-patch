@@ -1,0 +1,8 @@
+{
+  "work": 102,
+  "files": {
+    "docs/ANIMATION_BANK36_BOUNDS.md": "80a3327d9786d1b363c4d1f92f73826f3fea8d21ea2a38287950350d7904a810",
+    "scripts/analyze_animation_bank102.py": "3d42d3280f3ab6374c222912e17997437ab863bae205e185dfe1e8bee7e32a08",
+    "qa/reports/animation102_bank36.json": "249284d66f9604099c7256971fe45ef5eaace2ce67ea209de881d96b7cf6f77e"
+  }
+}

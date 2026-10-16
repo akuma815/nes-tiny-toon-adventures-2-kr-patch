@@ -1,0 +1,24 @@
+{
+  "work": 151,
+  "files": {
+    "workspace/translation/coverage049_145.json": "d698dc95c0f522beed33e863e63cae963c492a355be192a764988fce6a832ea1",
+    "extracted/text/table_20261004_001/text_tokens.json": "814a194acbbb611a9ae005a2a7fd1e76335cfae3fd71e6685c0f222f7f0d5f1e",
+    "qa/reports/cart146_validation.json": "62101dcd6a45be401e617482636d0780c3314a17c6469019dab86a60cc1ed621",
+    "manifests/cart146_assets.json": "5728bd01513b16dcd54d8222091d98965ce52eb68051422ca455b5e0aef6bccd",
+    "qa/reports/cart146_session.json": "0f82b75906a3b584ddd751a66bcf30b28adaaf6129a9b8e3eaa1bb3b79b39a49",
+    "qa/reports/coaster147_validation.json": "d362fe3349c14343fd977434d6474af32ef814c09db83279f1f30b8e56f9c6b1",
+    "manifests/coaster147_assets.json": "5d9b4247b405f646aedd99303ff9c9534cef6c5f2f9b0d95b18c72bf655a75a0",
+    "qa/reports/coaster147_session.json": "b894ece4a8e079d1070c41446b38163cc3f3738eb77a1b7e3bfbc427fbd9ae4e",
+    "qa/reports/gatereader149_validation.json": "c54e0a24891a6ccdaf6eec395b986e668bc2c4890823ae9119272b9d7c30f1a4",
+    "manifests/gatereader149_assets.json": "d9e3ddd939a56a238762a8b09b8b38dc14752b45a03c668956521a4d696c4915",
+    "qa/reports/gatereader149_session.json": "51580636b91e357ba920a2e5b922432975c2dd1f3b275a7a20f7c4c97bb1bf16",
+    "qa/reports/shortagereader150_validation.json": "6ce0534859b8d8b783c4db496dd9d0c82f67e08420a38745d0d3484d2ca79291",
+    "manifests/shortagereader150_assets.json": "3ce3fa9363b18db1350c1eaae933be3a5d0fdd0f5977339ea713a4240c9ef1e8",
+    "qa/reports/shortagereader150_session.json": "b8914cf744e9c53f59ec2cc7694d4743046ee831e1de462bf01653f7d6d8b45b",
+    "workspace/translation/coverage049_151.json": "2368d014dbb2d9948b093a934b85937958da76fb6c72fe60ca0fe9cc8309f2e9",
+    "docs/READER049_REASSESSMENT.md": "65afa7eef4aecac5f13823839a9c9e92a2b76bc4e6a8c443b5ae9d4dc0e5a8ce",
+    "scripts/reconcile_reader151.py": "f2c862b41dd6668c78aff684cf420f8889ca0f6cea5f6f0dee533f8f99691877",
+    "build/dialogue_kr_poc_049/TinyToon2_dialogue_kr_poc.nes": "31dfae821a603d8923b9a32bc1c0bb1ef19b6b98bd2f1670b29e4ea5e4b0f0aa",
+    "workspace/translation/text_ja.csv": "43bc5fe4218d8d01d29425f4dacdc5e92b7eae3db40cb1bb1852ca3e4e7f990f"
+  }
+}

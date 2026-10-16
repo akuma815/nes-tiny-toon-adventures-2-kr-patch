@@ -1,0 +1,17 @@
+{
+  "work": 159,
+  "files": {
+    "build/dialogue_kr_poc_049/TinyToon2_dialogue_kr_poc.nes": "31dfae821a603d8923b9a32bc1c0bb1ef19b6b98bd2f1670b29e4ea5e4b0f0aa",
+    "docs/WATER_RAFT_CONTROL_AND_TRANSFER_MODEL.md": "5a411a73479734c958049e364f135a36060fc37f1348f16a9e07826bc469c5b2",
+    "original/rom/Tiny Toon Adventures 2 - Montana Land e Youkoso (Japan).nes": "f41607b80904a2e1150a155121405dd1fed007ce98ff00a274a7891cafd7e32d",
+    "qa/dialogue/water158_exit_input049/environment.json": "c658c06c7475298e57d9d3b2defd403d2f756173b521c87b091a1dfbe98c430f",
+    "qa/dialogue/water158_exit_input049/frame_03990_ram.bin": "f3edc5e791caf1072884d7430b234f31f02896dfb05f67c15a090e826fb95d7a",
+    "qa/reports/water158_exit_input_validation.json": "ab09295c2c36f49a86d470af2870dca8f99567256319c95311ba7d7fd814471b",
+    "qa/reports/water159_raft_control_model.json": "1c6e53aae9f1c83fe785f992d1d95792269be21a49257752479ce0ac0ea18137",
+    "scripts/analyze_river120_v2.py": "cefb1fa024d8186c4229e5d6f4bf7103cad09027090ca4be2939a0a91ce4956a",
+    "scripts/analyze_seal_water159.py": "7f149f87a30594e2f77cde20f402dc5896696b4b86e20aaf7a94983b066c9d91",
+    "scripts/seal_continuation159.py": "a7ecf488cbd62421ba3d14abe32a7d91ea0c7f3aafe5e0b90f4023a1f54ae53c",
+    "scripts/verify_gate_font_tag_hooks.py": "25108bf412dc61fdbfe69c87dd7004cdf69c66c8a98b2bfed0703e6e3534bcaf",
+    "workspace/translation/text_ja.csv": "43bc5fe4218d8d01d29425f4dacdc5e92b7eae3db40cb1bb1852ca3e4e7f990f"
+  }
+}

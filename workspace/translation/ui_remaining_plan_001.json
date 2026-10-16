@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-05",
+  "source_sha256": "f41607b80904a2e1150a155121405dd1fed007ce98ff00a274a7891cafd7e32d",
+  "prior_build": "dialogue_kr_poc_033",
+  "prior_ROM_sha256": "aedbd41c9cb013ffcd4b809fa5288c4c9044040caf17caeacdc80439383e0af1",
+  "backup_CSV_sha256": "347876b63d580132e06dbdf9c28350bac4f83ed5cc74e631ddddf3dc9458d08d",
+  "CSV_sha256": "27e2d033639c1e2aa9539410ed5ae6ba28174f66dcf90b185bb4c082b461b72f",
+  "profiles": [
+    {
+      "entry_id": "MAIN_0590C",
+      "slot": 41,
+      "slots": [
+        41
+      ],
+      "pointer": 39164,
+      "source_file_offset": 22796,
+      "end_exclusive": 22816,
+      "source_raw_sha256": "245dfd565de354d20c491efeabcd0123a391ccf4bb40fcbc027118b0203c131f",
+      "text": "아쉽지만\n티켓이 부족해!",
+      "font_bank": 196,
+      "padding": [
+        0,
+        0
+      ],
+      "ride": 1,
+      "scene": "Actual coaster normal3 seed branch: native9F52 slot29,9F60 slot2B; F8 normal tickets07D0..2; upper card193 unchanged",
+      "speaker": "Buster",
+      "NT": 8872,
+      "screen_x": 64,
+      "screen_y": 163
+    },
+    {
+      "entry_id": "MAIN_05929",
+      "slot": 43,
+      "slots": [
+        43
+      ],
+      "pointer": 39193,
+      "source_file_offset": 22825,
+      "end_exclusive": 22841,
+      "source_raw_sha256": "0652eeafa32ea00848e09b165b6cb3325a3b93301d0baa3f325699d0c0fbb669",
+      "text": "지금{variable_F8}장의\n티켓을 갖고 있어",
+      "font_bank": 198,
+      "padding": [
+        0,
+        0
+      ],
+      "ride": 1,
+      "scene": "Actual coaster normal3 seed branch: native9F52 slot29,9F60 slot2B; F8 normal tickets07D0..2; upper card193 unchanged",
+      "speaker": "Buster",
+      "NT": 8872,
+      "screen_x": 64,
+      "screen_y": 163
+    }
+  ],
+  "native_punctuation": {
+    "?": 107,
+    "!": 108,
+    "「": 109,
+    "」": 110
+  },
+  "scope": "Native insuff29 and possession2B, F8 normal tickets; all40 prior drafts retained",
+  "review": "Draft; no release"
+}

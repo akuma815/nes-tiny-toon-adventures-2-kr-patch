@@ -1,0 +1,22 @@
+{
+  "work": 48,
+  "generated_copy": "workspace/graphics/gameover_kr_ai_001/generated_gameover_ko.png",
+  "original_generated_path": "C:\\Users\\akuma\\.codex\\generated_images\\01a106ed-dff2-7aa3-a0e3-6cea87b21b99\\exec-d0c18da2-662a-40e6-8db8-d80663196af9.png",
+  "sha256": "4595124bfe860671bcbe6069ee35bb02e2bb29d5c4a3414ceba3210bd6eb9167",
+  "size": [
+    2172,
+    724
+  ],
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "foreground_bbox_alpha128": [
+    53,
+    115,
+    2123,
+    631
+  ],
+  "review": "Exact게임 오버 spelling, isolatedwhite/paleblue/deepbluefaces andshadow reviewed",
+  "source_and_generated_originals_preserved": true
+}

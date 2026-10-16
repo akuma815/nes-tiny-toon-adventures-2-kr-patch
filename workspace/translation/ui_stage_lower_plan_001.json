@@ -1,0 +1,122 @@
+{
+  "date": "2026-10-05",
+  "source_sha256": "f41607b80904a2e1150a155121405dd1fed007ce98ff00a274a7891cafd7e32d",
+  "prior_build": "dialogue_kr_poc_033",
+  "prior_ROM_sha256": "aedbd41c9cb013ffcd4b809fa5288c4c9044040caf17caeacdc80439383e0af1",
+  "backup_CSV_sha256": "27e2d033639c1e2aa9539410ed5ae6ba28174f66dcf90b185bb4c082b461b72f",
+  "CSV_sha256": "ccd784aa0e878cd30e4ae30690b4852f7f641e99dad9e875498ba413f9691447",
+  "profiles": [
+    {
+      "entry_id": "MAIN_05833",
+      "slot": 29,
+      "slots": [
+        29
+      ],
+      "pointer": 38947,
+      "source_file_offset": 22579,
+      "end_exclusive": 22601,
+      "source_raw_sha256": "139eec6d1b425e2a6e41381fbe17a0e57011fcf2b794908dd1df2acd7b652640",
+      "text": "요금은 티켓 {variable_FA}장\n티켓을 내줘!",
+      "font_bank": 196,
+      "padding": [
+        3,
+        0
+      ],
+      "technical": false,
+      "NT": 8872,
+      "screen_x": 64,
+      "screen_y": 163
+    },
+    {
+      "entry_id": "MAIN_058F0",
+      "slot": 0,
+      "slots": [
+        0,
+        35
+      ],
+      "pointer": 39136,
+      "source_file_offset": 22768,
+      "end_exclusive": 22770,
+      "source_raw_sha256": "2656c615fa7cec4a439a7f880fbdc496b59e70882a07be5d3da6e74da1fe5631",
+      "text": "{variable_F9}",
+      "font_bank": 196,
+      "padding": [
+        0
+      ],
+      "technical": true,
+      "NT": 8872,
+      "screen_x": 64,
+      "screen_y": 163
+    },
+    {
+      "entry_id": "MAIN_0590C",
+      "slot": 41,
+      "slots": [
+        41
+      ],
+      "pointer": 39164,
+      "source_file_offset": 22796,
+      "end_exclusive": 22816,
+      "source_raw_sha256": "245dfd565de354d20c491efeabcd0123a391ccf4bb40fcbc027118b0203c131f",
+      "text": "아쉽지만\n티켓을 더 모아줘!",
+      "font_bank": 196,
+      "padding": [
+        0,
+        0
+      ],
+      "technical": false,
+      "NT": 8872,
+      "screen_x": 64,
+      "screen_y": 163
+    },
+    {
+      "entry_id": "MAIN_05920",
+      "slot": 42,
+      "slots": [
+        42
+      ],
+      "pointer": 39184,
+      "source_file_offset": 22816,
+      "end_exclusive": 22825,
+      "source_raw_sha256": "02c43a3b39d094ea7b882b17058d150259dc2049e07f8be198e435b28f8058af",
+      "text": "출발!",
+      "font_bank": 196,
+      "padding": [
+        1
+      ],
+      "technical": false,
+      "NT": 8872,
+      "screen_x": 64,
+      "screen_y": 163
+    },
+    {
+      "entry_id": "MAIN_05929",
+      "slot": 43,
+      "slots": [
+        43
+      ],
+      "pointer": 39193,
+      "source_file_offset": 22825,
+      "end_exclusive": 22841,
+      "source_raw_sha256": "0652eeafa32ea00848e09b165b6cb3325a3b93301d0baa3f325699d0c0fbb669",
+      "text": "지금{variable_F8}장의\n티켓을 갖고 있어",
+      "font_bank": 196,
+      "padding": [
+        0,
+        0
+      ],
+      "technical": false,
+      "NT": 8872,
+      "screen_x": 64,
+      "screen_y": 163
+    }
+  ],
+  "native_punctuation": {
+    "?": 107,
+    "!": 108,
+    "「": 109,
+    "」": 110
+  },
+  "scope": "Work35 shared stage lower cost/variable/insuff/start/possession; four drafts plus technical F9 alias0/23, no added SSOT count; keep original9F09/helper008",
+  "review": "Draft, not release"
+}

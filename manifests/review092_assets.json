@@ -1,0 +1,29 @@
+{
+  "work": 92,
+  "files": {
+    "docs/TRANSLATION_REVIEW_047.md": "0ddd45608793b2cc8414583b2e932daf372a3739b58c3557097cae56e34c1e50",
+    "workspace/review/TinyToon2_Translation_Review_047_20261005.zip": "454dd77553092fea3d974ee520d249d956e969a82fa099a4cb8674c6857150aa",
+    "scripts/make_translation_review047.py": "2a95fc65387cc00fdcf606f622cbe345d2b27a12aac84d2cdca7277fe0a6d4d1",
+    "scripts/make_translation_review047_v2.py": "54db41dde2e05f4ef3a45f0aa97c6f88aaf35d8f70692190f7cd8781d77d9f84",
+    "scripts/make_translation_review047_v3.py": "3610bc633c5d9ddbd70805b9737f423cfdb61fa1e90da8403e2b655a98fdc6f6",
+    "scripts/render_review_kit047.py": "38c17a7beaeaf6c6e864bf958fbfff9f06f2abe9338085ddc808ff4c85b632fd",
+    "qa/reports/review047_records.json": "d4ae16da9e84aa2e7f127f31fa1d8e3b31ff96fde29d08b7fae3826ca05f3c9e",
+    "qa/reports/review047_builder_v1_observation.json": "ae3626af03cb5979fc5d7e6f2eddcbcf9799f5b881a488b225f90ae8d1b95e24",
+    "qa/reports/review047_builder_v2_observation.json": "5dd77d0d664c2efdba9af9a20b1e06ed0ee0b429f121640fe5ec7d5bfdbb97b2",
+    "workspace/review/translation047_20261005/artifact_manifest.json": "24cf771d99e84cc3512766788baef689817193f2edce919c165b4835edfe84cb",
+    "workspace/review/translation047_20261005/DECISIONS_PENDING.md": "50bd2538b38f7abdae8266af91fd75447020582f1943d38a2852d023a97f8840",
+    "workspace/review/translation047_20261005/README.txt": "214acded70d52338620e55f0af70d945e33e895e388191c9569e40685ec8d71f",
+    "workspace/review/translation047_20261005/review.html": "0bf6b47350b687626479b738a6decc035b8c7cf893dd95d6fe8229f704c3bf67",
+    "workspace/review/translation047_20261005/review_records.json": "8c0d463d1d3626e2bf3af43630940aabed05ababcfb57357ff8d6e7046067acd",
+    "qa/review/translation047_092/desktop_gate047.png": "36f45b5b2f1d6a78b37e28be5995bcb55a9dfa06ec6389aa5951978bfada56cf",
+    "qa/review/translation047_092/desktop_readable_credits.png": "c615dac6c811f0d508fe2c1d5e0a7ae31bb04f703f72010e26ce4387e0994c78",
+    "qa/review/translation047_092/desktop_top.png": "4fdcd6c6b2660849246f7220f21e12920684eef653c9dfe2e1cfa8e0b761fb05",
+    "qa/review/translation047_092/desktop_unit05805.png": "f41301b5c173dbbdf7031437684f416fdda0e3460a7663b793fd9a1bfe581ea9",
+    "qa/review/translation047_092/edge_stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "qa/review/translation047_092/mobile_gate047.png": "8f4db12fbd096774ac5833fa76aed7dc674b9ee6aa882f4e3c5efdb55a602498",
+    "qa/review/translation047_092/mobile_readable_credits.png": "9d971cc9a78ca84fe67a18f1771f2e5a1feea49f70a35e1904f03d490a655146",
+    "qa/review/translation047_092/mobile_top.png": "47959bb2c90f8a548c181ded36c130102bb6dfe86809d791f695866352064bad",
+    "qa/review/translation047_092/mobile_unit05805.png": "c264f9211c2bef85a80b3c81e2e06a48b63251d4b248a7d0403b2db75c17075e",
+    "qa/review/translation047_092/render_report.json": "a874e78ef22fd5f7907df787144f01ba332269e52832a673a533882fe9db9ed9"
+  }
+}

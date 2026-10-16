@@ -1,0 +1,126 @@
+{
+  "date": "2026-10-05",
+  "adopted_build": "dialogue_kr_poc_008",
+  "status": "Development PoC PASS; three drafts, no release",
+  "entry_ids": [
+    "MAIN_05609",
+    "MAIN_05625",
+    "MAIN_05741"
+  ],
+  "inputs": {
+    "manifests/source_rom.json": "14f677dfcdd03b8989accd3d23859db6f0c5b2443c7c25dceecc7af6c216157a",
+    "workspace/translation/text_ja.csv": "ca047c3ec77880532fc05f11a08622d009ae8ba40a5ed9b374fa02dbd012ac69",
+    "backups/translation/text_ja_before_pages_001.csv": "ca9d3829eac894f0b9d593f3a5a67ad5a2bee02aa853de938e04b8a69522edad",
+    "workspace/asm/dialogue_page_font_001.asm": "62e5fdc75b140be4a2efc8e70db0a18f340acdc60a1b300a717d12b8be1cd9a6",
+    "workspace/asm/dialogue_font_irq_001.asm": "4d4725d8458182ff796a60715e482be9c28157a24d0453985e770a67efa0ebda",
+    "workspace/fonts/galmuri7_8x8/Galmuri7_8x8.png": "a2be473e22a62942164c95db60f3f5aa88a99f76b525994d194e9f5f9df387ea",
+    "workspace/fonts/galmuri7_8x8/Galmuri7.ttf": "3882bd35066c26b0392cd4963ff9b3c151041dec34adc9d5633d137d1d9b9855",
+    "workspace/fonts/galmuri7_8x8/OFL.md": "9a9e5a342c430c3fcf01a408b680f4405d5bf4ac659c931be35f8a1b27ea69c9",
+    "workspace/fonts/galmuri7_8x8/font_source.json": "683a3f2f1a81d34a0206c2e55d4284fd32ea12e535c8fd0be30af8d4e01bae3b",
+    "build/dialogue_kr_poc_003/TinyToon2_dialogue_kr_poc.nes": "761f2495295dc07b1648a5aa0d1dbf85139d67b4e6962639d34e0688989ede3a",
+    "build/dialogue_kr_poc_003/expected_writes.json": "f1ab39ed58695294253be7c95d4d46f9995652d493a77d9734790e6d1a894ca8",
+    "scripts/dialogue_ips.py": "c161d4e55a4216146a2e08a20b7bfec45a73eea85683ca4a647efada224eb12b",
+    "scripts/verify_dialogue_home.py": "766a8165b8b25e6a71110bf021d71e87ada700e41124244e754d39ac89b090c6",
+    "scripts/run_dialogue_qa.py": "7e42c3158279ee7e69251a17bc64e01478b25ae99658f4423d5a1cc32fa4b5d2",
+    "tools/python/py65-1.2.0/py65/assembler.py": "8e92b5249c1bedcbac26d03a64ab3d35852914dae005d5abf87a275a1d20a383",
+    "tools/python/py65-1.2.0/py65/disassembler.py": "b8cca0c23ef69dcf88b6dccb08582e4a4d088a561a04c833acb37b3742cdcccc",
+    "tools/python/py65-1.2.0/py65/devices/mpu6502.py": "15d93835b4f279b702270d9a0b417938291347ec57cc12d9e0307cd344d381fe",
+    "tools/python/py65-1.2.0/py65-1.2.0.dist-info/LICENSE.txt": "611bf384c5293db4eb9d2c1da95073dfc633e30a177445ec0166ed108b7926e5",
+    "scripts/asm6502.py": "c5492dccbeb376f3514a730f6e05314d3cbd62688ffdf68f52c968e85807c26e",
+    "scripts/build_dialogue_pages.py": "bfb7f66e9cf4f0b92a14318cc773a62542edfb10944d555d6c0af2576635464a",
+    "scripts/verify_dialogue_hooks.py": "09a2811392e2f1951cd6327ff666efbfbf50f2272a68359e607c5297912241fe",
+    "scripts/verify_dialogue_pages.py": "b8c0abeb32a35f5e59e532fb52afbacf9637645b917919994f16719bd0e228cc",
+    "scripts/trace_dialogue_hook_space.lua": "50a019a7d9f4b5ba4e3b2d1cfa6fed0a52d70c08f2425418739652f4f120f8dc",
+    "scripts/trace_dialogue_page_hook.lua": "296b5cad74362dfae9e938e4625afa46521fc5b13fe13a6e33a3492845ebd30b",
+    "scripts/trace_dialogue_irq_phase.lua": "5fb4c1dd4d0bd44c45f8420dc572731d43b22cd71ebb857628a004af175dfe84",
+    "scripts/trace_dialogue_idle.lua": "c1aa622898d159924a9c1ecee1815196d80375cf64789e4011a81d1f6ced68ba",
+    "scripts/capture_dialogue_pages.lua": "5366055ca71389a4dd3330b682176cbd5254139e77b197aef5d905a9f6411b95",
+    "scripts/trace_dialogue_pages.lua": "01873b149fad12b9cb2458b17a3505c340714af9c47c5f2c3813117fc9c438ec",
+    "scripts/audit_dialogue_pages_session.py": "0489adb7ba0cb1d17eebf1755c896da9bc780fa1dd0fbc042711962686a1a02d"
+  },
+  "outputs": {
+    "build/dialogue_kr_poc_008/asm_listing.json": "4e862acf2ca0e66b9c3accfe1f0c0b152eb6ed15bd71626ca0e7a03a0eb9047a",
+    "build/dialogue_kr_poc_008/build_report.json": "54c6069afd6f4dc1dd51827dde612502be62eff44fe2252de86e7d5b83ab5107",
+    "build/dialogue_kr_poc_008/expected_writes.json": "3d8df8f75464a4545be4ba5cc3b44f413b180aeb6c8c7b836dd784b39271d58c",
+    "build/dialogue_kr_poc_008/font_irq_used.asm": "4d4725d8458182ff796a60715e482be9c28157a24d0453985e770a67efa0ebda",
+    "build/dialogue_kr_poc_008/page_font_used.asm": "71ab09d37e32903415fb06112125d7b3581338329f064bf58af6a565f7d6a731",
+    "build/dialogue_kr_poc_008/second_glyph_mapping.json": "e3b19cd2dc177f9bc5a558a2ca51145328e74759cfcaa21d980ad94f8e325871",
+    "build/dialogue_kr_poc_008/TinyToon2_dialogue_kr_poc.ips": "e5c02567c89ff37e3fda5038a3cce30f8ebb1dfdd59985d9a0af2d353a7a9b65",
+    "build/dialogue_kr_poc_008/TinyToon2_dialogue_kr_poc.json": "c58c348ecd99e44a613fdb2963591ffe708a4e227f2ba8c44e24ff13343d9487",
+    "build/dialogue_kr_poc_008/TinyToon2_dialogue_kr_poc.nes": "4d4b2f4ab979585432d44f52432d85cebc83afa4a25e58a2e692b0227351e314",
+    "build/dialogue_kr_poc_008_rebuild/asm6502_used.py": "c5492dccbeb376f3514a730f6e05314d3cbd62688ffdf68f52c968e85807c26e",
+    "build/dialogue_kr_poc_008_rebuild/asm_listing.json": "4e862acf2ca0e66b9c3accfe1f0c0b152eb6ed15bd71626ca0e7a03a0eb9047a",
+    "build/dialogue_kr_poc_008_rebuild/build_report.json": "401c4c8bed1684bbf8d32d1cf0a304c9b836149ad83c277b2ad28afad918e317",
+    "build/dialogue_kr_poc_008_rebuild/builder_used.py": "bfb7f66e9cf4f0b92a14318cc773a62542edfb10944d555d6c0af2576635464a",
+    "build/dialogue_kr_poc_008_rebuild/expected_writes.json": "3d8df8f75464a4545be4ba5cc3b44f413b180aeb6c8c7b836dd784b39271d58c",
+    "build/dialogue_kr_poc_008_rebuild/font_irq_used.asm": "4d4725d8458182ff796a60715e482be9c28157a24d0453985e770a67efa0ebda",
+    "build/dialogue_kr_poc_008_rebuild/page_font_used.asm": "62e5fdc75b140be4a2efc8e70db0a18f340acdc60a1b300a717d12b8be1cd9a6",
+    "build/dialogue_kr_poc_008_rebuild/second_glyph_mapping.json": "e3b19cd2dc177f9bc5a558a2ca51145328e74759cfcaa21d980ad94f8e325871",
+    "build/dialogue_kr_poc_008_rebuild/TinyToon2_dialogue_kr_poc.nes": "4d4b2f4ab979585432d44f52432d85cebc83afa4a25e58a2e692b0227351e314",
+    "qa/dialogue/pages008_attract/environment.json": "a5bb4c6e317289f1bd39cc5b08001fa1f7354a89213fcee9bbfb53921b312cc6",
+    "qa/dialogue/pages008_reference_attract/environment.json": "378306b9665a2f6bf2b4e6f7ff41c65f12bdd4ab52b4cef40d95a27f274d8f18",
+    "qa/dialogue/pages008_start/environment.json": "32e1f9ce83f0b0369013044aaa3631d234fbd18fbae1d1e2714c293286833c96",
+    "qa/dialogue/pages008_reference_start/environment.json": "f73c6703f99049ff79f981430ffcc997ce9721862cee59d78e2d4176dd3056ef",
+    "qa/dialogue/pages008_introstart/environment.json": "3ccf776627352150b0e871b091d2e350c43568eae57fb9ef329a43fdd551d979",
+    "qa/dialogue/pages008_reference_introstart/environment.json": "643686a11c1b756f09347e7fa8bb146634f344a7c30b6c15d0028aa711484c99",
+    "qa/dialogue/irq_phase003/environment.json": "34ba48b0f79ce363efee7b43ec8f011301a9ad239c9b8f848e95df9a0bd6535f",
+    "qa/dialogue/irq_phase008/environment.json": "0b6d8dae033febadadf8e58c3e08b802e964c4ad3326abbcb68e1e542fe2dea5",
+    "qa/dialogue/pages008_lifetime_v2/environment.json": "3959bf70180899753470a322336d99e8af76a4389dffa3fb937cd6e7ff71ebb3",
+    "qa/dialogue/pages008_actual_4x.png": "a44323311a1edbc332d39027cea13567dd75b8d5d11e6e0487baf49cb0a7eb27",
+    "qa/dialogue/pages008_attract/frame_01320.png": "64d3c5683f385de248506e34f14b4210ed7b7bdf92c3edd3911057feb0f155f8",
+    "qa/dialogue/pages008_attract/frame_01560.png": "c1492efaaa03972f601a009b45a0032b8ec07f719e66d0115df3e3cec2a5ff4e",
+    "qa/dialogue/pages008_attract/frame_04040.png": "64d3c5683f385de248506e34f14b4210ed7b7bdf92c3edd3911057feb0f155f8",
+    "qa/dialogue/pages008_start/frame_01080.png": "60085ba0a450916f82a8b838d9d61edf041b2097490683b72918574050f0b9e7",
+    "qa/reports/dialogue_pages008_validation.json": "bacee6f93f9b2feeec32bf323221501e334d55f048f93e05a5fd72cd2a3db890",
+    "qa/reports/pages008_hooks_final.json": "48182854eefe8f4f5b668c7ff9af994001f4497643c4429b3fccf479a2112b70",
+    "qa/reports/pages008_irq_phase.json": "1c56e0b83682f7a26e9e45fe25e926b3c29b3dce3ab57360a168761019fde2ca",
+    "qa/dialogue/한글 패치 적용 008/TinyToon2_pages008_applied.nes": "4d4b2f4ab979585432d44f52432d85cebc83afa4a25e58a2e692b0227351e314"
+  },
+  "PRG_KiB": 256,
+  "CHR_KiB": 136,
+  "helper_PRG_bank": 2,
+  "native_PRG_banks": [
+    18,
+    19
+  ],
+  "fixed_PRG_bank": 31,
+  "font_sets": {
+    "first_intro": [
+      128,
+      129
+    ],
+    "second_intro": [
+      132,
+      133
+    ],
+    "home": [
+      130,
+      131
+    ],
+    "other_native_pages": [
+      90,
+      91
+    ]
+  },
+  "translation_rows": {
+    "draft": 3,
+    "untranslated": 51
+  },
+  "font_provider": "Galmuri7 2.403, SIL OFL1.1; second18 glyphs verified atlas vs TTF and tile roundtrip",
+  "assembler_provider": "Read-only copy from Tiny Toon Adventures/scripts/asm6502.py; py65 1.2.0 BSD3 full official NMOS6502 ISA; 151 opcode/mode and604 vectors",
+  "mapper_reference": "https://raw.githubusercontent.com/SourMesen/Mesen2/master/Core/NES/Mappers/Konami/VRC7.h",
+  "rebuild_source_note": "Original008 page_font_used.asm matches original report SHA; current source adds comments and rebuild frozen sources, ROM bytes identical",
+  "failures_preserved": [
+    "dialogue_kr_poc_004",
+    "dialogue_kr_poc_005",
+    "dialogue_kr_poc_006",
+    "dialogue_kr_poc_007"
+  ],
+  "failure_metadata_errata": "004 helper_bank16 report is incorrect; actual helper selector02; corrected008 metadata",
+  "limits": [
+    "51 source units remain untranslated",
+    "All48 slots CPU-tested but runtime scene ownership only observed intro/home routes",
+    "Added code may change RNG22 iteration count; no full gameplay/audio/reset/savestate/physical hardware QA",
+    "Final human wording/title review pending; dist empty"
+  ]
+}

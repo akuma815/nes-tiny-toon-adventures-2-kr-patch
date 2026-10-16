@@ -1,0 +1,96 @@
+{
+  "scope": "Established natural intro pages05..09 only; independently drafted five source units, preserve prior translations; no release",
+  "source_sha256": "f41607b80904a2e1150a155121405dd1fed007ce98ff00a274a7891cafd7e32d",
+  "prior_build": "dialogue_kr_poc_013",
+  "prior_ROM_sha256": "a5e05e868730922233f7915fde7a569b59fabba10e39be6c7a2ce2fbdc105698",
+  "backup_CSV_sha256": "9b3af258bb75c792e0b233a1ab0cd7b983444024ff76b1a15a80223274cfb231",
+  "profiles": [
+    {
+      "entry_id": "MAIN_0568B",
+      "slot": 5,
+      "pointer": 38523,
+      "file_offset": 22155,
+      "end_exclusive": 22209,
+      "font_bank": 138,
+      "text": "버스터, 안녕\n곧 내 놀이공원이\n문을 열게 된다\n그래서 너를 초대하마",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaker": "anonymous letter sender",
+      "source_raw_sha256": "61305dd42c2082b9e152d603c1735c55207431b09d09d8f79889f2b1525dc4a1"
+    },
+    {
+      "entry_id": "MAIN_056C1",
+      "slot": 6,
+      "pointer": 38577,
+      "file_offset": 22209,
+      "end_exclusive": 22254,
+      "font_bank": 140,
+      "text": "친구들도 데려와! 깜짝 놀랄 거다!\n의문의\n대부호로부터",
+      "padding": [
+        2,
+        14,
+        14
+      ],
+      "speaker": "anonymous letter sender and signature",
+      "source_raw_sha256": "34a2de8ea0ccda5f34f14e8b5df4e98e9d0cb46847ea5bd99962c9a4aa7cebdb"
+    },
+    {
+      "entry_id": "MAIN_056EE",
+      "slot": 7,
+      "pointer": 38622,
+      "file_offset": 22254,
+      "end_exclusive": 22285,
+      "font_bank": 142,
+      "text": "버스터와 친구들이 편지를 읽고\n신이 났어!",
+      "padding": [
+        4,
+        9
+      ],
+      "speaker": "narration",
+      "source_raw_sha256": "78d8618a1a0b19b8e765c90c9881ebafe1f09d3866490e0a293198a2f06072b8"
+    },
+    {
+      "entry_id": "MAIN_0570D",
+      "slot": 8,
+      "pointer": 38653,
+      "file_offset": 22285,
+      "end_exclusive": 22296,
+      "font_bank": 144,
+      "text": "「후후후」",
+      "padding": [
+        9
+      ],
+      "speaker": "villain laughter; source amusement park establishing shot",
+      "source_raw_sha256": "efa83370df6e75088fec7d356143bd1a07b571d636cc1bb25256e7b6ac4a3fbe"
+    },
+    {
+      "entry_id": "MAIN_05718",
+      "slot": 9,
+      "pointer": 38664,
+      "file_offset": 22296,
+      "end_exclusive": 22337,
+      "font_bank": 146,
+      "text": "「함정과 장치가 가득한\n놀이공원에서 너희를 기다리마!」",
+      "padding": [
+        0,
+        2
+      ],
+      "speaker": "Montana villain visible in source scene",
+      "source_raw_sha256": "4fa8837d539ed880961b566c61b4cade2f1f74f6936f5d19b39763853dc5672c"
+    }
+  ],
+  "native_punctuation": {
+    "!": 108,
+    "「": 109,
+    "」": 110
+  },
+  "explicit_TTF_punctuation": [
+    ","
+  ],
+  "CHR_banks": 152,
+  "remaining_corpus_scope": "No claim that54 extracted units exhaust the game"
+}

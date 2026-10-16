@@ -1,0 +1,30 @@
+{
+  "work": 90,
+  "files": {
+    "backups/translation/text_ja_before_gate_editorial_001.csv": "26274fdced8c950ec64d3b3dae7afbc7b92a49f8fd8fe4a31b6f92327e584c27",
+    "build/dialogue_kr_poc_047/build_report.json": "fc5f667757f33e997b095727896d25ef98ad1513b89800fdbfd2f19ddbd66881",
+    "build/dialogue_kr_poc_047/builder_used.py": "046fdd4d868eaeda392bddef59c73a6aa85464a76c9147dab5007889ea1ecb8a",
+    "build/dialogue_kr_poc_047/expected_writes.json": "992169b9b2158ff8b12465da3a9045b6a0a8f3a3f1bfa46e7877375a454c8341",
+    "build/dialogue_kr_poc_047/gate_editorial_mapping.json": "fa38b56506291d460f7124e441818df476d29dc0066ec32b0982ed2ddab47c19",
+    "build/dialogue_kr_poc_047/plan_used.json": "2ff432b5c1ab3b11da099bf9da4c2e1d42a53ab59f1f86feba2b876b17df439b",
+    "build/dialogue_kr_poc_047/TinyToon2_dialogue_kr_poc.ips": "3709578b0b4a211588ee254943dbd639643e82b39af07a295cacc6979aa20f70",
+    "build/dialogue_kr_poc_047/TinyToon2_dialogue_kr_poc.json": "d0adb42b7c5635a7beb193867518a1ae70fe03e639ac59347da8fc21d8a7267b",
+    "build/dialogue_kr_poc_047/TinyToon2_dialogue_kr_poc.nes": "82ccec59ea23e899d0bcdb22123d67cc935a13305a843ca3f1f42fb24dc80c10",
+    "build/dialogue_kr_poc_047/translation_used.csv": "ac22c5842e4f8d1600925e0837508c82f198157553031bd7cc3371fb6e4cf556",
+    "build/dialogue_kr_poc_047_rebuild090/build_report.json": "fc5f667757f33e997b095727896d25ef98ad1513b89800fdbfd2f19ddbd66881",
+    "build/dialogue_kr_poc_047_rebuild090/builder_used.py": "046fdd4d868eaeda392bddef59c73a6aa85464a76c9147dab5007889ea1ecb8a",
+    "build/dialogue_kr_poc_047_rebuild090/expected_writes.json": "992169b9b2158ff8b12465da3a9045b6a0a8f3a3f1bfa46e7877375a454c8341",
+    "build/dialogue_kr_poc_047_rebuild090/gate_editorial_mapping.json": "fa38b56506291d460f7124e441818df476d29dc0066ec32b0982ed2ddab47c19",
+    "build/dialogue_kr_poc_047_rebuild090/plan_used.json": "2ff432b5c1ab3b11da099bf9da4c2e1d42a53ab59f1f86feba2b876b17df439b",
+    "build/dialogue_kr_poc_047_rebuild090/TinyToon2_dialogue_kr_poc.ips": "3709578b0b4a211588ee254943dbd639643e82b39af07a295cacc6979aa20f70",
+    "build/dialogue_kr_poc_047_rebuild090/TinyToon2_dialogue_kr_poc.json": "d0adb42b7c5635a7beb193867518a1ae70fe03e639ac59347da8fc21d8a7267b",
+    "build/dialogue_kr_poc_047_rebuild090/TinyToon2_dialogue_kr_poc.nes": "82ccec59ea23e899d0bcdb22123d67cc935a13305a843ca3f1f42fb24dc80c10",
+    "build/dialogue_kr_poc_047_rebuild090/translation_used.csv": "ac22c5842e4f8d1600925e0837508c82f198157553031bd7cc3371fb6e4cf556",
+    "docs/GATE_EDITORIAL_BUILD.md": "2384a17cfae876319661d6b65c22081691681fa8676f20d297395fd589dc6f6c",
+    "qa/patch/gate090_한글 적용 검증/검증 결과.nes": "82ccec59ea23e899d0bcdb22123d67cc935a13305a843ca3f1f42fb24dc80c10",
+    "qa/reports/gate090_validation.json": "4182b947a5e55b409e8833ca39d2a3f65f8eaee21a9a6cf68b14236c939b718f",
+    "scripts/build_gate_editorial.py": "046fdd4d868eaeda392bddef59c73a6aa85464a76c9147dab5007889ea1ecb8a",
+    "workspace/review/editorial090/source_context_review.json": "18ef06407bd3b237cff71ae7fe70fed5401248677eb9552d6afe677567d74de5",
+    "workspace/translation/gate_editorial_plan_001.json": "2ff432b5c1ab3b11da099bf9da4c2e1d42a53ab59f1f86feba2b876b17df439b"
+  }
+}

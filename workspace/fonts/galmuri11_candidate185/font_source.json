@@ -1,0 +1,21 @@
+{
+  "candidate_only": true,
+  "font": "Galmuri11",
+  "version": "2.404 releasev2.40.4",
+  "upstream": "https://github.com/quiple/galmuri/releases/tag/v2.40.4",
+  "release_zip_sha256": "c8b3d9861a62ae73c8b1178091401cd79994812437ef386413f6dd54856e60e7",
+  "official_recommended_em_px": 12,
+  "target_actual_Hangul_ink_height_max": 11,
+  "cell": [
+    12,
+    16
+  ],
+  "rasterization": "Pillow font12; x0,y-1; no resize, antialias threshold not used: native aligned pixel shapes",
+  "license": "SIL OFL1.1; LICENSE.txt from release",
+  "files": {
+    "Galmuri11.bdf": "98716d08aa5762e6ce440d5a757d107cb5d3f32a53861878be06c00aacc23304",
+    "Galmuri11.ttf": "e24256f42e43713d2ea086a1e1669d78b968f5b3cc547e5c157f0606ffa5def1",
+    "LICENSE.txt": "86a3ee9495f942f0243f18c103da9faca27adb88142613edb8bb852e56c892c1"
+  },
+  "human_visual_approved": false
+}

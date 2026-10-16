@@ -1,0 +1,15 @@
+{
+  "work": 125,
+  "files": {
+    "scripts/review_prose125.py": "e265bcb34ff080194103cfe4c35e3651e1e4dbe900f98a82ead4f2de090d676a",
+    "workspace/translation/prose_review_125.json": "d65475e264779e30509cf758945fbdbc8729890ab9701f1f9c0fa9915c53180c",
+    "docs/PROSE_FIDELITY_REVIEW_125.md": "94d50fa7300378366f96e113f4a9408085c6e1000c891aa4db1da189adadf066",
+    "workspace/translation/text_ja.csv": "ac22c5842e4f8d1600925e0837508c82f198157553031bd7cc3371fb6e4cf556",
+    "workspace/translation/scene_context_105.json": "f085ed822e44e2ff9c946297549879dda1e2bfa029beb7b213fea61e275149ae",
+    "qa/reports/context105_review.json": "aa3d8d898615aac7dd3e86f30cbb50d2010d934327887727409b36dcaeb18020",
+    "qa/reports/context106_closeout.json": "399e5d4aa880b6533cdf109c78457654b0a4d780e74f3bb98fb91cc871927e98",
+    "build/dialogue_kr_poc_047/TinyToon2_dialogue_kr_poc.nes": "82ccec59ea23e899d0bcdb22123d67cc935a13305a843ca3f1f42fb24dc80c10",
+    "workspace/translation/ui_stage_lower_plan_001.json": "bfc8869f00e1e920fc3be721c4fed7dddff7ebb3784d20c3b66a74f1371d28fb",
+    "docs/STOP_KOREAN.md": "7e4e1f9462ea04ca5c59b36f082d51cd66c880bd160653f8403ddb2e34bdf7c6"
+  }
+}

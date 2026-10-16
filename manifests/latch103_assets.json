@@ -1,0 +1,10 @@
+{
+  "work": 103,
+  "files": {
+    "docs/IRQ_FONT_LATCH_BOUNDS.md": "6b32d7916b2866bad7d6f9318c250340f9d96a0754dcebb4ceac6cf70ad0955e",
+    "scripts/analyze_irq_latch103.py": "accfabd310cc4e2cfc145be057ccef359d20c40ef3fbd61213685e79f25168c3",
+    "scripts/analyze_irq_latch103_v2.py": "653fb3c128c08f262f13d8d0e399092c643a15d5960b1a9e9f29d253242c6cd2",
+    "qa/reports/latch103_supply.json": "f1444084e9847aa1affcdceb4fc287c301e7407cbc9636cff468c514b4fcd897",
+    "qa/reports/latch103_v1_observation.json": "9e37d234e541ab19f53e882a7b4b7f2f0a806e121e7e5b198c056873d0ee9a7c"
+  }
+}

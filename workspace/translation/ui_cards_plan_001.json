@@ -1,0 +1,266 @@
+{
+  "profiles": [
+    {
+      "entry_id": "MAIN_05833",
+      "slot": 29,
+      "slots": [
+        29
+      ],
+      "pointer": 38947,
+      "source_file_offset": 22579,
+      "end_exclusive": 22601,
+      "source_raw_sha256": "139eec6d1b425e2a6e41381fbe17a0e57011fcf2b794908dd1df2acd7b652640",
+      "text": "요금은 티켓 {variable_FA}장\n티켓을 내줘!",
+      "font_bank": 193,
+      "padding": [
+        3,
+        0
+      ],
+      "scene": "Native ride card: rule9E8B/title9E9B/cost9417, RAM34 NMI top plus profile2 lower IRQ; five observed routes",
+      "speaker": "Buster",
+      "screen_kind": "cost_lower",
+      "NT": 8872,
+      "screen_x": 64,
+      "screen_y": 163
+    },
+    {
+      "entry_id": "MAIN_05849",
+      "slot": 30,
+      "slots": [
+        30
+      ],
+      "pointer": 38969,
+      "source_file_offset": 22601,
+      "end_exclusive": 22631,
+      "source_raw_sha256": "554176115dacc262debda28cc2b24ea9254de9fbcdc92159c6be02cb21ad7a80",
+      "text": "고속 질주 롤러코스터\n장애물을 모두 피하자!",
+      "font_bank": 193,
+      "padding": [
+        3,
+        0
+      ],
+      "scene": "Native ride card: rule9E8B/title9E9B/cost9417, RAM34 NMI top plus profile2 lower IRQ; five observed routes",
+      "speaker": "Buster",
+      "screen_kind": "rules_top",
+      "NT": 8485,
+      "screen_x": 40,
+      "screen_y": 72
+    },
+    {
+      "entry_id": "MAIN_05867",
+      "slot": 31,
+      "slots": [
+        31
+      ],
+      "pointer": 38999,
+      "source_file_offset": 22631,
+      "end_exclusive": 22658,
+      "source_raw_sha256": "a02b685e5c6fef0c56f2aaf494e6366ab36837a97cc28e93fe2e30d105e017f8",
+      "text": "적 카트를 잘 튕겨내서\n구멍에 떨어뜨려!",
+      "font_bank": 193,
+      "padding": [
+        0,
+        0
+      ],
+      "scene": "Native ride card: rule9E8B/title9E9B/cost9417, RAM34 NMI top plus profile2 lower IRQ; five observed routes",
+      "speaker": "Buster",
+      "screen_kind": "rules_top",
+      "NT": 8485,
+      "screen_x": 40,
+      "screen_y": 72
+    },
+    {
+      "entry_id": "MAIN_05882",
+      "slot": 32,
+      "slots": [
+        32
+      ],
+      "pointer": 39026,
+      "source_file_offset": 22658,
+      "end_exclusive": 22694,
+      "source_raw_sha256": "5ff124a05282fb0dfa71ca27650eec1029d04c6d7ea2a7624f8706c9d16bd232",
+      "text": "기차   위를 계속 달려!\n맨 앞 보스에게 도전하자!",
+      "font_bank": 193,
+      "padding": [
+        0,
+        0
+      ],
+      "scene": "Native ride card: rule9E8B/title9E9B/cost9417, RAM34 NMI top plus profile2 lower IRQ; five observed routes",
+      "speaker": "Buster",
+      "screen_kind": "rules_top",
+      "NT": 8485,
+      "screen_x": 40,
+      "screen_y": 72
+    },
+    {
+      "entry_id": "MAIN_058A6",
+      "slot": 33,
+      "slots": [
+        33
+      ],
+      "pointer": 39062,
+      "source_file_offset": 22694,
+      "end_exclusive": 22733,
+      "source_raw_sha256": "4ad233fc735d0128de3744256e39f9fa1e9375de20be6b4a700115093b78bf57",
+      "text": "통나무 균형을 잘 잡고\n급류를 타고 내려가!",
+      "font_bank": 193,
+      "padding": [
+        0,
+        0
+      ],
+      "scene": "Native ride card: rule9E8B/title9E9B/cost9417, RAM34 NMI top plus profile2 lower IRQ; five observed routes",
+      "speaker": "Buster",
+      "screen_kind": "rules_top",
+      "NT": 8485,
+      "screen_x": 40,
+      "screen_y": 72
+    },
+    {
+      "entry_id": "MAIN_058CD",
+      "slot": 34,
+      "slots": [
+        34
+      ],
+      "pointer": 39101,
+      "source_file_offset": 22733,
+      "end_exclusive": 22768,
+      "source_raw_sha256": "d96cd3843f302273ad2a5ffbe1746359edd4d85f8d999c93b843ae1919b2ff57",
+      "text": "드디어 마지막 스테이지!\n여러 장치들을 잘 피해!",
+      "font_bank": 193,
+      "padding": [
+        0,
+        0
+      ],
+      "scene": "Native ride card: rule9E8B/title9E9B/cost9417, RAM34 NMI top plus profile2 lower IRQ; five observed routes",
+      "speaker": "Buster",
+      "screen_kind": "rules_top",
+      "NT": 8485,
+      "screen_x": 40,
+      "screen_y": 72
+    },
+    {
+      "entry_id": "MAIN_058F2",
+      "slot": 36,
+      "slots": [
+        36
+      ],
+      "pointer": 39138,
+      "source_file_offset": 22770,
+      "end_exclusive": 22774,
+      "source_raw_sha256": "9ba341360b0484589e9d4135e7d7976b082914d6819b027b7f99bb96a4b3bf1a",
+      "text": "롤러코스터",
+      "font_bank": 193,
+      "padding": [
+        5
+      ],
+      "scene": "Native ride card: rule9E8B/title9E9B/cost9417, RAM34 NMI top plus profile2 lower IRQ; five observed routes",
+      "speaker": "Buster",
+      "screen_kind": "title_top",
+      "NT": 8358,
+      "screen_x": 48,
+      "screen_y": 40
+    },
+    {
+      "entry_id": "MAIN_058F6",
+      "slot": 37,
+      "slots": [
+        37
+      ],
+      "pointer": 39142,
+      "source_file_offset": 22774,
+      "end_exclusive": 22778,
+      "source_raw_sha256": "96eb75808aff988d033606a6c0d2c9e626472e45201b0b0dbedc077d3d15e857",
+      "text": "쇼킹카트",
+      "font_bank": 193,
+      "padding": [
+        5
+      ],
+      "scene": "Native ride card: rule9E8B/title9E9B/cost9417, RAM34 NMI top plus profile2 lower IRQ; five observed routes",
+      "speaker": "Buster",
+      "screen_kind": "title_top",
+      "NT": 8358,
+      "screen_x": 48,
+      "screen_y": 40
+    },
+    {
+      "entry_id": "MAIN_058FA",
+      "slot": 38,
+      "slots": [
+        38
+      ],
+      "pointer": 39146,
+      "source_file_offset": 22778,
+      "end_exclusive": 22782,
+      "source_raw_sha256": "a70ba479cfef9b43517c159eb078527adfa13567002bacd5832ac29c661e751a",
+      "text": "기차",
+      "font_bank": 193,
+      "padding": [
+        7
+      ],
+      "scene": "Native ride card: rule9E8B/title9E9B/cost9417, RAM34 NMI top plus profile2 lower IRQ; five observed routes",
+      "speaker": "Buster",
+      "screen_kind": "title_top",
+      "NT": 8358,
+      "screen_x": 48,
+      "screen_y": 40
+    },
+    {
+      "entry_id": "MAIN_058FE",
+      "slot": 39,
+      "slots": [
+        39
+      ],
+      "pointer": 39150,
+      "source_file_offset": 22782,
+      "end_exclusive": 22786,
+      "source_raw_sha256": "c081b7dfd6eb2657335d04c1ba730ad4fbd857bafbb029496b5a53495f3eac0f",
+      "text": "급류타기",
+      "font_bank": 193,
+      "padding": [
+        5
+      ],
+      "scene": "Native ride card: rule9E8B/title9E9B/cost9417, RAM34 NMI top plus profile2 lower IRQ; five observed routes",
+      "speaker": "Buster",
+      "screen_kind": "title_top",
+      "NT": 8358,
+      "screen_x": 48,
+      "screen_y": 40
+    },
+    {
+      "entry_id": "MAIN_05902",
+      "slot": 40,
+      "slots": [
+        40
+      ],
+      "pointer": 39154,
+      "source_file_offset": 22786,
+      "end_exclusive": 22796,
+      "source_raw_sha256": "5a7c01609dc59479857d3f9937752f48f834ea263d24ccdc9ecf0524d99002e0",
+      "text": "수수께끼의 성",
+      "font_bank": 193,
+      "padding": [
+        5
+      ],
+      "scene": "Native ride card: rule9E8B/title9E9B/cost9417, RAM34 NMI top plus profile2 lower IRQ; five observed routes",
+      "speaker": "Buster",
+      "screen_kind": "title_top",
+      "NT": 8358,
+      "screen_x": 48,
+      "screen_y": 40
+    }
+  ],
+  "native_punctuation": {
+    "?": 107,
+    "!": 108,
+    "「": 109,
+    "」": 110
+  },
+  "date": "2026-10-05",
+  "source_sha256": "f41607b80904a2e1150a155121405dd1fed007ce98ff00a274a7891cafd7e32d",
+  "prior_build": "dialogue_kr_poc_032",
+  "prior_ROM_sha256": "c4b40639bafba6a25a1c186c82005963ec4fecdf8d3a22308eaf1ab6643a7d67",
+  "backup_CSV_sha256": "ba881bbffdaf4f5fa84d43f941d9166914e156358a7337c3b1bb66be8af33c86",
+  "CSV_sha256": "347876b63d580132e06dbdf9c28350bac4f83ed5cc74e631ddddf3dc9458d08d",
+  "scope": "11 title/rule/cost card drafts; all29 previous drafts retained; no release",
+  "review": "Draft; final proper names and tone review pending"
+}

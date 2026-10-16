@@ -1,0 +1,10 @@
+{
+  "work": 227,
+  "status": "PASS_POST_CLEANUP",
+  "sealed227_sha256": "6d43d73320d51deea39d1d435f0a7ae2649b1a48c317369855d5f6a3a9885dba",
+  "files": {
+    "scripts/cleanup_technical227.ps1": "17ec563dafc60e7b91145c6ab6e0a523713651772269dc894e46bda69e419ef3",
+    "scripts/finish_technical227.py": "d4f3bcadbb016367e4d1787ffb2cbc6d3fccab7bbce997727c842d7e6758015c",
+    "qa/reports/technical227_cache_cleanup.json": "0bf63fabd3b4ffdcbaf7c72395dfa8b54be54e25979ebab0cd9b00015f682698"
+  }
+}

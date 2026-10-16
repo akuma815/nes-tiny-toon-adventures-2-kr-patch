@@ -1,0 +1,57 @@
+{
+  "version": "1.0",
+  "date": "2026-10-09",
+  "status": "FINAL_RELEASE_USER_INITIAL_PLAYTHROUGH_REPORTED_POST_RELEASE_QA_PLANNED",
+  "user_requested_final_package": true,
+  "ROM_free": true,
+  "source": {
+    "name": "Tiny Toon Adventures 2 - Montana Land e Youkoso (Japan).nes",
+    "bytes": 262160,
+    "sha256": "f41607b80904a2e1150a155121405dd1fed007ce98ff00a274a7891cafd7e32d"
+  },
+  "target": {
+    "name": "TinyToon2_KR_v1.0.nes",
+    "bytes": 524304,
+    "sha256": "7e32acb4ac08d47ec821421d0ebf704fd98225be194e736f9fff7b1b5b5722ce",
+    "data_baseline": "062"
+  },
+  "patch": {
+    "file": "TinyToonAdventures2_KR_v1.0_Release_20261009.xdelta",
+    "bytes": 17323,
+    "sha256": "ddd29d4b8c12d242356be5b488259fc0feab05a1ae8d66e05e32211f34e48076"
+  },
+  "regenerated_exact062": true,
+  "ExpectedWrite_records": 10,
+  "Windows_apply_checks": 8,
+  "registered_11px_paragraphs": {
+    "opening": 9,
+    "ordinary": 33,
+    "credits": 3
+  },
+  "compact_graphic_size": "Preserved",
+  "original_retention": [
+    "HOWTO",
+    "PAUSE",
+    "POW",
+    "RYO51",
+    "NT1C",
+    "diagnostic STAGE SELECT"
+  ],
+  "CPU_NMI_IRQ_evidence": "Scoped exact062; runtime/hardware/whole-game proof not claimed",
+  "actual062_visual_gameplay_review": "COMPLETED_INITIAL_USER_REPORT_2026-10-09",
+  "human_translation_signoff": "Artifact selected for release by user; row-level CSV statuses preserved",
+  "save_state_compatibility": "NOT_VERIFIED",
+  "global_text_population_closed": false,
+  "post_distribution_validation": "REQUIRED_PLANNED",
+  "user_review": {
+    "date": "2026-10-09",
+    "artifact": "062",
+    "ROM_sha256": "7e32acb4ac08d47ec821421d0ebf704fd98225be194e736f9fff7b1b5b5722ce",
+    "reported_by": "user",
+    "message": "062 실제 화면 완주는 내가 1차 완료 했고, 배포 이후 검증 필요해",
+    "initial_actual_screen_playthrough": "COMPLETED_USER_REPORTED",
+    "post_distribution_validation": "REQUIRED_PLANNED",
+    "new_agent_emulator_execution": false,
+    "new_capture_or_input_log_submitted": false
+  }
+}

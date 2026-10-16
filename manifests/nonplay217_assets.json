@@ -1,0 +1,17 @@
+{
+  "work": 217,
+  "files": {
+    "build/dialogue_kr_poc_051/TinyToon2_dialogue_kr_poc.nes": "b8bad5f333d4dfd04bbcb3e67dfddc0b4972486199810a2d9e5c0f45af3acb24",
+    "build/text11_candidate_062/TinyToon2_Text11_Candidate062.ips": "13023b6eb6b4a4bf61f112f8d3fa2b90f4543307931c361eec3de05bc2762b8d",
+    "build/text11_candidate_062/TinyToon2_Text11_Candidate062.nes": "7e32acb4ac08d47ec821421d0ebf704fd98225be194e736f9fff7b1b5b5722ce",
+    "dist/TinyToonAdventures2_KR_Text11_Candidate062_20261009.zip": "377b16522c31f3516869c9eb14acb925799ceeefa1051d06508570770bc19575",
+    "manifests/nonplay216_assets.json": "8d51a05c082975e20785b9226ad404bb7fbd9f44bfbf20204231ea4c9f6136f6",
+    "original/rom/Tiny Toon Adventures 2 - Montana Land e Youkoso (Japan).nes": "f41607b80904a2e1150a155121405dd1fed007ce98ff00a274a7891cafd7e32d",
+    "qa/reports/irq217_injection.json": "28fd65524f630f7c314f0a5921b1b95b2459a61740a073eb2ea3a899684d769b",
+    "scripts/audit_irq217.py": "f9be35c808c61064f5f36e8c6165ade976b76a98f0e9a6e58e6fc97db12ed0c3",
+    "scripts/seal_irq217.py": "73793ef769b511ac404f65ea8d26b88b5833260227311720d26afe48d2f564ed",
+    "scripts/seal_nonplay171.py": "847e7b5c4030035e6cb3ea3b54daf7fbe73546e89e286029051aebfd79790a9a",
+    "workspace/translation/text_ja.csv": "43bc5fe4218d8d01d29425f4dacdc5e92b7eae3db40cb1bb1852ca3e4e7f990f",
+    "docs/TEXT11_IRQ_INJECTION_217.md": "7a10210797bdf1cf3a23eb3c8d8d7e87df7a5502b3096272c6559672b5194e28"
+  }
+}

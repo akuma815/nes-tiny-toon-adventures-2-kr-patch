@@ -1,0 +1,96 @@
+{
+  "source_sha256": "f41607b80904a2e1150a155121405dd1fed007ce98ff00a274a7891cafd7e32d",
+  "evidence": [
+    "qa/title/register_trace_001",
+    "qa/title/load_trace_001",
+    "qa/title/chr_stream_trace_001/chr_stream_copies.csv",
+    "extracted/title/title_20261004_001/main_nametable.bin",
+    "extracted/title/title_20261004_001/ribbon_nametable.bin"
+  ],
+  "split_scanline": [
+    111,
+    112
+  ],
+  "sections": [
+    {
+      "name": "main",
+      "chr_file_base": 225296,
+      "chr_page": 17,
+      "nametable_ppu_base": 8192,
+      "logical_box": [
+        40,
+        24,
+        216,
+        112
+      ],
+      "display_dy": 0,
+      "selector": 4,
+      "stream_file_start": 149817,
+      "stream_file_end_exclusive": 149927,
+      "ppu_source_start": 4393,
+      "ppu_source_end_exclusive": 4503
+    },
+    {
+      "name": "ribbon",
+      "chr_file_base": 233488,
+      "chr_page": 19,
+      "nametable_ppu_base": 10240,
+      "logical_box": [
+        32,
+        112,
+        224,
+        144
+      ],
+      "display_dy": -2,
+      "selector": 6,
+      "stream_file_start": 149927,
+      "stream_file_end_exclusive": 150027,
+      "ppu_source_start": 4503,
+      "ppu_source_end_exclusive": 4603
+    }
+  ],
+  "consumer": {
+    "prg_bank": 2,
+    "ppu_read_copy_cpu": 33272,
+    "ram_copy_start": 1024,
+    "decompress_call_cpu": 33302,
+    "callback_physical_prg_offset": 16918,
+    "ppu_write_instruction_cpu": [
+      32878,
+      32907,
+      32928
+    ],
+    "observed_original_frame": 593,
+    "copied_streams_match_original_rom": true,
+    "expanded_bytes_per_stream": 1024
+  },
+  "codec": {
+    "end": 255,
+    "new_destination": 127,
+    "repeat_256_command": 0,
+    "repeat_range": [
+      1,
+      126
+    ],
+    "literal_range": [
+      129,
+      191
+    ],
+    "increment_range": [
+      193,
+      254
+    ],
+    "increment_max_encoder": 62
+  },
+  "stream_boundary_pointer_file": 16969,
+  "stream_boundary_pointer_original_hex": "9711",
+  "protected": [
+    "shared background tile0",
+    "NT attributes",
+    "ribbon silhouette",
+    "sprite numeral2 in CHR1KiB bank95",
+    "PUSH START",
+    "copyright"
+  ],
+  "ownership_limit": "Tile exclusivity proven within title layout; unvisited scene sharing not excluded."
+}

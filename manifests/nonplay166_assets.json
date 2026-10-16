@@ -1,0 +1,25 @@
+{
+  "work": 166,
+  "files": {
+    "build/dialogue_kr_poc_049/TinyToon2_dialogue_kr_poc.nes": "31dfae821a603d8923b9a32bc1c0bb1ef19b6b98bd2f1670b29e4ea5e4b0f0aa",
+    "extracted/text/table_20261004_001/text_tokens.json": "814a194acbbb611a9ae005a2a7fd1e76335cfae3fd71e6685c0f222f7f0d5f1e",
+    "original/rom/Tiny Toon Adventures 2 - Montana Land e Youkoso (Japan).nes": "f41607b80904a2e1150a155121405dd1fed007ce98ff00a274a7891cafd7e32d",
+    "qa/reports/nonplay166_inventory.json": "87cc77ac463033f242f1655c8e25cdfb9ef2b91f94642c0bc516b94a37513d1b",
+    "qa/reports/printer113_catalog.json": "88b8cc39cce61c6b7662ee1dc96941a2b68671d43a8df84e3340ac305e8fbed2",
+    "scripts/inventory_nonplay166.py": "5bd15d83fa5e27c7ad5ea64a569848263d16e1eccbeff8872361f97ecfa9249b",
+    "scripts/seal_nonplay166.py": "9ab7b9f5035f3048b0dc0ae0e3e2341836b01c526339c25e54083e5187870978",
+    "work/graphics_population_001/native_NT_catalog.json": "6de6e36c006daa77eaf645a7b84c339d1190e76b7d862a11395db20347391f17",
+    "workspace/review/translation049_20261006/review_records.json": "3fee9431e919c3e23dffa8d87221ef5fe040c1505b862649b33b57e6f35cded5",
+    "workspace/translation/booth_graphics_plan_001.json": "f581256c90bf7bad69d7a99a6451b896a10cb4679467a7553431ca3d80890472",
+    "workspace/translation/game_hud_plan_001.json": "14e622ff9683992071f0604e74fcb95775707d1ea13d6c3e933fbbd279c89554",
+    "workspace/translation/gameover_graphics_plan_001.json": "d203531601228014b8ea73dc8641b694dfd79efd4b28e33ae9656af71815d871",
+    "workspace/translation/nonplay_inventory049_166.json": "1c4b2ba933aa261cb895d880a8e71a241d828ce436d67a1dbba635f112d47ec1",
+    "workspace/translation/notices_graphics_plan_001.json": "d6cbede1c09879fa4c274543ccab59348527389ee992ccbe619b36dd285057fc",
+    "workspace/translation/results_graphics_plan_001.json": "d059d51806de8e07f9453536ed7ffabd8acb48472c7ad18b001db2b01f0d9bb0",
+    "workspace/translation/start_graphics_plan_001.json": "ef1aa198318c72c4fb63d9c69e105b5b80503cd61456bb8252c8d0151f6628d7",
+    "workspace/translation/stop_graphics_plan_001.json": "5a1c78cd62df5b656f2af156c67ddcbabc46f5bba29fc581c199605a873a4164",
+    "workspace/translation/text_ja.csv": "43bc5fe4218d8d01d29425f4dacdc5e92b7eae3db40cb1bb1852ca3e4e7f990f",
+    "workspace/translation/train_sign_graphics_plan_001.json": "0ccd4a6d6cad29b27ad79fefdf1501a83fe30d42f7b9112be87751644f4f6f21",
+    "docs/CURRENT049_NONPLAY_SOURCE_INVENTORY.md": "2a561cc6c260aa24ac8827d182a4c105d5bf6fec21a496097586108ceb80321e"
+  }
+}

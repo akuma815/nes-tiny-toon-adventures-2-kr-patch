@@ -1,0 +1,419 @@
+{
+  "date": "2026-10-05",
+  "work": 40,
+  "exact_text": "몬타나 랜드",
+  "generation": "built-in image_gen edit; source banner reference",
+  "AI_source": "workspace/graphics/map_banner_ai_001.png",
+  "AI_sha256": "9280a6e8bc3b0752390bf1d281aae56238d1f81eb023bfed197d611f925cdc53",
+  "AI_crop_region": [
+    437,
+    259,
+    1709,
+    468
+  ],
+  "native_letter_size": [
+    79,
+    13
+  ],
+  "placement": [
+    32,
+    1
+  ],
+  "admitted_local_letter_box": [
+    6,
+    0,
+    137,
+    16
+  ],
+  "native_frame_pixels_unchanged": true,
+  "NT_mapping_unchanged": true,
+  "palette_unchanged": true,
+  "changes": [
+    {
+      "NT": 8296,
+      "tile": 7,
+      "source_file_offset": 213120,
+      "expanded_file_offset": 344192,
+      "source_raw_hex": "000070787d7f7f7fffffff7e7d7f7f7f",
+      "CHR_bank": 80,
+      "mapped_top_occurrences": [
+        8296
+      ],
+      "final_hex": "0000000000000000ffffffffffffffff"
+    },
+    {
+      "NT": 8297,
+      "tile": 8,
+      "source_file_offset": 213136,
+      "expanded_file_offset": 344208,
+      "source_raw_hex": "000070f1f3f3f3f7ffff7ffdfbfbf3f7",
+      "CHR_bank": 80,
+      "mapped_top_occurrences": [
+        8297
+      ],
+      "final_hex": "0000000000000000ffffffffffffffff"
+    },
+    {
+      "NT": 8298,
+      "tile": 9,
+      "source_file_offset": 213152,
+      "expanded_file_offset": 344224,
+      "source_raw_hex": "0000f0f8fcfc9e0efffffffefefe9ece",
+      "CHR_bank": 80,
+      "mapped_top_occurrences": [
+        8298
+      ],
+      "final_hex": "0000000000000000ffffffffffffffff"
+    },
+    {
+      "NT": 8299,
+      "tile": 10,
+      "source_file_offset": 213168,
+      "expanded_file_offset": 344240,
+      "source_raw_hex": "0000e1f1f9fdfffffffffff5f9fdffff",
+      "CHR_bank": 80,
+      "mapped_top_occurrences": [
+        8299
+      ],
+      "final_hex": "003f3f383f1f037fffffbfb8bf9fc3ff"
+    },
+    {
+      "NT": 8300,
+      "tile": 11,
+      "source_file_offset": 213184,
+      "expanded_file_offset": 344256,
+      "source_raw_hex": "0000dfdfdfc3c3c3ffffffdfdfc3fbfb",
+      "CHR_bank": 80,
+      "mapped_top_occurrences": [
+        8300
+      ],
+      "final_hex": "00f8f838f8f880fcfffffe3efefe8efe"
+    },
+    {
+      "NT": 8301,
+      "tile": 12,
+      "source_file_offset": 213200,
+      "expanded_file_offset": 344272,
+      "source_raw_hex": "0000f3f7f7878e8efffffff7f797eeee",
+      "CHR_bank": 80,
+      "mapped_top_occurrences": [
+        8301
+      ],
+      "final_hex": "00fefefee0fefefefffffefee2fefefe"
+    },
+    {
+      "NT": 8302,
+      "tile": 13,
+      "source_file_offset": 213216,
+      "expanded_file_offset": 344288,
+      "source_raw_hex": "000083c3c3c3e3e3fffffffbfbfbfbfb",
+      "CHR_bank": 80,
+      "mapped_top_occurrences": [
+        8302
+      ],
+      "final_hex": "00f1f1f1f1f1fdfdfffffdfdfdfdfdfd"
+    },
+    {
+      "NT": 8303,
+      "tile": 14,
+      "source_file_offset": 213232,
+      "expanded_file_offset": 344304,
+      "source_raw_hex": "000087c7e7f7ffffffffffd7e7f7ffff",
+      "CHR_bank": 80,
+      "mapped_top_occurrences": [
+        8303
+      ],
+      "final_hex": "00c0c0c0c0c0c0c0fffffefefefefefe"
+    },
+    {
+      "NT": 8304,
+      "tile": 117,
+      "source_file_offset": 214880,
+      "expanded_file_offset": 345952,
+      "source_raw_hex": "0000070f0f0f1d1dffffffefefefdddd",
+      "CHR_bank": 81,
+      "mapped_top_occurrences": [
+        8304
+      ],
+      "final_hex": "00e0e0e0e0e0f8f8ffffffffffffffff"
+    },
+    {
+      "NT": 8305,
+      "tile": 118,
+      "source_file_offset": 214896,
+      "expanded_file_offset": 345968,
+      "source_raw_hex": "000000808080c0c0ffffffffffffffff",
+      "CHR_bank": 81,
+      "mapped_top_occurrences": [
+        8305
+      ],
+      "final_hex": "001f1f031f1c1f0fffffdfc3ffdcdfcf"
+    },
+    {
+      "NT": 8306,
+      "tile": 119,
+      "source_file_offset": 214912,
+      "expanded_file_offset": 345984,
+      "source_raw_hex": "00001c1c1c1c1c1cffffffdfdfdfdfdf",
+      "CHR_bank": 81,
+      "mapped_top_occurrences": [
+        8306
+      ],
+      "final_hex": "00bfbfbfbf3fbfbfffffbfbfbf3fbfbf"
+    },
+    {
+      "NT": 8307,
+      "tile": 120,
+      "source_file_offset": 214928,
+      "expanded_file_offset": 346000,
+      "source_raw_hex": "0000000000000101fffffffefefefdfd",
+      "CHR_bank": 81,
+      "mapped_top_occurrences": [
+        8307
+      ],
+      "final_hex": "001f1f1c1c1c1f1fffffdfdcdfdfdfdf"
+    },
+    {
+      "NT": 8308,
+      "tile": 121,
+      "source_file_offset": 214944,
+      "expanded_file_offset": 346016,
+      "source_raw_hex": "000070f8f8f8dcdcffffffffffffdfdf",
+      "CHR_bank": 81,
+      "mapped_top_occurrences": [
+        8308
+      ],
+      "final_hex": "00f8f8000000fcfcffffff07ffffffff"
+    },
+    {
+      "NT": 8309,
+      "tile": 122,
+      "source_file_offset": 214960,
+      "expanded_file_offset": 346032,
+      "source_raw_hex": "000070787c7e7f7fffffff7a7c7e7f7f",
+      "CHR_bank": 81,
+      "mapped_top_occurrences": [
+        8309
+      ],
+      "final_hex": "0000000000000000ffffffffffffffff"
+    },
+    {
+      "NT": 8310,
+      "tile": 123,
+      "source_file_offset": 214976,
+      "expanded_file_offset": 346048,
+      "source_raw_hex": "0000efefefeeeeeeffffffefefeeefef",
+      "CHR_bank": 81,
+      "mapped_top_occurrences": [
+        8310
+      ],
+      "final_hex": "0000000000000000ffffffffffffffff"
+    },
+    {
+      "NT": 8311,
+      "tile": 124,
+      "source_file_offset": 214992,
+      "expanded_file_offset": 346064,
+      "source_raw_hex": "0000e0f8fc3c1e0effffffffff3f9fcf",
+      "CHR_bank": 81,
+      "mapped_top_occurrences": [
+        8311
+      ],
+      "final_hex": "0000000000000000ffffffffffffffff"
+    },
+    {
+      "NT": 8328,
+      "tile": 20,
+      "source_file_offset": 213328,
+      "expanded_file_offset": 344400,
+      "source_raw_hex": "7f777270707000007f7772797f7f1fff",
+      "CHR_bank": 80,
+      "mapped_top_occurrences": [
+        8328
+      ],
+      "final_hex": "0000000000000000ffffffffffffffff"
+    },
+    {
+      "NT": 8329,
+      "tile": 21,
+      "source_file_offset": 213344,
+      "expanded_file_offset": 344416,
+      "source_raw_hex": "f777737371700000f7777373797c1eff",
+      "CHR_bank": 80,
+      "mapped_top_occurrences": [
+        8329
+      ],
+      "final_hex": "0000000000000000ffffffffffffffff"
+    },
+    {
+      "NT": 8330,
+      "tile": 22,
+      "source_file_offset": 213360,
+      "expanded_file_offset": 344432,
+      "source_raw_hex": "0e9efcfcf8f00000eedefefefefe1eff",
+      "CHR_bank": 80,
+      "mapped_top_occurrences": [
+        8330
+      ],
+      "final_hex": "0000000000000000ffffffffffffffff"
+    },
+    {
+      "NT": 8331,
+      "tile": 23,
+      "source_file_offset": 213376,
+      "expanded_file_offset": 344448,
+      "source_raw_hex": "ffffefe7e3e10000ffffefe7f3f93cff",
+      "CHR_bank": 80,
+      "mapped_top_occurrences": [
+        8331
+      ],
+      "final_hex": "7f3c3c3f1f0000007f3cbfbf9fc0ffff"
+    },
+    {
+      "NT": 8332,
+      "tile": 24,
+      "source_file_offset": 213392,
+      "expanded_file_offset": 344464,
+      "source_raw_hex": "c3c3c3c3c3c30000fbfbfbfbfbfb78ff",
+      "CHR_bank": 80,
+      "mapped_top_occurrences": [
+        8332
+      ],
+      "final_hex": "fc0000f8f8000000fe06fefeff0fffff"
+    },
+    {
+      "NT": 8333,
+      "tile": 25,
+      "source_file_offset": 213408,
+      "expanded_file_offset": 344480,
+      "source_raw_hex": "8c9c9f9fbcbc0000cedfdf9fbcbf87ff",
+      "CHR_bank": 80,
+      "mapped_top_occurrences": [
+        8333
+      ],
+      "final_hex": "e0fefe7e00000000e2fefe7e02feffff"
+    },
+    {
+      "NT": 8334,
+      "tile": 26,
+      "source_file_offset": 213424,
+      "expanded_file_offset": 344496,
+      "source_raw_hex": "6373f3f37b7b00007b7bfbfb7b7b08ff",
+      "CHR_bank": 80,
+      "mapped_top_occurrences": [
+        8334
+      ],
+      "final_hex": "f1f1f1f0f0000000f5fdfdfcfe1fffff"
+    },
+    {
+      "NT": 8335,
+      "tile": 27,
+      "source_file_offset": 213440,
+      "expanded_file_offset": 344512,
+      "source_raw_hex": "ffffbf9f8f870000ffffbf9fcfe7f1ff",
+      "CHR_bank": 80,
+      "mapped_top_occurrences": [
+        8335
+      ],
+      "final_hex": "c0fefefe00000000fefefefe02feffff"
+    },
+    {
+      "NT": 8336,
+      "tile": 129,
+      "source_file_offset": 215072,
+      "expanded_file_offset": 346144,
+      "source_raw_hex": "18383f3f787800009cbebf3f787e0eff",
+      "CHR_bank": 82,
+      "mapped_top_occurrences": [
+        8336
+      ],
+      "final_hex": "e0e0e0e0e0000000efffffffff3fffff"
+    },
+    {
+      "NT": 8337,
+      "tile": 130,
+      "source_file_offset": 215088,
+      "expanded_file_offset": 346160,
+      "source_raw_hex": "c0e0e0e0f0f00000ffffffffffff1fff",
+      "CHR_bank": 82,
+      "mapped_top_occurrences": [
+        8337
+      ],
+      "final_hex": "0007070703000000e0fff7f7f3f8ffff"
+    },
+    {
+      "NT": 8338,
+      "tile": 131,
+      "source_file_offset": 215104,
+      "expanded_file_offset": 346176,
+      "source_raw_hex": "1c1c1c1f1f1f0000dfdfdfdfdfdfc0ff",
+      "CHR_bank": 82,
+      "mapped_top_occurrences": [
+        8338
+      ],
+      "final_hex": "378080ffff000000bf88ffffff01ffff"
+    },
+    {
+      "NT": 8339,
+      "tile": 132,
+      "source_file_offset": 215120,
+      "expanded_file_offset": 346192,
+      "source_raw_hex": "010303f3f7f70000f9fbfbf3f7f710ff",
+      "CHR_bank": 82,
+      "mapped_top_occurrences": [
+        8339
+      ],
+      "final_hex": "0f003f3f3f000000cfe0ffbfbf80ffff"
+    },
+    {
+      "NT": 8340,
+      "tile": 133,
+      "source_file_offset": 215136,
+      "expanded_file_offset": 346208,
+      "source_raw_hex": "8c8efefe8f8f0000cfefffff8fefe1ff",
+      "CHR_bank": 82,
+      "mapped_top_occurrences": [
+        8340
+      ],
+      "final_hex": "fc00fefefe000000ff07ffffff03ffff"
+    },
+    {
+      "NT": 8341,
+      "tile": 134,
+      "source_file_offset": 215152,
+      "expanded_file_offset": 346224,
+      "source_raw_hex": "7f7f7773717000007f7f7773797c0eff",
+      "CHR_bank": 82,
+      "mapped_top_occurrences": [
+        8341
+      ],
+      "final_hex": "0000000000000000ffffffffffffffff"
+    },
+    {
+      "NT": 8342,
+      "tile": 135,
+      "source_file_offset": 215168,
+      "expanded_file_offset": 346240,
+      "source_raw_hex": "eeeeeeefefef0000efefefefefef20ff",
+      "CHR_bank": 82,
+      "mapped_top_occurrences": [
+        8342
+      ],
+      "final_hex": "0000000000000000ffffffffffffffff"
+    },
+    {
+      "NT": 8343,
+      "tile": 136,
+      "source_file_offset": 215184,
+      "expanded_file_offset": 346256,
+      "source_raw_hex": "0e1e3cfcf8e00000cfdfbdfffbe70fff",
+      "CHR_bank": 82,
+      "mapped_top_occurrences": [
+        8343
+      ],
+      "final_hex": "0000000000000000ffffffffffffffff"
+    }
+  ],
+  "indices_sha256": "95e72e753031fb82acb7d9ae00386861941f424c59ee499d5983cf5710e50c06",
+  "scope": "AI raster quantization only; no code-drawn Hangul/fallback; actual scene review pending"
+}

@@ -1,0 +1,376 @@
+{
+  "work": 80,
+  "status": "draft_runtime_pending",
+  "source_text": "STOP",
+  "translation_ko": "정지",
+  "translation_status": "draft",
+  "source_sha256": "f41607b80904a2e1150a155121405dd1fed007ce98ff00a274a7891cafd7e32d",
+  "rom_sha256": "15e9f17dcbaaa02778e6a28d5dcf9c318232508ca5fb0346a6e6303a2ff15350",
+  "CHR_banks": [
+    68,
+    69
+  ],
+  "source_font_range": [
+    200720,
+    202768
+  ],
+  "current_font_range": [
+    331792,
+    333840
+  ],
+  "native_font_table_D20B_course2_Y4_file_operand": 250399,
+  "native_font_writer": {
+    "frame": "2719",
+    "kind": "write",
+    "address": "0034",
+    "value": "44",
+    "id": "00",
+    "pointer": "0000",
+    "profile": "00",
+    "font": "00",
+    "return_bank": "36",
+    "sp": "F5",
+    "pc": "D1C8",
+    "phase": "00",
+    "ride": "02",
+    "head_font": "DE",
+    "active_font": "00",
+    "gold_tickets": "00",
+    "points_low": "00",
+    "normal_ticket0": "08",
+    "normal_ticket1": "00",
+    "normal_ticket2": "00",
+    "cpu_a": "44",
+    "caller": "F47B"
+  },
+  "native_loader_entry": "D1BF..D20A",
+  "native_loader_code": "LDA25;ASL;TAY;LDA D20B,Y;STA34;LDA D20C,Y;STA35; remaining levelinit fields;RTS",
+  "NT_base": 10240,
+  "NT_box": [
+    56,
+    96,
+    80,
+    128
+  ],
+  "actual_box": [
+    24,
+    96,
+    48,
+    128
+  ],
+  "empirical_horizontal_offset": 32,
+  "NT_tile_codes": [
+    9,
+    10,
+    11,
+    14,
+    15,
+    16,
+    14,
+    19,
+    20,
+    25,
+    26,
+    27
+  ],
+  "owned_text_tiles": [
+    10,
+    11,
+    15,
+    16,
+    19,
+    20,
+    26,
+    27
+  ],
+  "inner_label_fields": [
+    {
+      "y": 5,
+      "left": 9,
+      "right": 15
+    },
+    {
+      "y": 6,
+      "left": 9,
+      "right": 15
+    },
+    {
+      "y": 7,
+      "left": 9,
+      "right": 16
+    },
+    {
+      "y": 8,
+      "left": 10,
+      "right": 16
+    },
+    {
+      "y": 9,
+      "left": 10,
+      "right": 16
+    },
+    {
+      "y": 10,
+      "left": 10,
+      "right": 16
+    },
+    {
+      "y": 11,
+      "left": 10,
+      "right": 17
+    },
+    {
+      "y": 12,
+      "left": 11,
+      "right": 17
+    },
+    {
+      "y": 13,
+      "left": 11,
+      "right": 17
+    },
+    {
+      "y": 14,
+      "left": 11,
+      "right": 17
+    },
+    {
+      "y": 15,
+      "left": 11,
+      "right": 18
+    },
+    {
+      "y": 16,
+      "left": 12,
+      "right": 18
+    },
+    {
+      "y": 17,
+      "left": 12,
+      "right": 18
+    },
+    {
+      "y": 18,
+      "left": 12,
+      "right": 18
+    },
+    {
+      "y": 19,
+      "left": 12,
+      "right": 19
+    },
+    {
+      "y": 20,
+      "left": 13,
+      "right": 19
+    },
+    {
+      "y": 21,
+      "left": 13,
+      "right": 19
+    },
+    {
+      "y": 22,
+      "left": 13,
+      "right": 19
+    },
+    {
+      "y": 23,
+      "left": 13,
+      "right": 20
+    },
+    {
+      "y": 24,
+      "left": 14,
+      "right": 20
+    },
+    {
+      "y": 25,
+      "left": 14,
+      "right": 20
+    },
+    {
+      "y": 26,
+      "left": 14,
+      "right": 20
+    }
+  ],
+  "RGB_exact_pixels": 768,
+  "palette": {
+    "0": [
+      192,
+      223,
+      255
+    ],
+    "1": [
+      234,
+      158,
+      34
+    ],
+    "2": [
+      0,
+      0,
+      0
+    ],
+    "3": [
+      153,
+      78,
+      0
+    ]
+  },
+  "live_pattern_read_rows": 20560,
+  "scope": "Top-beforeHUD CHR68/69 plus natural actual3330; source68..71 live reads verified. Endframe CHR is HUD206/126 and cannot prove STOP. Candidate46 sprites/68..75 atlas guessing rejected, label remains native background.",
+  "new_font_banks": [
+    224,
+    225
+  ],
+  "new_font_range": [
+    491536,
+    493584
+  ],
+  "font_hex": "000000000000000000000000000000000000000001030704000000000102040700000070fcfffbe7000000708c07071f071f3f5f2718070307182060381f07021fffffbf7fffffffffff7f7fffff0f0707041f7fff7f9ce304071f678180e3fffffb07ffffffffff0307fffffffffffffffffffffef9fffffffcfcf8f9ffffffefdfdfdf3fffffff1f3f3f3fffffffff0300070600020202050f090b0f05050500000ff18181818080dfffffffffffff0078f8f8f8f8f8f8fefece0e0e0e8e8effffffffffffccf3fffffff8e0c0f3ffffffffffff7fffbfffffffff7fffffc702020202020202020505050505050505fddbe5c0e7e8e7e0c2e4dafff8b7b8bff8f8f87878f878388e8ececece4eeeeefefefefefdf9e7fffff9f1e1e3e7ffffbfdfcff1ffffffffc3e1f1fffffffffffff2f2f5fafcf8f8909d9d9a8d8b8f8ff8787858b87838082eaebebe5e9edefe03071c3f7fffceb102041f234180b1fff7cf3ffffffffffe0f3ffffffffffff9fffffffdfbfbfbf7fffffff3c787878fffff7f7fbf9fefffff1f8f87c7e7f3ff020200060700030305050f090b0f0505fcfcfcff0f000000878787ffffdf808008080808f8780000fefefefefefefe00cf1f3e3e7e615e30cf182121415f7e30fd7dfefefe39170fe3c3c1c1e1271f0fe7dfffffffffffffdfffffffffffffffffffffffffffffffffffffffffffffff30585cbcbfbfc7fb307864c4c3c3fbff001c7af4f6f7ef9f001c668c8e0f1f7f000e3f7efdf30ffd000e3141838ffefe00000080e0f8fcfe00000080e0180402010101011f1f1f1f00000000000f0f0fffffffffffffffff00fefefe00efefef7dfdfdfb87fffffff3c3c387fffffffffefffffffefffffffffffffeffffffff3afcfe7ebfcff1fefecc0282c1f1fffe1f0101011f1f1f1f00000000000f0f0fff7fbfbfdfcff7ffff8fc7c3e3f3f9fffffffffffffefffdfffffffffeffffe3ffffffffffff33cfffffff1f0703cffffffffffffffffefdfffffffffff1c1c3fdfbfafac7bfffbfe38706063fffffcffdfbf38fffffffffc3878fffffffffff7f7f7f7fbf9fe7ffff9f8f87c7e7fffffdf38fffffffffff838fffffffffffffbfbfdfcff1ffffffc3c3e1f1fffffffffffdfefffdfdfebefffefffffefeffcff8fc3cccf4f8fcfc0804c4f43c080404dfdfbfbfdeeeecf8e3e3c1c1e2f2f4f80cf4180000000000f4fc18000000000000000000f0f0f0f00000000000e0e0e0f0000000f0f0f0f00000000000e0e0e0fffffef9f7eeecd800feffff0ffefcf8f8877ff88000000007fffff8800000001fe1fe1f01000000e0feff1f01000000ffff7f9fef77371b00fefefef05f0f07d8b0b0b0b060606038f0f0f070e0e0e01b0d0d0d0d0606060402020202010101ffffffffffffffff0000000000efefef6060606060606060e0e0e0e0e0e0e0e00606060606060606010101010101010160606060607f7f00e0e0e0e0e0e0c0ff0000000000ffff0000000000000000ff0606060606fefe0001010101010101ffffffffffffffffff00fefefe00e0e0e0ffffffffffffffff00fefefe000f0f0ffcfcfcfcfcfcfcfc3f3f3f3f3f3f3f3fffffffffffffffff00003f3f3f3f3f3ffffefcfcfcfcfcfc0103ffffffffffffffffffffffffc0803f3f3f3f3f3f7ffffcfcfcfcfcfc0000fffffffffffffffffdffffffffffffff3f3e3f3f3f3f3f3ffffffffffffffcfc3f3f3f3f3f3f3f3ffffefcfcfcfcfcfc01033f3f3f3f3f3ffcfcfcfcfcfcc0803f3f3f3f3f3f7ffffcfcfcfcfcfcfcfcbf7ffffffffffffffcfcfcfcfcfc7cfcffffffffffffffbffcfcfcfcfcfcfcfcbf7fffffffffffff000000070700070708080f080f07080f00000000000000000f000000000000000000000000007f7f80a5c2ff81ff80ff000000000000ffff00a542ff81ff00ff7f7f002a153f3f00ffffff7f7f6a407fffff00aa55ffff00ffffffffffaa00ff02020202020202020101010101010101ffffffff07030303ff10fcfefefffefefffffffff0e0e0e0ff083f7f7fff7f7fffffffff00071f3fff00fffffff8e7dcffffffff00e0f8fcff00ffffff1fe73b0303030303030303fefefefefefefefee0e0e0e0e0e0e0e07f7f7f7f7f7f7f7f7ffff9f1e1e1c1c1b36f593121614141feff9f8f87878383cdf69a8c84868282ffc1c1c1c1c1ffc17f41414141417f41ff8383838383ff83fe8282828282fe820303030303030307fefefefefefffefee0e0e0e0e0e0e0f07f7f7f7f7fff7f7fc1c1c1c1ffff0000414141417f00ffff83838383ffff000082828282fe00ffff000000000001030300000000030204040000000000ffffff84ff84ceff00ffff0000000000ffffff21ff2173ff00fffe000000073ff8e79f08f80fb8c71f7ffc000000e0fc1fe7f9101ff01ce3f8fe3f0000000000ffffff84ff84ceff00ff7f0000000000ffffff21ff2173ff00ffff000000000080c0c000000000c04020200303070707070f0f0404090909091313fffffdfffffffffffcfdfbfffffffefe7cf2eedfbfbf7e1df3edd1a0404081e33ecff7fbeddd3e38cfb78b051222c1c7ffffbfffffffffff3fbfdfffffff7f7fc0c0e0e0e0e0f0f0202090909090c8c80f0f1f1f1f1f3f3f1313272727274f4ffffffffffffffffffefeffffffffffff7d7ebebfdceef3fce3814140a3d1ecf3be7efd7dfbf7cf3fc7810282050b37cfffffffffffffffff7f7ffffffffffffff0f0f8f8f8f8fcfcc8c8e4e4e4e4f2f23f3f00ffff00ffff4f4fff00ffff00fcffff00ffff00ffffffffff00ffff003fffff00ffff00ffffffffff00ffff00fcffff00ffff00fffffcffff00ffff003f",
+  "font_sha256": "4a4cb9f5c36cc4440edd40932ff888bc16a7954cc84508b00d08c05d1247ae5f",
+  "glyphs": {
+    "정": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "지": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "indices_hex": "000000000002010302000000000000000202020202020200000000000202020202020002020202020203030303020200000000000201010302020202030303030303010103020200000000000201030203030303020202030101010103020200000000000202020203020202020202030101010103020200000000000002010203020202020202030101010103020200000000000002010203020202020202030301010103020200000000000002010203020202020202020301010103020200000000000002010203030101010102010301010103020200000000000002010203030201010201010301010103020200000000000002010203030102020102010303010103020200000000000002010203030202020202020203010103020200000000000002010203030302020101010203010103020200000000000002010203010302010202020103010103020200000000000002010203010302020101010203030103020200000000000002010203010302020202020202030103020200000000000002010203010103010101010101030103020200000000000002010203010103020201020201030103020200000000000002010203010103020201020201030303020200000000000002010203010103020102010201020303020200000000000002010203010101030201020102010303020200000000000002010203010101030102020201010303020200000000000002010203010101030202020202010303020200000000000002010203010101030202020202020203020200000000000002010203010101010302020202020203020200000000000002010203010101010302020202020203020200000000000202020203010101010302020202020203020200000000000201010203030303030303030202020203020200000000000201030302020202030303030303030303020200000000000202020202020002020202020203030303020200000000000002010302000000000000000202020202020200000000000002010302000000000000000000000000000000",
+  "only_inner_label_pixels_changed": true,
+  "native_full_loader_ABI_cases": 3840,
+  "loader_cycles_exact": [
+    137
+  ],
+  "font_method": "Galmuri7 2.403/OFL verified6x7 native ink, vertical/sheared, no AI",
+  "font_ttf_sha256": "3882bd35066c26b0392cd4963ff9b3c151041dec34adc9d5633d137d1d9b9855",
+  "font_atlas_sha256": "a2be473e22a62942164c95db60f3f5aa88a99f76b525994d194e9f5f9df387ea"
+}

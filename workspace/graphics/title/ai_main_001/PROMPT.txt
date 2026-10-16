@@ -1,0 +1,9 @@
+Use case: text-localization.
+Input image 1 is the edit target: the original Tiny Toon Adventures 2 NES title's blue-and-white background logo, extracted as PNG without the separate magenta numeral 2. Logical dimensions 176x88, shown at 8x nearest-neighbor enlargement.
+Replace the English lettering with Korean, exact text on two lines:
+Top: "타이니 툰"
+Bottom: "어드벤처"
+Spell every syllable accurately: 타 이 니 [space] 툰 / 어 드 벤 처.
+Keep the playful irregular chunky cartoon top lettering, white interior, light-blue outline and deep-blue lower-right extrusion. Keep the second line lively, slanted and readable, white with light-blue outline and a sweeping light-blue underline.
+Production layout: top line within logical x=4..172, y=2..46. Bottom line within logical x=24..146, y=50..82. Leave logical x=154..175, y=42..87 solid black to reserve the game's existing numeral 2 overlay. Center the two-line composition. Keep a small black margin on all edges. No numeral 2 in this asset; the game already supplies it.
+Palette ONLY: solid black #000000, white #FFFEFF, light blue #64B0FF, deep blue #4240FF. Sharp NES pixel art on a 176x88 logical grid, enlarged as square pixel blocks. No gradients, no smoothing, no extra letters or symbols, no characters, no scenery, no watermark, no comparison panels. Return one complete 2:1 logo image on black.

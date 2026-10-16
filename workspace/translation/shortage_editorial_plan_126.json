@@ -1,0 +1,43 @@
+{
+  "work": 126,
+  "source_sha256": "f41607b80904a2e1150a155121405dd1fed007ce98ff00a274a7891cafd7e32d",
+  "prior_build": "dialogue_kr_poc_047",
+  "prior_ROM_sha256": "82ccec59ea23e899d0bcdb22123d67cc935a13305a843ca3f1f42fb24dc80c10",
+  "backup_CSV": "backups/translation/text_ja_before_shortage126.csv",
+  "backup_CSV_sha256": "ac22c5842e4f8d1600925e0837508c82f198157553031bd7cc3371fb6e4cf556",
+  "CSV_sha256": "43bc5fe4218d8d01d29425f4dacdc5e92b7eae3db40cb1bb1852ca3e4e7f990f",
+  "profile": {
+    "entry_id": "MAIN_0590C",
+    "slot": 41,
+    "slots": [
+      41
+    ],
+    "pointer": 39164,
+    "source_file_offset": 22796,
+    "end_exclusive": 22816,
+    "source_raw_sha256": "245dfd565de354d20c491efeabcd0123a391ccf4bb40fcbc027118b0203c131f",
+    "text": "아쉽지만\n티켓이 부족해!",
+    "font_bank": 226,
+    "padding": [
+      0,
+      0
+    ],
+    "technical": false,
+    "NT": 8872,
+    "screen_x": 64,
+    "screen_y": 163
+  },
+  "native_punctuation": {
+    "?": 107,
+    "!": 108,
+    "「": 109,
+    "」": 110
+  },
+  "manual_review": "workspace/translation/prose_review_125.json",
+  "manual_review_sha256": "d65475e264779e30509cf758945fbdbc8729890ab9701f1f9c0fa9915c53180c",
+  "reserved_font_range": [
+    493584,
+    495632
+  ],
+  "scope": "One ordinary ride shortage draft. Private226/227 even lower-only tag, no shared macro/font change. Human approval false."
+}

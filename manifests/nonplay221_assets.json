@@ -1,0 +1,33 @@
+{
+  "work": 221,
+  "files": {
+    "dist/TinyToon2_KR_v1.0_NaverCafe_Worklog_20261009.zip": "75e05b9150fd49ec5fd41274d630fe3ee82b4d3932507d0e03257455192bfed3",
+    "dist/TinyToon2_KR_v1.0_NaverCafe_Worklog_20261009.zip.sha256": "54ee8934fc2d08a14c1199482ae9e9299b7ba3e90470994ac2accf7cd2a9a724",
+    "qa/publication/render221_final/desktop_bug_section.png": "585f760926880479b3b00ac00371d0ffd3acd9ae6ded01eaaa7752f37ecacbc9",
+    "qa/publication/render221_final/desktop_top.png": "7e238ef19d545d9390bbd3cba66844c00e6fa6b5872d5cdf79c382536b46fa78",
+    "qa/publication/render221_final/mobile_bug_section.png": "9f5bb21cec11fd64d9f9b643c003748b0d0640cac52b471e9edd04497e711e6a",
+    "qa/publication/render221_final/mobile_top.png": "1594b91b38142b1a8a91e783e3d883f7e81165a66f19442fbcbac0158134796b",
+    "qa/publication/render221_final/render_report.json": "321ba2e391c1d517f0c09c46f0c0a9fd4cbc88848ec29264270cc46828c08857",
+    "qa/reports/publication221_sources.json": "07ad130ade0a784dbeebe52c84f3d8f92f0d504da109f0b0022a93fa58eca7fe",
+    "qa/reports/publication221_verified.json": "6fcf0ad57b83a7679d00d1d1726188ec0004dcc8634c39b08551e924d98dc599",
+    "scripts/prepare_renderer221.py": "7985f836f20952e11b54d2490a47475519f4bd83c171dc85ffd9a2cd01964aa4",
+    "scripts/publication221.py": "f0c8fab20e5029e371a2078965229bb81b255b23ab56adfeed852d160e75d3b7",
+    "scripts/render_publication221.py": "ffca7362062897044db6e16138457aa156fded2cd98d5489b416a1e51b92c05a",
+    "scripts/seal_nonplay171.py": "847e7b5c4030035e6cb3ea3b54daf7fbe73546e89e286029051aebfd79790a9a",
+    "scripts/seal_publication221.py": "773e7485a3e161bab35d1fe82474ddcce13f1aeea3fe16bf9c026b678a1555a7",
+    "workspace/publication/TinyToon2_KR_v1.0_NaverCafe_Worklog_20261009_003/images/01.png": "4b1e9e3abe01889d185981e74d9cf85af7a08a9b9031b9fd43ecb8dcf7b44b18",
+    "workspace/publication/TinyToon2_KR_v1.0_NaverCafe_Worklog_20261009_003/images/02.png": "41752a1d20a234e48302413376824ed1e70063cb23979b7de1ee0ef29258c7de",
+    "workspace/publication/TinyToon2_KR_v1.0_NaverCafe_Worklog_20261009_003/images/03.png": "37857c9f1f699c0184671a964a25a6c9ece996f2771b7edcc2bfb531a50d2b9d",
+    "workspace/publication/TinyToon2_KR_v1.0_NaverCafe_Worklog_20261009_003/images/04.png": "b83b5f2d7057e826d4728be2f1d45002668cfba900361c606bf885d0ad441b52",
+    "workspace/publication/TinyToon2_KR_v1.0_NaverCafe_Worklog_20261009_003/images/05.png": "16593972090460599288706067eeb3273badbc8fba2a9dd9933844ac2aa3226e",
+    "workspace/publication/TinyToon2_KR_v1.0_NaverCafe_Worklog_20261009_003/images/06.png": "cd9e44c305bb3a6c81fd1249888ec5b7dc8b514423c392af60a0a427fc3958a0",
+    "workspace/publication/TinyToon2_KR_v1.0_NaverCafe_Worklog_20261009_003/images/07.png": "2a608a6beae49964bdfa82909906630a56dd1261045b08f959c774de26e0e6f7",
+    "workspace/publication/TinyToon2_KR_v1.0_NaverCafe_Worklog_20261009_003/images/08.png": "c2c3ef56730d76a8e90851bec529a6968498a33ac002e90fcaed7ad62b95b14f",
+    "workspace/publication/TinyToon2_KR_v1.0_NaverCafe_Worklog_20261009_003/\uc5c5\ub85c\ub4dc_\uc548\ub0b4.txt": "66dc0b4a3612fa9f5b0f67b22a8269401671520f484d5a227cd6b30591e69b17",
+    "workspace/publication/TinyToon2_KR_v1.0_NaverCafe_Worklog_20261009_003/\uc774\ubbf8\uc9c0_\ucd9c\ucc98_\uad6c\ubd84.json": "abb7fc12a8841d50b289ae29259f14e574abcc47add926a6ab35a35acce7b6fb",
+    "workspace/publication/TinyToon2_KR_v1.0_NaverCafe_Worklog_20261009_003/\uc791\uc5c5\uae30.html": "38e21496468b77c5525f8c4321c1140c0a72098b57e470556b16c80fdbbb8401",
+    "workspace/publication/TinyToon2_KR_v1.0_NaverCafe_Worklog_20261009_003/\uc791\uc5c5\uae30.md": "732071623146ae9d78031e28dcbd3cf27c3991eae7150054d4127ad8d0430a66",
+    "workspace/publication/TinyToon2_KR_v1.0_NaverCafe_Worklog_20261009_003/\uce74\ud398_\ubcf5\uc0ac\uc6a9_\ubcf8\ubb38.txt": "2e7ce104202c3e92411526315234a8b94d29c289179f5f18f87fd8da82e4c14f",
+    "docs/NAVER_CAFE_WORKLOG_V1_0_221.md": "12b75d37b9c9812202a95320f5a0a6cff58dfe62d8d4e252db656be1ccf84038"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-05",
+  "adopted_build": "dialogue_kr_poc_036",
+  "scope": "Work36 native credits read-only-ROM/SSOT survey, explicit root seed controls",
+  "inputs": {
+    "manifests/source_rom.json": "14f677dfcdd03b8989accd3d23859db6f0c5b2443c7c25dceecc7af6c216157a",
+    "workspace/translation/text_ja.csv": "ccd784aa0e878cd30e4ae30690b4852f7f641e99dad9e875498ba413f9691447",
+    "config/menu_credits_001.json": "ff28a070305e2f9033a02b48da08c1d4ba70c758c0a047346eeac7af9b296960",
+    "config/credits_selector_seed_001.json": "13fd625a2d98fe9bca473b00954a85a8beef441d43f76b4da85daaca12e89a24",
+    "config/credits_selector_seed_002.json": "c0e5f6afa8203e3e80ea5769622eed7202f16a387056fe75044f8f38bf24d29f",
+    "scripts/verify_native_printer_geometry.py": "c60b0f549bfb4691ffc4206e07073b0fb9cb3768a1f400ef3058f3b77f623d2e",
+    "work/credits_group_001/draft_plan.json": "7e62222958941d4ceab36ce621342b06eca0bc60dd19cf62a900373337d47552",
+    "scripts/run_credits_seed_qa.py": "2908ce1e6ec6bdce227f79e6414caf25edbde5c1d287bf59530ac64b20c408e6",
+    "scripts/run_credits_seed_qa_v2.py": "86b6a418b8d873cc50a637aa9e5c901ca7d361fbccf29fbc9eeda4b4695b3691",
+    "scripts/run_credits_seed_qa_v3.py": "b5780b43d1e07a08543657481af427496b09f8cb9535c5528951d800f4a5b6b6",
+    "scripts/trace_credits_seed_v1.lua": "10bb9cc4fff1f3e07decd262fc124c0d7cb9f43b18e65f37d077370682b18b7d",
+    "scripts/trace_credits_seed_v2.lua": "a5639d0469a5c87619881440e57e81c09ff2f7d4a4bc18b9be1944f6183155ae",
+    "scripts/trace_credits_seed_v3.lua": "32c5a5d029af47d7d592254a59ba928b17bfb1b0bb00df4fd2b7aabab03c24c4",
+    "scripts/trace_credits_seed_irq_v1.lua": "2bc076c831cb591f712e5ad29269b5c5a365501e2f19c3107628d1453369d59c",
+    "scripts/trace_credits_seed_irq_v2.lua": "df61101d23c351080c99303105851aa3eb446188697173b9b320f25c2ed02454",
+    "scripts/trace_credits_seed_irq_v3.lua": "edc08af2703d0121642d6199423fd6773877e3eba435a03f9ddbb7107277b59b"
+  },
+  "outputs": {
+    "extracted/analysis/credits_selector_cpu_20261005.json": "b16a47c27ff349faa0cfacb47bd9f6e0ea5652f93417dc4dbe0418c2d2326a68",
+    "extracted/analysis/credits_root_dispatch_cpu_20261005.json": "29be515791224264a2df427f33b1bd1e3f79f1c86e8d749084356fb59362a518",
+    "qa/reports/credits036_native_survey.json": "890c7ea5495d91ee3356ea4d9ffa3fbbc2d4deffb345cf231572cecb0b367a03",
+    "qa/reports/credits036_selector_bootstrap_rejected.json": "3bc1a25dbfb8ddceddb9b612538af80479b705bd82010a8397617c617ec2843e",
+    "qa/reports/credits036_selector_v2_no_consumer.json": "817a0050a0b242da7b22d7af76772061a4f1ab423e71733fb6aa01ba09a41b50",
+    "qa/reports/native_printer_geometry_corrected_20261005.json": "9a9b3ad030b7a03d3b23947173548fab6e5b2fa402a32193accfadd31c87904c",
+    "qa/dialogue/credits036_source_actual_pages.json": "5e8692afa6efc29684d0a4975b6b47ba28f27b9fd245cd0e7d958d9b4e44dda4",
+    "qa/dialogue/credits036_source_01500_actual.png": "083d8b17e140ed1acbbce7cb2607936b57f645125f5dd2882637395fde526223",
+    "qa/dialogue/credits036_source_02100_actual.png": "cedf45e5642b4f9abdbc54530da9cd4268c3c907bf1f326392d1430a1f6d48bb",
+    "qa/dialogue/credits036_source_03000_actual.png": "2b3f813c8f6503fefc02cf7734f0d50397a9c6b66e4b998e249e8103597ef76a",
+    "qa/dialogue/credits036_source_03900_actual.png": "cd3e2e91c26ea4eae1463db00e93bd9178224025d6ba3140770b94410c6f5c7b",
+    "qa/dialogue/credits036_selector_v2/environment.json": "200179c137a8df975477684949d8aac2818991c6897b28abe83941a7ea904343",
+    "qa/dialogue/credits036_selector_v2_irq/environment.json": "5cdeb25d0155a40da9d9f03292f07afe0aebafb34010cd2692626b26a17657af",
+    "qa/dialogue/credits036_selector_v3/environment.json": "47210eca3458b8d53a7f31bcf251b3a0a716092589aa729d403a3a1a5b3efdb5",
+    "qa/dialogue/credits036_selector_v3_irq/environment.json": "f40d8fc044ca46fe81b43429da1c6fe98a0ce4ef9f25d687d0aafb30c2e5ba7f"
+  }
+}

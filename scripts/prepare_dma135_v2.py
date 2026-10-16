@@ -1,0 +1,7 @@
+from pathlib import Path
+import json
+R=Path(__file__).resolve().parents[1]
+p=R/'scripts/trace_dma135_v2.lua';assert not p.exists();s=(R/'scripts/trace_dma135.lua').read_text('utf-8').replace('0xfdd3,0xfdfc','0xfdd3,0xfe15');p.write_text(s,'utf-8')
+p=R/'scripts/run_dma135_v2.py';assert not p.exists();s=(R/'scripts/run_dma135.py').read_text('utf-8').replace("a.script.name=='trace_dma135.lua'","a.script.name=='trace_dma135_v2.lua'");p.write_text(s,'utf-8')
+p=R/'scripts/run_dma_pair135_v2.py';assert not p.exists();s=(R/'scripts/run_dma_pair135.py').read_text('utf-8').replace("'work/dma135'","'work/dma135_v2'").replace('scripts/run_dma135.py','scripts/run_dma135_v2.py').replace('dma135_home{build}','dma135v2_home{build}').replace('scripts/trace_dma135.lua','scripts/trace_dma135_v2.lua');p.write_text(s,'utf-8')
+obs=R/'qa/reports/dma135_v1_observation.json';assert not obs.exists();obs.write_text(json.dumps({'work':135,'status':'INCOMPLETE_OPCODE_COVERAGE_NO_CAUSE_DECISION','reason':'Completed960frames and DMC/CDL evidence, but the narrow exec range stopped atFDFC and omitted actual mapper helperFE00..FE12 instructions. Independent pure CPU replay reachedFE00 at step19 while next captured opcode was9439. Extend fixed exec range toFE15 in fresh v2 runs; preserve v1.','interactive_import_error':'Initial inline model import omitted scripts in sys.path; corrected without changing files or ROM.'},indent=2)+'\n','utf-8')

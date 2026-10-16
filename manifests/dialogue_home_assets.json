@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-04",
+  "adopted_build": "dialogue_kr_poc_003",
+  "status": "Development home PoC PASS; not release eligible",
+  "entry_ids": [
+    "MAIN_05609",
+    "MAIN_05741"
+  ],
+  "translation_ssot": "workspace/translation/text_ja.csv",
+  "translation_status": {
+    "draft": 2,
+    "untranslated": 52
+  },
+  "inputs": {
+    "manifests/source_rom.json": "14f677dfcdd03b8989accd3d23859db6f0c5b2443c7c25dceecc7af6c216157a",
+    "workspace/translation/text_ja.csv": "ca9d3829eac894f0b9d593f3a5a67ad5a2bee02aa853de938e04b8a69522edad",
+    "backups/translation/text_ja_before_home_001.csv": "6e553f49f1a312ec67bdb27f8d15935fbe95be0517f496cc8f68918fe19f3e2c",
+    "workspace/tables/kana_codes.json": "ddaed80ce5d2fe36a0172df09eff1d4ffe30dd46101fef29055c5d7cbeb4ec2e",
+    "workspace/fonts/galmuri7_8x8/Galmuri7_8x8.png": "a2be473e22a62942164c95db60f3f5aa88a99f76b525994d194e9f5f9df387ea",
+    "workspace/fonts/galmuri7_8x8/Galmuri7.ttf": "3882bd35066c26b0392cd4963ff9b3c151041dec34adc9d5633d137d1d9b9855",
+    "workspace/fonts/galmuri7_8x8/OFL.md": "9a9e5a342c430c3fcf01a408b680f4405d5bf4ac659c931be35f8a1b27ea69c9",
+    "workspace/fonts/galmuri7_8x8/font_source.json": "683a3f2f1a81d34a0206c2e55d4284fd32ea12e535c8fd0be30af8d4e01bae3b",
+    "build/dialogue_kr_poc_002/TinyToon2_dialogue_kr_poc.nes": "7261596d059e50afafaba12252c6b41320f9f4c18190e53a82e528a421323598",
+    "build/dialogue_kr_poc_002/expected_writes.json": "1a3ad98b2930f03fdbbc3f8cd51f25d59238b87580f6e82efeb6e31ebb009f11",
+    "scripts/build_dialogue_home.py": "9da0a6d935e3fdfdf7229b07033be7d9925232226dfd112cdf4fdf4259356998",
+    "scripts/verify_dialogue_home.py": "766a8165b8b25e6a71110bf021d71e87ada700e41124244e754d39ac89b090c6",
+    "scripts/trace_dialogue_lifetime.lua": "2aae5688fbdcce51dace3d50156acadc0dc726a5c465bf193688b21180829763",
+    "scripts/capture_dialogue_lifetime.lua": "84a6c48819a3f3423ffb46646d1e1d0795dfec4fd10c0b8db711d28fc05a2c07",
+    "scripts/plan_dialogue_page_supply.py": "06e8fa26c310c9df730a9c015118984f5d0c991f2b2e83ebdd71313b5fc65238",
+    "scripts/dialogue_ips.py": "c161d4e55a4216146a2e08a20b7bfec45a73eea85683ca4a647efada224eb12b",
+    "tools/python/py65-1.2.0/py65/devices/mpu6502.py": "15d93835b4f279b702270d9a0b417938291347ec57cc12d9e0307cd344d381fe"
+  },
+  "outputs": {
+    "build/dialogue_kr_poc_003/TinyToon2_dialogue_kr_poc.nes": "761f2495295dc07b1648a5aa0d1dbf85139d67b4e6962639d34e0688989ede3a",
+    "build/dialogue_kr_poc_003/TinyToon2_dialogue_kr_poc.ips": "44b5803ce8e22cf1fd93f951abdb18b85082d5e1efcbc9220b8552c257c6e1b9",
+    "build/dialogue_kr_poc_003/TinyToon2_dialogue_kr_poc.json": "88fa667543b65cc896e148ab8ba87eba96c568b9fd07b48d7642191b9e2f41a0",
+    "build/dialogue_kr_poc_003/build_report.json": "5bb6d25a1b5a85e78bdb57e07113a3fd79fda69212c594609bc2d5143bf88c36",
+    "build/dialogue_kr_poc_003/expected_writes.json": "f1ab39ed58695294253be7c95d4d46f9995652d493a77d9734790e6d1a894ca8",
+    "build/dialogue_kr_poc_003/home_glyph_mapping.json": "d23825967d28bbaa5386e34fe7bc30ddddd0d65413a5b345360cbed1a51466ca",
+    "build/dialogue_kr_poc_003_rebuild/TinyToon2_dialogue_kr_poc.nes": "761f2495295dc07b1648a5aa0d1dbf85139d67b4e6962639d34e0688989ede3a",
+    "qa/dialogue/home003_actual_4x.png": "332cb6d471f0d94aefb4fdc75890105658552a6128292d0b86653a1861b14c31",
+    "qa/dialogue/home003_comparison.png": "1f0503b6a5844a80af69663687d8734d0730197aa199405f65cd49448a23748c",
+    "qa/reports/dialogue_home003_validation.json": "75f8225387fee55fe86fbebe0fbdbdfa0cca1627bb361544fd42478f7d8e8082",
+    "qa/reports/dialogue_font_lifetime001.json": "14840c5277b251157c633afe6cb641c9a953a3bc8d0248debc72a53b67339188",
+    "work/dialogue_font/page_supply_001/supply_plan.json": "179737d8d79d5720fb913cba75c9b39bb9666d588f96d7ef3d0e13b46dbd6d34",
+    "work/dialogue_font/page_supply_001/second_intro_stream.bin": "fa69c86462933bb6f7385bdf1602ae750db8988e4e4febeb715b6cb35d5d916a",
+    "work/dialogue_font/page_supply_001/second_intro_font.bin": "43a7cec96a6e080ba28105bb06d3b461f6cea97da819a16522342f5f87cffdf0"
+  },
+  "font_provider": "Galmuri7 2.403; six Hangul glyphs verified atlas vs TTF; comma explicitly rasterized from same TTF at 8px (0,-1); native question glyph6B preserved; SIL OFL1.1",
+  "font_sets": {
+    "intro": [
+      128,
+      129
+    ],
+    "home_profile0": [
+      130,
+      131
+    ]
+  },
+  "original_chr_and_first_font_preserved": true,
+  "runtime": {
+    "reference": "frozen dialogue002 with matched input/config/Lua",
+    "screens": 437,
+    "changed_home_only": 172,
+    "entire_image_identical": 265,
+    "outside_pixels": 0
+  },
+  "preparation_only": "Second intro stream/font packet:18 Hangul/40 bytes/43 CPU reader calls; NOT in ROM or translation SSOT; dynamic font switch not implemented",
+  "limits": [
+    "Final wording/design review pending",
+    "52 units untranslated",
+    "No full game/ride transition/physical console/audio/reset/savestate QA",
+    "No release or cafe upload"
+  ]
+}

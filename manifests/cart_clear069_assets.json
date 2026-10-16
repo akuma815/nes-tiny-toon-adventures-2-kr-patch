@@ -1,0 +1,11 @@
+{
+  "work": 69,
+  "files": {
+    "docs/CART_CLEAR_BRANCH_SURVEY.md": "d4bbfabe54b8718e251cabfd21abdcd46d067deb1077172ba9a0e9ed23762aec",
+    "scripts/verify_cart_clear069.py": "536b2ffccfabc5d0eef00ec49eb0334d70375453f17daeb0db9f6e021df67b70",
+    "scripts/verify_cart_clear069_v2.py": "00e23511073e21e04aa45b94392001e2a14631684daa9be9ca86bd36554447fe",
+    "qa/reports/cart_clear069_validation.json": "38160c550ef18e260ba831a30f6d3485ff4083e513ca505b9db40fa452e50510",
+    "qa/reports/cart_clear069_disassembly_boundary_error.json": "c2316477b745bc02c5915a4fc04255f16fb34618249b1c93fcaa8e9bde632960",
+    "work/cart_clear_001/native_branch_and_tables.json": "6e2d6f6e6958c337f93605d2d12b3d973978118a2c4df24f73423cad60823a3e"
+  }
+}

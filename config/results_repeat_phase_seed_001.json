@@ -1,0 +1,14 @@
+{
+  "purpose": "Controlled already-cleared coaster reward branch, not naturally earned history; native bonus then runs normally",
+  "frame": 3200,
+  "writes": [
+    {
+      "address": 2017,
+      "value": 1
+    },
+    {
+      "address": 84,
+      "value": 20
+    }
+  ]
+}

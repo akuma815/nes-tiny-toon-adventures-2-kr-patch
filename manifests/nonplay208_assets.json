@@ -1,0 +1,15 @@
+{
+  "work": 208,
+  "files": {
+    "build/dialogue_kr_poc_037/ui_korean_page_mapping.json": "8292dd799dd4d28ec12eacfd5530a6e980194bea3c0ec15634ef70a4ba386a33",
+    "qa/reports/credits11_202_capacity.json": "580d92c3dfb9b054c54467e566f005ca49472bb9c33c6049ba97d121f9486dae",
+    "qa/reports/credits11_208_engine_design.json": "6066cfd89c065e4c5a0a2de1c351cd25d5956901dbe17b264d2593ce99971c6e",
+    "scripts/analyze_credits11_208.py": "9593c26c429d39dfd664b83c209abc24a50f8aaacf330927469680515f0709f6",
+    "scripts/analyze_credits11_208_v2.py": "5a1596394c372258c8b3cf876ca76dd77ea06186581f6dcc8a5ae77b56bed3b7",
+    "scripts/inspect_credits11_208.py": "1154554455836c0475468a0805f588a2496406ffdfa4c675d33002122381ce93",
+    "scripts/inspect_credits11_208_v2.py": "eaf854912982e224b6a3ef79259fbeef9b25b53af3a1c611381e096c35486449",
+    "scripts/seal_credits_design208.py": "8ffdec5cc81524248f524336ed9f2684aa6b3681357442a453230b3149984857",
+    "scripts/seal_nonplay171.py": "847e7b5c4030035e6cb3ea3b54daf7fbe73546e89e286029051aebfd79790a9a",
+    "docs/CREDITS11_NATIVE_GEOMETRY_AND_QUEUE_DESIGN_208.md": "d8124373a949a31afbe219204131d989215de60c327262206bb108d85761fe22"
+  }
+}

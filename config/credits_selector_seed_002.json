@@ -1,0 +1,22 @@
+{
+  "purpose": "Controlled native root18=7/19=1 ending selector07DF=1 phase06DE=0, not normal gameplay/game clear",
+  "frame": 1000,
+  "writes": [
+    {
+      "address": 24,
+      "value": 7
+    },
+    {
+      "address": 25,
+      "value": 1
+    },
+    {
+      "address": 2015,
+      "value": 1
+    },
+    {
+      "address": 1758,
+      "value": 0
+    }
+  ]
+}

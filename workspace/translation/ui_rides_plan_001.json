@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-05",
+  "source_sha256": "f41607b80904a2e1150a155121405dd1fed007ce98ff00a274a7891cafd7e32d",
+  "prior_build": "dialogue_kr_poc_023",
+  "prior_ROM_sha256": "1f4341ef464146e25982e8bf25d01ff504be85a184b905240a69179d3c79e410",
+  "backup_CSV_sha256": "1528501efb8983ff77b9514fd859a7a7cca91eb23eb5ca752132cd645c3fbcd6",
+  "CSV_sha256": "d57b739152817572a0f1833572ca7991eb7684a77a1c00a2ef44931ee2c228fe",
+  "profiles": [
+    {
+      "entry_id": "MAIN_05753",
+      "slot": 13,
+      "pointer": 38723,
+      "source_file_offset": 22355,
+      "end_exclusive": 22358,
+      "source_raw_sha256": "eeaa4353a857fc5bde4c38c8af891070a0129e6207d39ed4ea12efe6aba404f8",
+      "text": "기차",
+      "font_bank": 166,
+      "padding": [
+        0
+      ],
+      "scene": "home train selection, observed consumers022_train1350",
+      "speaker": "Buster"
+    },
+    {
+      "entry_id": "MAIN_05756",
+      "slot": 14,
+      "pointer": 38726,
+      "source_file_offset": 22358,
+      "end_exclusive": 22361,
+      "source_raw_sha256": "f01450b3d78f5d487fbfd286cef517c84a07623c9552b08a6f9b3a7fc563dfa8",
+      "text": "급류타기",
+      "font_bank": 168,
+      "padding": [
+        0
+      ],
+      "scene": "home water ride selection, observed consumers022_water1200",
+      "speaker": "Buster"
+    }
+  ],
+  "native_punctuation": {
+    "?": 107,
+    "!": 108,
+    "「": 109,
+    "」": 110
+  },
+  "scope": "Two observed home train/water name drafts only; source macros remain untranslated SSOT entries and other consumers keep Japanese passthrough",
+  "review": "Draft; final proper-name/service-tone review pending; no release"
+}

@@ -1,0 +1,49 @@
+{
+  "work": 48,
+  "generated_SHA256": "4595124bfe860671bcbe6069ee35bb02e2bb29d5c4a3414ceba3210bd6eb9167",
+  "reference": "extracted/graphics/gameover_001/source_logo.png",
+  "crop_alpha128_bbox": [
+    53,
+    115,
+    2123,
+    631
+  ],
+  "resample": "Pillow LANCZOS, alpha128 foreground, closest native3ink colors inRGB",
+  "fitted_size": [
+    112,
+    28
+  ],
+  "placement": [
+    8,
+    2
+  ],
+  "native_canvas": [
+    128,
+    32
+  ],
+  "palette": {
+    "0": [
+      0,
+      0,
+      0
+    ],
+    "1": [
+      192,
+      223,
+      255
+    ],
+    "2": [
+      255,
+      254,
+      255
+    ],
+    "3": [
+      66,
+      64,
+      255
+    ]
+  },
+  "tile_layout": "4rows x16columns, sourceNTcodesC0..FF unchanged",
+  "native_raw_sha256": "f61fc874544b24678b423667fbc66f87d9234e4f3ea964708012f9baf03518d3",
+  "scope": "Technical color/dimension conversion of exact게임 오버 generatedart; actualROM visualpending"
+}

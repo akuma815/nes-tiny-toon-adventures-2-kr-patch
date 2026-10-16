@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "game": "Tiny Toon Adventures 2 - Montana Land e Youkoso",
+  "platform": "NES / Famicom",
+  "path": "original/rom/Tiny Toon Adventures 2 - Montana Land e Youkoso (Japan).nes",
+  "received_filename": "Tiny Toon Adventures 2 - Montana Land e Youkoso (Japan).nes",
+  "size_bytes": 262160,
+  "sha256": "f41607b80904a2e1150a155121405dd1fed007ce98ff00a274a7891cafd7e32d",
+  "region_hint_from_filename": "Japan",
+  "region_verification": "Japanese on-screen text to be verified separately; external revision identity not established",
+  "revision": null,
+  "registered_on": "2026-10-04"
+}

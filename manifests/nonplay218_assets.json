@@ -1,0 +1,13 @@
+{
+  "work": 218,
+  "files": {
+    "build/text11_candidate_062/credits11_plan.json": "1c6650fcd0d42735637abdc23d87a63688b0f4e3a46f9e25917ac6152ae56187",
+    "build/text11_candidate_062/opening11_plan.json": "8d38f0744b471c6f4ce45518e801747bc79196aa1d28e8329d5baa27c57de75c",
+    "manifests/nonplay217_assets.json": "03851e441bf830e2658f673afc8c0d4c3162900afdc8aa9834ac55a502a29fa3",
+    "qa/reports/irq218_opening_credits.json": "cb2e0993930092bc3f7f3793a8566e6c19dee053aa9c12ac3b247b98d4bc84e3",
+    "scripts/audit_irq218.py": "ec77c095cf5d0d0d28ae7188a99db3ddfce7686f06dcb34f7b0930ae50ce37ef",
+    "scripts/seal_irq218.py": "f6d167025c28c152a0694624e7b11112f91791df4a34fabfcc63567e0a39d125",
+    "scripts/seal_nonplay171.py": "847e7b5c4030035e6cb3ea3b54daf7fbe73546e89e286029051aebfd79790a9a",
+    "docs/TEXT11_OPENING_CREDITS_IRQ_218.md": "3b498a98237bec2d259cc12cdd11e3768c45aee1eb7b4f633cac6c995bf0f9da"
+  }
+}

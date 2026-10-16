@@ -1,0 +1,20 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "pillow": "12.3.0",
+  "font": "workspace/fonts/galmuri7_8x8/font_source.json",
+  "py65": {
+    "version": "1.2.0",
+    "license": "BSD 3-Clause",
+    "origin": "Read/copied first-game verified local package; no first-game mutation",
+    "path": "tools\\python\\py65-1.2.0",
+    "source_url": "https://github.com/mnaberez/py65",
+    "mpu6502_sha256": "15d93835b4f279b702270d9a0b417938291347ec57cc12d9e0307cd344d381fe",
+    "license_path": "tools/python/py65-1.2.0/py65-1.2.0.dist-info/LICENSE.txt",
+    "license_sha256": "611bf384c5293db4eb9d2c1da95073dfc633e30a177445ec0166ed108b7926e5"
+  },
+  "emulator": {
+    "version": "Mesen2.1.1",
+    "exe_path": "tools/mesen-2.1.1/Mesen.exe",
+    "sha256": "d2eb03c2590c648bf329f127ebcfefd70130e7690a9e2ccdba8616faea1fe96b"
+  }
+}

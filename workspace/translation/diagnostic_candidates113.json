@@ -1,0 +1,37 @@
+{
+  "candidates": [
+    {
+      "ID": "DIAGNOSTIC_STAGE_SELECT_110",
+      "source_text_candidates": [
+        {
+          "NT_address_hex": "220A",
+          "font124_candidate": "STAGE SELECT"
+        },
+        {
+          "NT_address_hex": "224E",
+          "font124_candidate": "1 0"
+        }
+      ],
+      "source_preserved": true,
+      "draft_translation_candidates": [
+        "스테이지 선택",
+        "1 0"
+      ],
+      "translation_inserted": false,
+      "actual_rendering_font_consumer_connected": false,
+      "human_scope_or_preservation_approved": false,
+      "reason": "Only declared callerCD52 is skipped by normal stage entry; actual rendering consumer is not established. Technical text extraction is separate from scope approval.",
+      "work": 113,
+      "source_sha256": "f41607b80904a2e1150a155121405dd1fed007ce98ff00a274a7891cafd7e32d",
+      "source_file_offset": 16834,
+      "source_native_CPU_pointer": "81B2",
+      "raw_hex": "0a225d5e4b514f005d4f564f4d5efe4e22420041ff",
+      "caller_source_file_offset": 118121,
+      "caller_native_CPU": "CD59",
+      "status": "pending_actual_consumer_and_human_scope",
+      "build_eligible": false,
+      "counts_in_registered54": false,
+      "note": "Diagnostic metadata/draft only. Does not modify text_ja.csv or existing47 review inputs."
+    }
+  ]
+}

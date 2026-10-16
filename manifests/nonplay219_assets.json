@@ -1,0 +1,11 @@
+{
+  "work": 219,
+  "files": {
+    "manifests/nonplay218_assets.json": "e7e635179f7667d0c0aacb007c62783787bf53afbea3e14fc0dea8cfc8ad4625",
+    "qa/reports/irq217_injection.json": "28fd65524f630f7c314f0a5921b1b95b2459a61740a073eb2ea3a899684d769b",
+    "qa/reports/irq218_opening_credits.json": "cb2e0993930092bc3f7f3793a8566e6c19dee053aa9c12ac3b247b98d4bc84e3",
+    "scripts/seal_irq_stack219.py": "1c887a6f551f32611283e77c277ffe1ea79a6f6264408d5e1b56664a9a814657",
+    "scripts/seal_nonplay171.py": "847e7b5c4030035e6cb3ea3b54daf7fbe73546e89e286029051aebfd79790a9a",
+    "docs/TEXT11_IRQ_STACK_GAP_CORRECTION_219.md": "e6223ff2786e79c53afa18e0b412888bbc946239d6b2c64224cd86f927043263"
+  }
+}

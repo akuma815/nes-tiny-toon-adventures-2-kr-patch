@@ -1,0 +1,38 @@
+{
+  "purpose": "Controlled exchange collision reproduction; seed only initial counters, no forced caller",
+  "frame": 1000,
+  "writes": [
+    {
+      "address": 2034,
+      "value": 0
+    },
+    {
+      "address": 2035,
+      "value": 3
+    },
+    {
+      "address": 2036,
+      "value": 0
+    },
+    {
+      "address": 2037,
+      "value": 0
+    },
+    {
+      "address": 2038,
+      "value": 0
+    },
+    {
+      "address": 2000,
+      "value": 6
+    },
+    {
+      "address": 2001,
+      "value": 0
+    },
+    {
+      "address": 2002,
+      "value": 0
+    }
+  ]
+}

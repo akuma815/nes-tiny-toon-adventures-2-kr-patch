@@ -1,0 +1,12 @@
+{
+  "work": 98,
+  "files": {
+    "docs/POW_BANK_WRITER_BOUNDS.md": "c6a337110c7429407974a5eac0f1feee1b1d05355aacbe5777d5b00cb8ff99b3",
+    "scripts/analyze_pow_bank_writers098.py": "e890d8a58bca9c4ae3fa786d4feefd317a834a95963d09d0a8c5ffc76fc2b6fa",
+    "scripts/render_pow_bank_alias098.py": "1d4002a80147ad34010e9249304e3de6af3b4eca188ca8548a206ebba779921f",
+    "qa/reports/pow098_bank_writers.json": "39649aaeb38252a856289ad3d456b4009e406960c732cd61d2083e2baee0a57c",
+    "work/pow_writer_098/bank54_61_same_pose_static.png": "4add5ab29ee249003ee272ac55884814f3f4b3d58ca285f9a075304cd56d9766",
+    "work/pow_writer_098/bank54_61_same_pose_rebuild.png": "4add5ab29ee249003ee272ac55884814f3f4b3d58ca285f9a075304cd56d9766",
+    "qa/reports/engine_closure052.json": "9a858ba3397b6058a5eb205fbddb0ab578e1acf448fb90271d1fac347efb7c8e"
+  }
+}

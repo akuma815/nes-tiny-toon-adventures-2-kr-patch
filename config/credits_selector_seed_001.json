@@ -1,0 +1,14 @@
+{
+  "purpose": "Controlled native ending selector07DF=1 and phase06DE=0; not game-clear or normal gameplay",
+  "frame": 1000,
+  "writes": [
+    {
+      "address": 2015,
+      "value": 1
+    },
+    {
+      "address": 1758,
+      "value": 0
+    }
+  ]
+}

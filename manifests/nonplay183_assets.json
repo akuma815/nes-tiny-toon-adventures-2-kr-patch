@@ -1,0 +1,32 @@
+{
+  "work": 183,
+  "files": {
+    "dist/TinyToonAdventures2_KR_Review_051_MovingStop_20261008/apply.cmd": "c5f595a2f77d63006576e2d154ec033a574cd8f596275b18ad0196a0e98e2b05",
+    "dist/TinyToonAdventures2_KR_Review_051_MovingStop_20261008/apply.ps1": "0b2cb8cff2e5028175751c2eabfbd9ee49b4b02b9262b279fe8b12336ac4ff0d",
+    "dist/TinyToonAdventures2_KR_Review_051_MovingStop_20261008/licenses/Galmuri_OFL.md": "9a9e5a342c430c3fcf01a408b680f4405d5bf4ac659c931be35f8a1b27ea69c9",
+    "dist/TinyToonAdventures2_KR_Review_051_MovingStop_20261008/moving_stop/consumer.json": "b3dddd800964a210ccb2cee67bf47666e86932b99c21c13392b8f9cc76194fed",
+    "dist/TinyToonAdventures2_KR_Review_051_MovingStop_20261008/moving_stop/frame04200_050.png": "d4239750dbf49f4a8d85109dbe461e223e5c80924ee20af1905abb55ff2f764d",
+    "dist/TinyToonAdventures2_KR_Review_051_MovingStop_20261008/moving_stop/frame04200_051.png": "9e3461c75234e3668211504fb5e7b0001d1d23e5847ff092a056db3a370ac6b4",
+    "dist/TinyToonAdventures2_KR_Review_051_MovingStop_20261008/moving_stop/frame04272_050.png": "8be0ef38c4fa89bb9d41a874d29dab594d4ecaec58104e128d09a5520915056c",
+    "dist/TinyToonAdventures2_KR_Review_051_MovingStop_20261008/moving_stop/frame04272_051.png": "92e460899be015aec63ff38179c57c57715c2a6977c0903b613f34e3de6e48aa",
+    "dist/TinyToonAdventures2_KR_Review_051_MovingStop_20261008/moving_stop/validation.json": "dc8203dbb34e44f6eab1e32a2666eb06626953f7e8ccc3562805086520ccebec",
+    "dist/TinyToonAdventures2_KR_Review_051_MovingStop_20261008/README_\uc801\uc6a9\ubc29\ubc95.txt": "26699658eafce9a37ef3b696392d8c031e4f31c1b373229307915b25897dcd54",
+    "dist/TinyToonAdventures2_KR_Review_051_MovingStop_20261008/RELEASE_NOTES_KO.md": "2993545b14aa19db1de904c9835c6338bef0b2340542c627ef28689a81b26a4f",
+    "dist/TinyToonAdventures2_KR_Review_051_MovingStop_20261008/release_report.json": "acc9ba232e285b57d8d8441f94f8f975ca72369744ee2dae0d498b4b65de32fe",
+    "dist/TinyToonAdventures2_KR_Review_051_MovingStop_20261008/scope_policy051.json": "4c3e241e2404db3b79a84036a323c69b737f88f68d1bdd6c48828f46b9fac6d9",
+    "dist/TinyToonAdventures2_KR_Review_051_MovingStop_20261008/SHA256.txt": "80ee0edf26d87f9d2e37bb9735c1a18350927f20927bc00fdb8e2fea5157a97e",
+    "dist/TinyToonAdventures2_KR_Review_051_MovingStop_20261008/TinyToonAdventures2_KR_Review_051_20261008.xdelta": "38360305937e72904f4826b67c95d7fe2f6713836f0ae59d5bbec22e20fac74e",
+    "dist/TinyToonAdventures2_KR_Review_051_MovingStop_20261008/tools/LICENSE_xdelta3.txt": "6cf63d87586c7c25c3ab8e62eef5c75bbaa982b0a6f9c00c59e2720255aac9ec",
+    "dist/TinyToonAdventures2_KR_Review_051_MovingStop_20261008/tools/README_xdelta3.md": "577abe9ba3726bf00bd37f9d2c88e3d6efb3acb450fd40bcaef57bb937c61d12",
+    "dist/TinyToonAdventures2_KR_Review_051_MovingStop_20261008/tools/xdelta3.exe": "53d90226615f217d3380c39892833311b4e24acd863e1ca01f14b5e772e2e6d0",
+    "dist/TinyToonAdventures2_KR_Review_051_MovingStop_20261008/Windows_apply_verification.json": "a433a72068d4e0a890ead68089aa4c55a6b3684bfc2e9fd55eae8baf7ce01eba",
+    "dist/TinyToonAdventures2_KR_Review_051_MovingStop_20261008.zip": "ad3e033fd7094d6af57115e821386b01dfbbec13023bbca04fef102676e5a0bb",
+    "dist/TinyToonAdventures2_KR_Review_051_MovingStop_20261008.zip.sha256": "4816063b93f72d3eced128520b320f8d905171746907b1857aeae5dd03349c11",
+    "qa/release/moving_stop183_apply051/apply_verification.json": "a433a72068d4e0a890ead68089aa4c55a6b3684bfc2e9fd55eae8baf7ce01eba",
+    "qa/reports/moving_stop183_package.json": "2ce30a5c633580c1578bd6015938f81fc91b98de1ab6b13b449341eb2f6cec57",
+    "scripts/package_moving_stop183.py": "0b55eaec8c91575624681e4211aa147b5f107f43eaf36a66968af606341327e8",
+    "scripts/release_apply_helpers132.py": "97bdc1372ebfd264c0dc27993fdefb7ba2052f816ed3dcdf878c91a58136da13",
+    "scripts/seal_nonplay171.py": "847e7b5c4030035e6cb3ea3b54daf7fbe73546e89e286029051aebfd79790a9a",
+    "docs/MOVING_STOP051_APPLY_PACKAGE_183.md": "d5c90d20272b914e82f15841261aee8c04a66b0070f5f4d1f0d59d47894a2166"
+  }
+}

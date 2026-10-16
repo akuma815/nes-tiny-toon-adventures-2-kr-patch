@@ -1,0 +1,14 @@
+{
+  "purpose": "Explicit diagnostic maxlife3 replenishment in native root4 phase5 course2 only; notnaturalplay",
+  "start": 2800,
+  "end": 17840,
+  "period": 120,
+  "address": 1984,
+  "value": 3,
+  "guard": {
+    "root": 4,
+    "phase": 5,
+    "ride": 2,
+    "pause": 0
+  }
+}

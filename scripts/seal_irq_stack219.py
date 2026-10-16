@@ -1,0 +1,26 @@
+"""Document a one-byte prose correction without altering frozen IRQ evidence."""
+from pathlib import Path
+import json,re
+import seal_nonplay171 as records
+from seal_nonplay171 import R,sha
+records.DATE='2026-10-09'
+q217=json.loads((R/'qa/reports/irq217_injection.json').read_text('utf-8'))
+q218=json.loads((R/'qa/reports/irq218_opening_credits.json').read_text('utf-8'))
+assert q217['minimum_gap_after_192_byte_queue']==48
+assert q218['minimum_gap_after_192_byte_queue']==49
+next_action='사용자의062 실제 화면 검수 결과를 받아 첫 재현 장면 하나의 출력·소거·글꼴 매핑을 조사한다.'
+body='''217/218 봉인 CPU 보고의 스택 범위 계산은 맞지만 설명 문서에서 여유를 각각47/48바이트로 잘못 옮겼다. 정확한 값은 **48/49바이트**다. 최저 SP239/240 이후 IRQ가 사용하는 가장 낮은 스택 주소는0100+SP+1이고192바이트 큐는0100~01BF이므로 빈 범위 길이는 SP+1−192다. 검사 코드·보고·ROM은 바뀌지 않았고 통과 판정도 같다. 숫자는 이 모델에서 검사한 큐와 스택 사이의 주소 범위이며 CPU 시간이나 하드웨어 안전마진이 아니다.
+
+[217 원문](TEXT11_IRQ_INJECTION_217.md)과 [218 원문](TEXT11_OPENING_CREDITS_IRQ_218.md)은 봉인 이력으로 유지하고 본 정정을 최신 인계에 연결한다. CPU 보고의 올바른 값은 [217 보고](../qa/reports/irq217_injection.json), [218 보고](../qa/reports/irq218_opening_credits.json)에 있다. 원본/CSV/051/062/IPS/ZIP 불변·215~218 봉인39파일 및 핵심6파일 해시·신규 문서 링크는218 봉인 검사에서 통과했다. 새로운 ROM이나 실행 검사를 추가하지 않았다.
+
+현재 작업 결과:062의 실제 진입점 NMI prefix 검사와 일반대사·오프닝·크레딧의 총212,764 한정 IRQ 주입 PASS.062는실제검수전미채택후보다. 실제 VRC7/PPU/NMI전체시간·CHR매핑·가독성은 CPU 모델로 확정하지 않았고 사용자 플레이 검수는 남는다. 완성 작업기/외부게시도 아직 진행하지 않았다.
+
+변경: 본 정정과 인계 스크립트·날짜별 인계/계획/SURVEY/journal/README/HANDOFF. [219 해시 목록](../manifests/nonplay219_assets.json). 재현: python -B scripts/seal_irq218.py --verify (이전 봉인),219 매니페스트 파일별 SHA 확인. 신규 문서/해시만 추가했으며 에뮬레이터·플레이·빌드·패치 적용은 수행하지 않았다.'''
+records.seal(219,'TEXT11_IRQ_STACK_GAP_CORRECTION_219.md','IRQ 인계 스택 여유 수치 정정',body,
+ '217/218 문서의 스택 여유를 CPU 보고와 같은48/49바이트로 정정. 검사/ROM/패키지 불변.',next_action,
+ [Path(__file__),R/'qa/reports/irq217_injection.json',R/'qa/reports/irq218_opening_credits.json',R/'manifests/nonplay218_assets.json'])
+f=R/'docs/HANDOFF.md';s=f.read_text('utf-8');s=s.replace('**작업218 재개 검증:**','**작업219 인계 수치 정정:** 217/218 보고의 큐 뒤 스택 범위 여유48/49바이트가 정확하다. 문서의47/48 표기는 [219정정](TEXT11_IRQ_STACK_GAP_CORRECTION_219.md)을 따른다. 검사와ROM은변경없다.\n\n**작업218 재개 검증:**',1);f.write_text(s,'utf-8')
+f=R/'docs/LOCALIZATION_WORK_PLAN.md';s=f.read_text('utf-8');s=re.sub(r'^> \*\*.*?\*\*','> **2026-10-09 작업219 / 기준051·062 미채택 / 한정 NMI·IRQ CPU 검사 완료와 인계 수치 정정. 실제 플레이 사용자 담당.**',s,count=1);f.write_text(s,'utf-8')
+manifest=json.loads((R/'manifests/nonplay219_assets.json').read_text('utf-8'))
+for rel,digest in manifest['files'].items():assert sha(R/rel)==digest
+print(json.dumps({'status':'PASS_STACK_PROSE_CORRECTION_AND_219_FROZEN_HASHES','checked_files':len(manifest['files'])}))

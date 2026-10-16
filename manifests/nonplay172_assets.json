@@ -1,0 +1,25 @@
+{
+  "work": 172,
+  "files": {
+    "build/dialogue_kr_poc_049/TinyToon2_dialogue_kr_poc.nes": "31dfae821a603d8923b9a32bc1c0bb1ef19b6b98bd2f1670b29e4ea5e4b0f0aa",
+    "original/rom/Tiny Toon Adventures 2 - Montana Land e Youkoso (Japan).nes": "f41607b80904a2e1150a155121405dd1fed007ce98ff00a274a7891cafd7e32d",
+    "qa/reports/candidate119_NT1C.json": "cf50ba87b3a7e6e0e8f560af094a34f82455a447aefc1f32ad258795b1cb224a",
+    "qa/reports/nonplay169_scope_title_consumer.json": "48404d4121cc8003bc833dcaef250d7d1b2f35887b69fd658baf2e05180c5a0d",
+    "qa/reports/nonplay171_audit_v1_failure.json": "74df159c59e1c3ddd5246a83a74a9c05f943e34a986821b3f99c3b726055b3b7",
+    "qa/reports/nonplay171_final.json": "ab0c0508bcb57b0912e03c4dbb4387f4df40eeca9dfa01b892dddf56f8df6d12",
+    "qa/reports/nonplay171_session.json": "c86fabf9b5f8fef4bc36ee3e27a15f8042118b0e757befb38e93977aaae7a1c7",
+    "qa/reports/nonplay172_remaining_facts.json": "f7406254a6a8c2e24df42c06afebd5a649f5f823aab2b68fb907be7a59b3182e",
+    "qa/reports/nt112_supplier_bounds.json": "01be0b0772f2fe9fd1eb31889b48eca75e73d7c7f48560e1cd21f118abc8265e",
+    "qa/reports/printer113_catalog.json": "88b8cc39cce61c6b7662ee1dc96941a2b68671d43a8df84e3340ac305e8fbed2",
+    "qa/reports/stage110_analysis.json": "b4e87e24d90e0794ed70ea09b5c1bd27f179df4461b117ee2221ac9789e0a4b4",
+    "scripts/audit_project_links171_v2.py": "ea8e276945a45e83e60b66e46e1e973a29276fde9568570b4e635f42d7db453a",
+    "scripts/prepare_remaining172.py": "f12ddd66beeb83a4b2a6a89d595e09028edea53e938cf8a25bbf77de807003de",
+    "scripts/seal_nonplay171.py": "847e7b5c4030035e6cb3ea3b54daf7fbe73546e89e286029051aebfd79790a9a",
+    "workspace/review/remaining049_172/artifact_manifest.json": "74b9375f518019f220ea4387205e0a3973f596c73aa932ad72ab36ffb3814fbf",
+    "workspace/review/remaining049_172/DECISION_OPTIONS.md": "d61e3a138267304e8edb5d6e9774565246239b3bc71813f73288d4b9c15f5a94",
+    "workspace/review/remaining049_172/scope_options.json": "fb4010baa60f7986ba7bdb01a289307e45f65a93491d1401f2adc635cbfb6c1a",
+    "workspace/translation/nonplay_inventory049_169.json": "7b89a7ca67b795bf0a9af7f71c3823ab12bddb519b2ef54d7260f6d519f63b97",
+    "workspace/translation/text_ja.csv": "43bc5fe4218d8d01d29425f4dacdc5e92b7eae3db40cb1bb1852ca3e4e7f990f",
+    "docs/CURRENT049_REMAINING_THREE_SCOPE_OPTIONS.md": "02e4c8ef981a550c8a7895e06a8f1bbe58b4ae2dadf52a722abca47ba716a90b"
+  }
+}

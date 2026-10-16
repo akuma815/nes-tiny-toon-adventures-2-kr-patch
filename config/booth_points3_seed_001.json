@@ -1,0 +1,26 @@
+{
+  "purpose": "Controlled branch QA, not normal gameplay",
+  "frame": 1000,
+  "writes": [
+    {
+      "address": 2034,
+      "value": 3
+    },
+    {
+      "address": 2035,
+      "value": 0
+    },
+    {
+      "address": 2036,
+      "value": 0
+    },
+    {
+      "address": 2037,
+      "value": 0
+    },
+    {
+      "address": 2038,
+      "value": 0
+    }
+  ]
+}

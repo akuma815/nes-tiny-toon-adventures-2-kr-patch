@@ -1,0 +1,18 @@
+{
+  "work": 196,
+  "files": {
+    "manifests/nonplay188_assets.json": "b890708fa9f0d944a7b443e2290a9d48aa94b8dbbd6dad60ebf896e055df7cf3",
+    "manifests/nonplay189_assets.json": "3d4445c52509023fc1fe7aff4c5743a9517ca7f2e7b7ea4f4bc6d97cafc3befc",
+    "manifests/nonplay190_assets.json": "067b9ab8a389fa23c12e6c9f354632ea42cec6b944c085c7ef3285639ddb8da1",
+    "manifests/nonplay191_assets.json": "5dcf2101c9bb4c4e9c510ce70b6d5feb32620e8066a6a27409378b00c18f7cf6",
+    "manifests/nonplay192_assets.json": "0492c0bbfd7742d3ba96187c1dc6b797d9942cec699fbfd07556c30bb5763f92",
+    "manifests/nonplay193_assets.json": "be4d068779958ac0a4952ab985cc0a2f418cf00555a159e68589a2fba3dfd1ba",
+    "manifests/nonplay194_assets.json": "563c0aa1ee74d2ab82627a521d0b60ab721395665ae89c2871fb8033804a081f",
+    "manifests/nonplay195_assets.json": "3e265f29efdfe9418a4c34c14d9ea3279c62ab89f280f63fedd501f1a692c8d7",
+    "qa/reports/opening11_195_audit.json": "f72e4aba95f667204401f9b572e3f65e898378506e7278aa83ff819d19db320e",
+    "qa/reports/opening11_196_integrity.json": "f0cd7045131850aa8bfc490e87174158ef06389bb2146e71cf34fee25d51cab6",
+    "scripts/seal_nonplay171.py": "847e7b5c4030035e6cb3ea3b54daf7fbe73546e89e286029051aebfd79790a9a",
+    "scripts/seal_opening11_196.py": "31cecb9612aeb7eacc24ca9ef6e2f7074392822c04f28132674a329a9a61d6ff",
+    "docs/OPENING11_POC055_CURRENT_HANDOFF_AUDIT_196.md": "af97a1220798b79ddc6cf3f7982f800feede52e69375bcf72492d836c2fb4b60"
+  }
+}

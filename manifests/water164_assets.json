@@ -1,0 +1,16 @@
+{
+  "work": 164,
+  "files": {
+    "build/dialogue_kr_poc_049/TinyToon2_dialogue_kr_poc.nes": "31dfae821a603d8923b9a32bc1c0bb1ef19b6b98bd2f1670b29e4ea5e4b0f0aa",
+    "docs/WATER_ROPE_CAPTURE_NATIVE_MODEL.md": "165e98d1d70b4019b454b769757c4b261b47e42a912d142022f09b09a20d20a6",
+    "original/rom/Tiny Toon Adventures 2 - Montana Land e Youkoso (Japan).nes": "f41607b80904a2e1150a155121405dd1fed007ce98ff00a274a7891cafd7e32d",
+    "qa/dialogue/water163_held_jump049/environment.json": "2a48e11d1253a14739028c7ffcf1a23f8ddf44407865f02fbe881c63125d2500",
+    "qa/dialogue/water163_held_jump049/frame_08430_ram.bin": "650176d2c7a33f9cea1e5840f1ffca041e611985bf0166dd5753e66f5ce20899",
+    "qa/reports/water164_rope_model.json": "a06fcf901e34b10658a3901b5675710e5d4f2503fe2da5ba2c5a1de140239c48",
+    "scripts/analyze_river120_v2.py": "cefb1fa024d8186c4229e5d6f4bf7103cad09027090ca4be2939a0a91ce4956a",
+    "scripts/analyze_seal_water164.py": "9e2c935cf0e92e5d2c50e768bdd64feecaa870abe4e0f28ae4b7f93a6e42aced",
+    "scripts/seal_continuation159.py": "a7ecf488cbd62421ba3d14abe32a7d91ea0c7f3aafe5e0b90f4023a1f54ae53c",
+    "scripts/verify_gate_font_tag_hooks.py": "25108bf412dc61fdbfe69c87dd7004cdf69c66c8a98b2bfed0703e6e3534bcaf",
+    "workspace/translation/text_ja.csv": "43bc5fe4218d8d01d29425f4dacdc5e92b7eae3db40cb1bb1852ca3e4e7f990f"
+  }
+}

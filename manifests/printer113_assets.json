@@ -1,0 +1,9 @@
+{
+  "work": 113,
+  "files": {
+    "scripts/analyze_printer113.py": "ab0f6977256e8442c1015fdf8a2f31726a61c1f49a5350ee3a32c1d50f694ce5",
+    "qa/reports/printer113_catalog.json": "88b8cc39cce61c6b7662ee1dc96941a2b68671d43a8df84e3340ac305e8fbed2",
+    "workspace/translation/diagnostic_candidates113.json": "282995974c2c5a340efe9392692d42a0169cebad1ea0c3449150c20268c00f66",
+    "docs/NATIVE_COMMAND_PRINTER_CATALOG.md": "7c062a027272735c7183fb17d744dd3e276bb3db2af85fad634708808e70a17d"
+  }
+}

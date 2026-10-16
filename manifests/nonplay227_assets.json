@@ -1,0 +1,30 @@
+{
+  "work": 227,
+  "files": {
+    "dist/TinyToon12_NES_Korean_TechnicalGuide_20261009.zip": "bf23e6ccfc8a6e2ea21794bf0c4031bef6868e5dbdef6a47ab814101d7756c50",
+    "dist/TinyToon12_NES_Korean_TechnicalGuide_20261009.zip.sha256": "f6329e8e43ed4b550d8540660c2c3bdd3ccda68bffb529ec4dfb10fda60a9fc4",
+    "qa/publication/technical227_final/desktop_font_section.png": "26e807ec1d4078c242b38a9fe9fb15b27ae31bdff363060c64ac892a399b12ea",
+    "qa/publication/technical227_final/desktop_top.png": "bd4e96432d4b77660637882d602bf4cc1810058f714e0aa72d08158e6a2a52c4",
+    "qa/publication/technical227_final/mobile_font_section.png": "3a95443d7498dc42151b63242601a034b9c35be43c81fcc4c1ea44fe320e81af",
+    "qa/publication/technical227_final/mobile_top.png": "6e94242e6c45d48d16745c5b149df992a463258fc077f50ebf3e0b0cbc5f9803",
+    "qa/publication/technical227_final/render_report.json": "159bb3dac18327edde88d817fbeadf885a536ad53ee65894c95e1b870d6858a5",
+    "qa/reports/technical227_generation.json": "1842ecb55d1bfcbd4dc9b068fa981abb9e9e3dbbef4f9372ca98b933177933a0",
+    "qa/reports/technical227_page.json": "937f5718daab38725b1139b81699af8c684e4338d28eadac218431739a434edd",
+    "qa/reports/technical227_sources.json": "ec314d0c457e14cd8cf5078604d63684bdb06d2d365cc7e4a4ce9376a540fc6f",
+    "qa/reports/technical227_verified.json": "430434d09442fefef241c12804772acc6cfe6fbda4690a050f0a493dbdb45b3d",
+    "scripts/build_technical_guide227.py": "27c1681308d710bf13311ee80341f38ea6f2083a219abebb099446fa19ef4042",
+    "scripts/prepare_technical_renderer227.py": "6d9f0fc55b4e659b9d31c9c4b8f2764cd2233a1104d2c08e34f78f8a2e0d6737",
+    "scripts/render_technical227.py": "e2c3d2c8b2a37e1eda88d5de4700aa2d1fe6147d014d9cf8dc5bc97fe84e72a2",
+    "scripts/seal_nonplay171.py": "847e7b5c4030035e6cb3ea3b54daf7fbe73546e89e286029051aebfd79790a9a",
+    "scripts/seal_technical_guide227.py": "309e6861501ae34a77f2b13bb9903ecf426a411fa8b6ff6b142e340464fdaec2",
+    "workspace/publication/TinyToon12_TechnicalGuide_20261009/examples_nes.py": "30dac91b1776676839cfe5672c13af25ca37cb50e0a5fe7446de2bacecbe5491",
+    "workspace/publication/TinyToon12_TechnicalGuide_20261009/images/01.png": "38aec64dbe1aaacc9c62223acd324d310fa6e4bc0e341d91f460d1d6662e09f6",
+    "workspace/publication/TinyToon12_TechnicalGuide_20261009/images/02.png": "100d2da4ad7d3f7522f03ca250c76662d8f03d4e0e6ef62dfdbe6758594c77ed",
+    "workspace/publication/TinyToon12_TechnicalGuide_20261009/SHA256.txt": "f3af62cdfe82ebcdc072583beec7f9868c07170d1b6dd6c2bc607d2acd12234a",
+    "workspace/publication/TinyToon12_TechnicalGuide_20261009/\uac8c\uc2dc_\uc548\ub0b4.txt": "3b2c3fd6201589d9bd7a54442534bf4687ff607a778c109d58031b0e11d2645b",
+    "workspace/publication/TinyToon12_TechnicalGuide_20261009/\uae30\uc220_\uc9c0\uce68.html": "d176ecb4a52d28345b945617c2323c64cdd75c1bf5de6896eb441264b8ca8e15",
+    "workspace/publication/TinyToon12_TechnicalGuide_20261009/\uae30\uc220_\uc9c0\uce68.md": "546fa5e3417dd88a8a29e2e9058eb35bb1d866103e46c5316dc4a94134fe9130",
+    "workspace/publication/TinyToon12_TechnicalGuide_20261009/\uce74\ud398_\ubcf5\uc0ac\uc6a9_\ubcf8\ubb38.txt": "e30b71dea8aba6ae3ed23fe1e6c1fe3d4572be2414d0b46bde509617778de50b",
+    "docs/TINYTOON12_TECHNICAL_GUIDE_227.md": "e7d2be34ff15f84c449e98d9e7c8218cbe933bfc4c35e12f3fb549c35c632add"
+  }
+}

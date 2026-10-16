@@ -1,0 +1,25 @@
+{
+  "work": 152,
+  "files": {
+    "qa/dialogue/world043_water_controller/frame_02790_ram.bin": "6e153a7fafe17700e26f9bfa02dec8afdff0370e669c6a0195d396b3e4ae07a5",
+    "qa/dialogue/world043_water_controller/frame_02820_ram.bin": "be9ff532c28cef59996d1240dd3a44b0a2ce3a3bedabef228dcf6ad14b439600",
+    "qa/dialogue/world043_water_controller/frame_02850_ram.bin": "d3fdebc7dd04b3bb8478f358cf12196f50981890b26675ca61fbf54d22f7a82a",
+    "qa/dialogue/world043_water_controller/frame_02880_ram.bin": "fafe16246c1c31e445a488dea09ee762f28128c28b99528b25eb1b912807799e",
+    "qa/dialogue/world043_water_controller/frame_02910_ram.bin": "0e8b4a6cb239353afbca5e60ab4b6efceb72201955076c7c7268813f09d7006c",
+    "qa/dialogue/world043_water_controller/frame_02940_ram.bin": "94f6b80e1b28d2ff4c50400e9ee27ae0483f4f08eea9b33dac1d562ecec90c2a",
+    "qa/dialogue/world043_water_controller/frame_02970_ram.bin": "fc071d5078f9196fcd52be27d5dd276239608cf9113c2f06cca91e29aec85f12",
+    "qa/dialogue/world043_water_controller/frame_03000_ram.bin": "1153a7db92bf7b553becc922e5b60d9cfef1787748e51fba230ebd5ca19526b9",
+    "qa/dialogue/water143_native_049/frame_02790_ram.bin": "7dd6aeace1ad2333003973cf3ba4c8800c4dacbced3f3cf5366cfef92e46a1db",
+    "qa/reports/water152_progress_model.json": "7a1a9fc8b99112f070034653d9f634f8e62fb41d5d37539df0060d6d7a653999",
+    "docs/WATER_NATIVE_PROGRESS_MODEL.md": "03e6aefa79a94d817f0c75342cf4f8915f8f7733bb1a24e7cba85fd8e3560000",
+    "scripts/seal_water_progress152.py": "f32dde228dedd141bafd45a515fb2a5f542c199d4d6421b98f69ae12b0fc3106",
+    "scripts/analyze_water_progress152.py": "ad4e609b8e1378950529d764eeb55fc3c644aa71eec023866ee35fb9263e367b",
+    "scripts/analyze_river120_v2.py": "cefb1fa024d8186c4229e5d6f4bf7103cad09027090ca4be2939a0a91ce4956a",
+    "scripts/verify_gate_font_tag_hooks.py": "25108bf412dc61fdbfe69c87dd7004cdf69c66c8a98b2bfed0703e6e3534bcaf",
+    "scripts/verify_dialogue_home.py": "766a8165b8b25e6a71110bf021d71e87ada700e41124244e754d39ac89b090c6",
+    "build/dialogue_kr_poc_049/TinyToon2_dialogue_kr_poc.nes": "31dfae821a603d8923b9a32bc1c0bb1ef19b6b98bd2f1670b29e4ea5e4b0f0aa",
+    "workspace/translation/text_ja.csv": "43bc5fe4218d8d01d29425f4dacdc5e92b7eae3db40cb1bb1852ca3e4e7f990f",
+    "qa/dialogue/world043_water_controller/environment.json": "7c7edd68eb9cabafce85b281fb6f148c715105c5f0970c2d98d6f16b1f06e7e2",
+    "qa/dialogue/water143_native_049/environment.json": "2b6b69e360a30ec7a24dfa365363ffa3826b4f0ff426db753c30203be9bf577d"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "work": 179,
+  "files": {
+    "build/dialogue_kr_poc_050/TinyToon2_dialogue_kr_poc.nes": "49b8e869a232657f88c1810c3319d0f79b0ee23dd1ed993cf2bfc1f48726dc25",
+    "dist/TinyToonAdventures2_KR_Review_050_BoothFix_20261008.zip": "7d13c4e1a5214e64b63a9daa72df008b461ed0c594d6c90a28e77b1e30dd7667",
+    "manifests/nonplay177_assets.json": "c55a096893177ec7ee1d1219489a24d402ab73215013a7e460f5f7ded578ceff",
+    "manifests/nonplay178_assets.json": "1b6fb6c3bbc673e9dd8e4916a6a7274fc20dbbad9501aba2ddd5d872dd928f6c",
+    "qa/reports/issue177_session.json": "c2146b8e7f59577e8f16bee85fa0fbc8e21cf1c37924e7e2c70e264f9a220adf",
+    "qa/reports/issue178_package.json": "feb7c3f0bf0ced20c960a42c7cc91ff5d1c6631c835cf9e344a9b3c749287758",
+    "qa/reports/issue178_session.json": "0cdcde20b9c35250f50839036ce150240c115c8f20021071a1bf49648bdcd139",
+    "scripts/audit_project_links179.py": "6e52b44b08449f63329365aab493a3a76cc3f24143c6d71b8fa33e593e87e397",
+    "scripts/seal_booth179.py": "b31945040015cfbf705adaf5a4fdadb2d83bcb802015dd4ab32e414eb3e5a26f",
+    "scripts/seal_nonplay171.py": "847e7b5c4030035e6cb3ea3b54daf7fbe73546e89e286029051aebfd79790a9a",
+    "workspace/translation/text_ja.csv": "43bc5fe4218d8d01d29425f4dacdc5e92b7eae3db40cb1bb1852ca3e4e7f990f",
+    "docs/BOOTH_FIX050_FINAL_RECONCILIATION_179.md": "30139e14536cf730c8aea69adfa5a60a83911a3978aceff3d227c16e03db5722"
+  }
+}

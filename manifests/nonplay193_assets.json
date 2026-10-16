@@ -1,0 +1,27 @@
+{
+  "work": 193,
+  "files": {
+    "build/opening11_193_rebuild055/build_report.json": "90ed5f9172fede2a833229e6c55d57b1f9040eb32bfa27fbc45c87a842921588",
+    "build/opening11_193_rebuild055/builder_used.py": "184694d616dfd58b65ecc3d400dbe6ba11db94cf70b2f87ed664f6b763fac27a",
+    "build/opening11_193_rebuild055/expected_writes.json": "8be26e977b422d49a0c335e7f4efc4076385b32d9d81cab9ca2dafb3803f49c2",
+    "build/opening11_193_rebuild055/layout_override_used.json": "e96e05f19dada9366bbb3c277179fd42b50e944b6d8176654384eaf7502a6c8c",
+    "build/opening11_193_rebuild055/opening11_plan.json": "8d38f0744b471c6f4ce45518e801747bc79196aa1d28e8329d5baa27c57de75c",
+    "build/opening11_193_rebuild055/TinyToon2_Opening11_PoC055.ips": "a797dfc5289f381c926749ef9b5d6387e071eeaf950dbca9b949748734124fcc",
+    "build/opening11_193_rebuild055/TinyToon2_Opening11_PoC055.nes": "8346499ca4240ffad350e3977f792735563779b8c749744a8d9b413ea0b44086",
+    "build/opening11_193_rebuild055/translation_used.csv": "43bc5fe4218d8d01d29425f4dacdc5e92b7eae3db40cb1bb1852ca3e4e7f990f",
+    "build/opening11_poc_055/build_report.json": "90ed5f9172fede2a833229e6c55d57b1f9040eb32bfa27fbc45c87a842921588",
+    "build/opening11_poc_055/builder_used.py": "184694d616dfd58b65ecc3d400dbe6ba11db94cf70b2f87ed664f6b763fac27a",
+    "build/opening11_poc_055/expected_writes.json": "8be26e977b422d49a0c335e7f4efc4076385b32d9d81cab9ca2dafb3803f49c2",
+    "build/opening11_poc_055/layout_override_used.json": "e96e05f19dada9366bbb3c277179fd42b50e944b6d8176654384eaf7502a6c8c",
+    "build/opening11_poc_055/opening11_plan.json": "8d38f0744b471c6f4ce45518e801747bc79196aa1d28e8329d5baa27c57de75c",
+    "build/opening11_poc_055/TinyToon2_Opening11_PoC055.ips": "a797dfc5289f381c926749ef9b5d6387e071eeaf950dbca9b949748734124fcc",
+    "build/opening11_poc_055/TinyToon2_Opening11_PoC055.nes": "8346499ca4240ffad350e3977f792735563779b8c749744a8d9b413ea0b44086",
+    "build/opening11_poc_055/translation_used.csv": "43bc5fe4218d8d01d29425f4dacdc5e92b7eae3db40cb1bb1852ca3e4e7f990f",
+    "qa/reports/opening_layout193_cpu.json": "4f4ad6a263261a46a4b1dde53189991fd63faa0d996e897087b85a815999389e",
+    "scripts/build_opening_layout193.py": "184694d616dfd58b65ecc3d400dbe6ba11db94cf70b2f87ed664f6b763fac27a",
+    "scripts/seal_nonplay171.py": "847e7b5c4030035e6cb3ea3b54daf7fbe73546e89e286029051aebfd79790a9a",
+    "scripts/seal_opening_layout193.py": "cfe26219fe0030d3d1dfcd6e0bcaac10672eff6c3208d1f31402c587c6cd1ae3",
+    "workspace/translation/opening_layout_override193.json": "e96e05f19dada9366bbb3c277179fd42b50e944b6d8176654384eaf7502a6c8c",
+    "docs/OPENING11_PAGE6_USER_LAYOUT_POC055_BUILD_193.md": "712a1daeaff94712e2311c487801f49449fc1c01a5842e1b49888eb2655f4f84"
+  }
+}

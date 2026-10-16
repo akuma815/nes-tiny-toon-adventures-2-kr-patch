@@ -1,0 +1,34 @@
+{
+  "work": 169,
+  "date": "2026-10-07",
+  "question": "사용 경로가 미확정인 HOWTO·PAUSE·POW 그림은 현재 원문을 보존했습니다. 이번 한글화에서는 어느 범위로 진행할까요?",
+  "user_answer": "이번 범위에서는 원문 유지",
+  "approved_by": "user",
+  "source": "Explicit user reply to scope question in this session",
+  "decisions": [
+    {
+      "id": "HOWTO",
+      "decision": "preserve_original_for_this_scope",
+      "human_approved": true,
+      "consumer_closed": false,
+      "unused_proven": false
+    },
+    {
+      "id": "PAUSE",
+      "decision": "preserve_original_for_this_scope",
+      "human_approved": true,
+      "consumer_closed": false,
+      "unused_proven": false
+    },
+    {
+      "id": "POW",
+      "decision": "preserve_original_for_this_scope",
+      "human_approved": true,
+      "consumer_closed": false,
+      "unused_proven": false
+    }
+  ],
+  "limit": "Only these three graphics in this localization scope. Not global English retention, unused proof, gameplay or overall final approval.",
+  "ROM_sha256": "31dfae821a603d8923b9a32bc1c0bb1ef19b6b98bd2f1670b29e4ea5e4b0f0aa",
+  "SSOT_sha256": "43bc5fe4218d8d01d29425f4dacdc5e92b7eae3db40cb1bb1852ca3e4e7f990f"
+}

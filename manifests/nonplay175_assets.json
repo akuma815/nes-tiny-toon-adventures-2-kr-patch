@@ -1,0 +1,25 @@
+{
+  "work": 175,
+  "files": {
+    "build/dialogue_kr_poc_049/TinyToon2_dialogue_kr_poc.nes": "31dfae821a603d8923b9a32bc1c0bb1ef19b6b98bd2f1670b29e4ea5e4b0f0aa",
+    "dist/TinyToonAdventures2_KR_Review_049_Scope173_20261008.zip": "55a4785270b52ead8e5bbc4b62b9584a5dd23da4c58e823f16bdac09d87f2acb",
+    "qa/reports/nonplay173_final.json": "8381f513112c8bca8428cbea08fc2126eb488654d1293a762f63645d083756e1",
+    "qa/reports/nonplay173_package.json": "de8828b66e80945e9114bfa7d02b3131e01131c688be63750ead196ecd4d0b0e",
+    "qa/reports/nonplay173_session.json": "b60976d7e892eecf39582760b60ce3ca96c2ea6ca4fe9c6a79c2cc8f92e6bbfd",
+    "qa/reports/nonplay174_capture_provenance.json": "38b577836c3bfcf1c933b6d96a666d0147859c44e142253fa679d42a09b7d8ec",
+    "qa/reports/nonplay174_session.json": "d220f81b1ea7ba5e6fcb15e3cac211ca3e6cb79b2e240d77b471bb8ea47714be",
+    "qa/reports/nonplay175_review_readiness.json": "61f3debfaff774044b23957d724b267e8a30e2e12e84f395b948b83839d929a2",
+    "scripts/audit_project_links171_v2.py": "ea8e276945a45e83e60b66e46e1e973a29276fde9568570b4e635f42d7db453a",
+    "scripts/prepare_user_review175.py": "c23806fc782968ca130abe204aef7cb996fcf595dd7afc17ff9506ed21694d8a",
+    "scripts/seal_nonplay171.py": "847e7b5c4030035e6cb3ea3b54daf7fbe73546e89e286029051aebfd79790a9a",
+    "workspace/review/user049_20261008_175/artifact_manifest.json": "ca07b5c55bd0daec44390d7ee5b0c30530c7d310fac83103e80e7e2a2f00891f",
+    "workspace/review/user049_20261008_175/readiness.json": "b1813e0f8d67593cd2509dfd3b1e7c799e24f9cf5c8d6d7307bf3d33c9522640",
+    "workspace/review/user049_20261008_175/result_template.json": "6e6a12e8ca8f0080a5b5f6d8199c99450f5fdb7258eace85cc1416ff96a9c804",
+    "workspace/review/user049_20261008_175/USER_QA_KO.md": "b1b0114364a969b3fac427334b9b438f26e0a1ecdf31006a9c59d710dae68cbc",
+    "workspace/translation/coverage049_151.json": "2368d014dbb2d9948b093a934b85937958da76fb6c72fe60ca0fe9cc8309f2e9",
+    "workspace/translation/nonplay_inventory049_173.json": "d55806f341c5a1fc6ca0e86049ffe6c54565ebabd20e02ba6e63cd2e068876a8",
+    "workspace/translation/prose_review_125.json": "d65475e264779e30509cf758945fbdbc8729890ab9701f1f9c0fa9915c53180c",
+    "workspace/translation/text_ja.csv": "43bc5fe4218d8d01d29425f4dacdc5e92b7eae3db40cb1bb1852ca3e4e7f990f",
+    "docs/CURRENT049_USER_REVIEW_READINESS_175.md": "20c75b26787c329f15c0aee876c6c622511a16c0853383c35150232b7b46af04"
+  }
+}

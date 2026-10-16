@@ -1,0 +1,16 @@
+{
+  "work": 120,
+  "files": {
+    "build/dialogue_kr_poc_047/TinyToon2_dialogue_kr_poc.nes": "82ccec59ea23e899d0bcdb22123d67cc935a13305a843ca3f1f42fb24dc80c10",
+    "docs/RIVER_BANK61_STAGE_SPRITES.md": "cfc444ffa7f37aa7ff8c24180d71601d0b1746adb344771b34797c930ea916b6",
+    "qa/reports/river120_bank61_v2.json": "c45cf4315a327f0a342f0b808e1d4be3c0a718e16dc5df0f4dee431a9ce563b6",
+    "qa/reports/river120_v1_observation.json": "9df9d0ff5fabae679508aca0c76519eb9b33a18712cd6cbdd190bcced6d13a8b",
+    "scripts/analyze_pow_metasprites096.py": "2529ac4c063b402656ed5e80de08bc986b035490895b88567615a50be85f64cd",
+    "scripts/analyze_river120.py": "7101c57142fbcc95f75807bc0e23205d00d5dbcf8bf68ca80bd5255b43d56b8e",
+    "scripts/analyze_river120_v2.py": "cefb1fa024d8186c4229e5d6f4bf7103cad09027090ca4be2939a0a91ce4956a",
+    "scripts/verify_gate_font_tag_hooks.py": "25108bf412dc61fdbfe69c87dd7004cdf69c66c8a98b2bfed0703e6e3534bcaf",
+    "work/river120/stage_ED_EE_EF_static.png": "d0efd450248f26d6841bd859b452207089b41a4fe9748347d4238021146ccd09",
+    "work/river120/visual_and_guard_check.json": "eb5c8cdfcddf30f10f9b21acf02c658f65b788ec5c35e0701ff5cb0adabe811a",
+    "workspace/translation/text_ja.csv": "ac22c5842e4f8d1600925e0837508c82f198157553031bd7cc3371fb6e4cf556"
+  }
+}

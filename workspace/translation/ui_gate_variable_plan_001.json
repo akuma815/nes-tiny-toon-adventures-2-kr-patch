@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-05",
+  "source_sha256": "f41607b80904a2e1150a155121405dd1fed007ce98ff00a274a7891cafd7e32d",
+  "prior_build": "dialogue_kr_poc_028",
+  "prior_ROM_sha256": "c39750936c24f354d199c5c0cb17756979deb80b546ccfd2b5db541160d2ae1e",
+  "backup_CSV_sha256": "2a5c062710daf43969146b699c3269409666230ee2d3bbf72609b698567ee8b8",
+  "CSV_sha256": "979325a40d12762c62d27ec4a70edc33646ae780dedf2e787bbca4c498e67462",
+  "profiles": [
+    {
+      "entry_id": "MAIN_05805",
+      "slot": 26,
+      "slots": [
+        26,
+        44
+      ],
+      "ride": 5,
+      "pointer": 38901,
+      "source_file_offset": 22533,
+      "end_exclusive": 22555,
+      "source_raw_sha256": "9f22fbc08ad7d2ff8b6742c5d42d2679c6ca26b8597e0c08e369685a902529e0",
+      "text": "일반 티켓 {variable_FA}장으로\n입장 가능해요",
+      "font_bank": 183,
+      "padding": [
+        3,
+        1
+      ],
+      "scene": "Castle gate price and admission; native controller route and explicit gold4/normal50/49 branch seeds",
+      "speaker": "Castle gate attendant; identity unresolved"
+    },
+    {
+      "entry_id": "MAIN_05824",
+      "slot": 28,
+      "slots": [
+        28
+      ],
+      "ride": 5,
+      "pointer": 38932,
+      "source_file_offset": 22564,
+      "end_exclusive": 22579,
+      "source_raw_sha256": "7a4d5cb1ae40c94acd05c6a4f254c1b4786fc1158ab7c84ff02d8e6ad2179b3e",
+      "text": "어서 들어오세요",
+      "font_bank": 185,
+      "padding": [
+        0
+      ],
+      "scene": "Castle gate price and admission; native controller route and explicit gold4/normal50/49 branch seeds",
+      "speaker": "Castle gate attendant; identity unresolved"
+    }
+  ],
+  "native_punctuation": {
+    "?": 107,
+    "!": 108,
+    "「": 109,
+    "」": 110,
+    "4": 116
+  },
+  "scope": "Two observed castle drafts, FA numeric variable and alias2C retained; other25 drafts unchanged; development only",
+  "review": "Draft; attendant identity and final translation review pending; no release"
+}

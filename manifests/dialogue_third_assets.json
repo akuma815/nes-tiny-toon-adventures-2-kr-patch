@@ -1,0 +1,151 @@
+{
+  "date": "2026-10-05",
+  "adopted_build": "dialogue_kr_poc_012",
+  "status": "Development third paragraph PASS; four drafts, no release",
+  "entry_ids": [
+    "MAIN_05609",
+    "MAIN_05625",
+    "MAIN_0564D",
+    "MAIN_05741"
+  ],
+  "translation_rows": {
+    "draft": 4,
+    "untranslated": 50
+  },
+  "inputs": {
+    "manifests/source_rom.json": "14f677dfcdd03b8989accd3d23859db6f0c5b2443c7c25dceecc7af6c216157a",
+    "workspace/translation/text_ja.csv": "ac801c8b980a2298cccc3108a14e03c64df2d959fe3eb8ffc48fe35777ebd2b9",
+    "backups/translation/text_ja_before_third_001.csv": "ca047c3ec77880532fc05f11a08622d009ae8ba40a5ed9b374fa02dbd012ac69",
+    "workspace/asm/dialogue_page_font_002.asm": "d736e825c7abb2a9c483a0e9c6659f964660a901f43115575ba8d42bdf745c50",
+    "workspace/asm/dialogue_font_irq_001.asm": "4d4725d8458182ff796a60715e482be9c28157a24d0453985e770a67efa0ebda",
+    "build/dialogue_kr_poc_003/TinyToon2_dialogue_kr_poc.nes": "761f2495295dc07b1648a5aa0d1dbf85139d67b4e6962639d34e0688989ede3a",
+    "build/dialogue_kr_poc_003/expected_writes.json": "f1ab39ed58695294253be7c95d4d46f9995652d493a77d9734790e6d1a894ca8",
+    "build/dialogue_kr_poc_008/TinyToon2_dialogue_kr_poc.nes": "4d4b2f4ab979585432d44f52432d85cebc83afa4a25e58a2e692b0227351e314",
+    "workspace/fonts/galmuri7_8x8/Galmuri7_8x8.png": "a2be473e22a62942164c95db60f3f5aa88a99f76b525994d194e9f5f9df387ea",
+    "workspace/fonts/galmuri7_8x8/Galmuri7.ttf": "3882bd35066c26b0392cd4963ff9b3c151041dec34adc9d5633d137d1d9b9855",
+    "workspace/fonts/galmuri7_8x8/OFL.md": "9a9e5a342c430c3fcf01a408b680f4405d5bf4ac659c931be35f8a1b27ea69c9",
+    "workspace/fonts/galmuri7_8x8/font_source.json": "683a3f2f1a81d34a0206c2e55d4284fd32ea12e535c8fd0be30af8d4e01bae3b",
+    "scripts/build_dialogue_third.py": "d5958ac990028b45cde26548f94888cb273f30aefc19278204f308e7280ad3bc",
+    "scripts/verify_dialogue_third_hooks.py": "589a03d7a7e1d33f7b7f9e70206b024120736da261e5e38d6aa173b3d3416919",
+    "scripts/verify_dialogue_third.py": "0f0313749300e55ae7a94572d47982f29acd66776d9ad7ca4e21ab67b7c7ad1f",
+    "scripts/capture_dialogue_third.lua": "af0d36d79a808c1d7c2374ea3a969ee33f9945925d85efb34544d88de68d9235",
+    "scripts/trace_dialogue_third_irq.lua": "1f19e6fce9c1a54c991b392bb715e98498d961bdc62d82d0c66bee127fd441ad",
+    "scripts/audit_dialogue_third_session.py": "8b1a2628a6f3e43b130c5b7f249d0e922ba823f848a88755b71b4f02f1f6a9be",
+    "scripts/trace_dialogue_pages.lua": "01873b149fad12b9cb2458b17a3505c340714af9c47c5f2c3813117fc9c438ec",
+    "scripts/run_dialogue_qa.py": "7e42c3158279ee7e69251a17bc64e01478b25ae99658f4423d5a1cc32fa4b5d2",
+    "scripts/dialogue_ips.py": "c161d4e55a4216146a2e08a20b7bfec45a73eea85683ca4a647efada224eb12b",
+    "scripts/asm6502.py": "c5492dccbeb376f3514a730f6e05314d3cbd62688ffdf68f52c968e85807c26e",
+    "scripts/verify_dialogue_home.py": "766a8165b8b25e6a71110bf021d71e87ada700e41124244e754d39ac89b090c6",
+    "tools/python/py65-1.2.0/py65/assembler.py": "8e92b5249c1bedcbac26d03a64ab3d35852914dae005d5abf87a275a1d20a383",
+    "tools/python/py65-1.2.0/py65/disassembler.py": "b8cca0c23ef69dcf88b6dccb08582e4a4d088a561a04c833acb37b3742cdcccc",
+    "tools/python/py65-1.2.0/py65/devices/mpu6502.py": "15d93835b4f279b702270d9a0b417938291347ec57cc12d9e0307cd344d381fe",
+    "tools/python/py65-1.2.0/py65-1.2.0.dist-info/LICENSE.txt": "611bf384c5293db4eb9d2c1da95073dfc633e30a177445ec0166ed108b7926e5"
+  },
+  "outputs": {
+    "build/dialogue_kr_poc_012/asm6502_used.py": "c5492dccbeb376f3514a730f6e05314d3cbd62688ffdf68f52c968e85807c26e",
+    "build/dialogue_kr_poc_012/asm_listing.json": "74118b2dc5c1234317483f3014e241af31082057d79e8d53a2189ac22830ec6a",
+    "build/dialogue_kr_poc_012/build_report.json": "9354240d0b6e433d72cac33e6c575c300f24c2b978581c798ae7fdc6ec554226",
+    "build/dialogue_kr_poc_012/builder_used.py": "d5958ac990028b45cde26548f94888cb273f30aefc19278204f308e7280ad3bc",
+    "build/dialogue_kr_poc_012/expected_writes.json": "92048945f77afd26d9b2c46f45d2a3dad1a2b4956a428159596ad005545292cd",
+    "build/dialogue_kr_poc_012/font_irq_used.asm": "4d4725d8458182ff796a60715e482be9c28157a24d0453985e770a67efa0ebda",
+    "build/dialogue_kr_poc_012/page_font_used.asm": "d736e825c7abb2a9c483a0e9c6659f964660a901f43115575ba8d42bdf745c50",
+    "build/dialogue_kr_poc_012/second_glyph_mapping.json": "e3b19cd2dc177f9bc5a558a2ca51145328e74759cfcaa21d980ad94f8e325871",
+    "build/dialogue_kr_poc_012/third_glyph_mapping.json": "b9b62e619dabee0901ca95d71e5e8f2b1960ac61945b392d8a398863a140d0e0",
+    "build/dialogue_kr_poc_012/TinyToon2_dialogue_kr_poc.ips": "fd3b533f224b443a7949c5b1d29412dc8fc73a286e5a22d534e74adceb594ad9",
+    "build/dialogue_kr_poc_012/TinyToon2_dialogue_kr_poc.json": "f6d8213d7f1c783130131386fecbabb7b9a909dc8da571924883432cbfe7e15b",
+    "build/dialogue_kr_poc_012/TinyToon2_dialogue_kr_poc.nes": "c516074626df8890900f8c2db532ae9d844aaeb6c775c5f17d53d5d55bea992a",
+    "build/dialogue_kr_poc_012/translation_used.csv": "ac801c8b980a2298cccc3108a14e03c64df2d959fe3eb8ffc48fe35777ebd2b9",
+    "build/dialogue_kr_poc_012_rebuild/asm6502_used.py": "c5492dccbeb376f3514a730f6e05314d3cbd62688ffdf68f52c968e85807c26e",
+    "build/dialogue_kr_poc_012_rebuild/asm_listing.json": "74118b2dc5c1234317483f3014e241af31082057d79e8d53a2189ac22830ec6a",
+    "build/dialogue_kr_poc_012_rebuild/build_report.json": "9354240d0b6e433d72cac33e6c575c300f24c2b978581c798ae7fdc6ec554226",
+    "build/dialogue_kr_poc_012_rebuild/builder_used.py": "d5958ac990028b45cde26548f94888cb273f30aefc19278204f308e7280ad3bc",
+    "build/dialogue_kr_poc_012_rebuild/expected_writes.json": "92048945f77afd26d9b2c46f45d2a3dad1a2b4956a428159596ad005545292cd",
+    "build/dialogue_kr_poc_012_rebuild/font_irq_used.asm": "4d4725d8458182ff796a60715e482be9c28157a24d0453985e770a67efa0ebda",
+    "build/dialogue_kr_poc_012_rebuild/page_font_used.asm": "d736e825c7abb2a9c483a0e9c6659f964660a901f43115575ba8d42bdf745c50",
+    "build/dialogue_kr_poc_012_rebuild/second_glyph_mapping.json": "e3b19cd2dc177f9bc5a558a2ca51145328e74759cfcaa21d980ad94f8e325871",
+    "build/dialogue_kr_poc_012_rebuild/third_glyph_mapping.json": "b9b62e619dabee0901ca95d71e5e8f2b1960ac61945b392d8a398863a140d0e0",
+    "build/dialogue_kr_poc_012_rebuild/TinyToon2_dialogue_kr_poc.nes": "c516074626df8890900f8c2db532ae9d844aaeb6c775c5f17d53d5d55bea992a",
+    "build/dialogue_kr_poc_012_rebuild/translation_used.csv": "ac801c8b980a2298cccc3108a14e03c64df2d959fe3eb8ffc48fe35777ebd2b9",
+    "build/dialogue_kr_poc_011/TinyToon2_dialogue_kr_poc.nes": "c516074626df8890900f8c2db532ae9d844aaeb6c775c5f17d53d5d55bea992a",
+    "build/dialogue_kr_poc_011/translation_used.csv": "a392553e06619f5113593d39c1d6a0a499f76febc7431e5b226b5604e00831d6",
+    "qa/reports/pages011_hooks_final.json": "6b472c8b34bfcbd3a35fe7f0db05f155122cb931d233bfdd2148c011aad12055",
+    "qa/reports/dialogue_third012_validation.json": "9ee0e60c6e244656f60317eac35b0f09ae5cab687ebc49c1e9ec4b1bae9e888b",
+    "qa/dialogue/pages011_attract/environment.json": "0db32b4d2be2770413ef345bc3c89ac45f1244cf84933edd2c3733aed91a905c",
+    "qa/dialogue/pages010_reference_attract/environment.json": "2500f291158ed95baaf59dad85aafa6581690dbe038941a04c7d3e0c92b6c534",
+    "qa/dialogue/pages011_start/environment.json": "c271f764dd206e2ba90a77a52b91b1ea890646d90ebde8ad47985cc91dda8250",
+    "qa/dialogue/pages010_reference_start/environment.json": "29d1122a4e92f7306bbb127849eec375cccb101bf4cf405473371e1cfddffaae",
+    "qa/dialogue/pages011_introstart/environment.json": "b705f79e9f3bc0f906fd8c23cd747539e0cabda6934d050e1c01f020081601c3",
+    "qa/dialogue/pages010_reference_introstart/environment.json": "767584e8da4717a81521fe6204b93a885546a27e9d052633e4ea9d3e6a778dcb",
+    "qa/dialogue/pages011_preskip/environment.json": "7dac9a94311aba54f7e4d93d391d93314f0602cbe743b64163f8dc9cb82b0836",
+    "qa/dialogue/pages010_reference_preskip/environment.json": "cd3fda9d8644fdd843b1570e4e630ea1072487b75dfbc4e9fa8ffade7d9e8fe8",
+    "qa/dialogue/pages011_irq/environment.json": "a078eb075c8b18edd5cab174e70cdadfa42a5c1a100adc9b75392acde2b3a537",
+    "qa/dialogue/pages010_reference_irq/environment.json": "425e49600632273c8d0773cc6113e743062437cf0c8dcdfd32081037552747d8",
+    "qa/dialogue/pages011_lifetime/environment.json": "6c8fcc31a814ce2792e7a4e81d6cfb2ac250f11c823731316a40056c62cb103c",
+    "qa/dialogue/pages012_actual_4x.png": "2238d2d1e243f432e7247b3730137f03fdccde836677b1d9de03954fc4e71a90",
+    "qa/dialogue/pages011_attract/frame_01560.png": "4ec050bf5656dc2ebf8f4c90a6366d6c773e44ad37f22a48e4ff7137c8d1bc47",
+    "qa/dialogue/pages011_attract/frame_01680.png": "c71adef020f9eb8843bf6564f44420e81741b77ad9f8430b57f50e55569c1062",
+    "qa/dialogue/pages011_attract/frame_04280.png": "350228586dd05ff3735c12d8642f89f873a23571841d311aab04cafef3999eeb",
+    "qa/dialogue/pages011_start/frame_01080.png": "60085ba0a450916f82a8b838d9d61edf041b2097490683b72918574050f0b9e7",
+    "qa/dialogue/한글 패치 적용 012/TinyToon2_third012_applied.nes": "c516074626df8890900f8c2db532ae9d844aaeb6c775c5f17d53d5d55bea992a"
+  },
+  "font_sets": {
+    "first_intro": [
+      128,
+      129
+    ],
+    "second_intro": [
+      132,
+      133
+    ],
+    "third_intro": [
+      134,
+      135
+    ],
+    "home": [
+      130,
+      131
+    ],
+    "other_native_pages": [
+      90,
+      91
+    ]
+  },
+  "third_font_file_range_hex": [
+    "61810",
+    "62010"
+  ],
+  "ROM_size": 401424,
+  "PRG_KiB": 256,
+  "CHR_KiB": 136,
+  "helper_PRG_bank": 2,
+  "native_PRG_banks": [
+    18,
+    19
+  ],
+  "fixed_PRG_bank": 31,
+  "helper_code_bytes": 145,
+  "third_text": "모두가 그 얘기로 떠들썩할 때",
+  "font_provider": "Galmuri7 2.403, SIL OFL1.1; 12glyphs, atlas/TTF8px pixel match and NES2bpp roundtrip",
+  "assembler_provider": "Preserved asm6502.py, py65 1.2.0 BSD3; 151 official NMOS6502 opcode/mode, 604 roundtrip vectors",
+  "runtime_capture_build": "dialogue_kr_poc_011",
+  "runtime_capture_ROM_whole_bytes_equal_adopted": true,
+  "metadata_context_correction": "012 CSV notes changes Babs to Buster Bunny based on displayed Japanese; translation/body/font/code bytes unchanged from011",
+  "unadopted_trials": [
+    "009: third162extra cycles not multiple19",
+    "010:171cycles aligned19 but actual transition timestamps13 differ008",
+    "011: verified binary retained; prior context note corrected in012"
+  ],
+  "evidence": {
+    "static": "Entire008 model equals output except composed third changes; source54units/other53rows protected",
+    "CPU": "1072ABI cases including288stale C6 seeds; allpage times equal008",
+    "build_apply": "012 rebuild and actual pristine-source IPS apply equal",
+    "emulator": "1998matchedscreens, only third row changes, home407equal,8973timestamps equal",
+    "direct_visual": "third1560/4x/4280, fourth Japanese1680, home1080 observed; human final review pending"
+  },
+  "limits": [
+    "Third consumes final2KiB CHR padding; next font needs planned growth",
+    "50 source units and scene mapping unresolved",
+    "CPU model excludes async IRQ and real PPU; real observed routes only",
+    "Existing PRG/RNG22 caveat; no full playthrough/audio/reset/savestate/physical hardware/release"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-05",
+  "source_sha256": "f41607b80904a2e1150a155121405dd1fed007ce98ff00a274a7891cafd7e32d",
+  "prior_build": "dialogue_kr_poc_031",
+  "prior_ROM_sha256": "8c323f0445d2e35e70404b6dae269c11dbb8c1c3edfe486ecdbd1702c4093a19",
+  "backup_CSV_sha256": "979325a40d12762c62d27ec4a70edc33646ae780dedf2e787bbca4c498e67462",
+  "CSV_sha256": "ba881bbffdaf4f5fa84d43f941d9166914e156358a7337c3b1bb66be8af33c86",
+  "profiles": [
+    {
+      "entry_id": "MAIN_057AC",
+      "slot": 21,
+      "slots": [
+        21
+      ],
+      "pointer": 38812,
+      "source_file_offset": 22444,
+      "end_exclusive": 22456,
+      "source_raw_sha256": "385941ab0a0c45d775d0ed1094d1240f978a6b84c1285f133e0bb206c6b101d5",
+      "text": "언제든 오세요\n",
+      "font_bank": 188,
+      "padding": [
+        0,
+        0
+      ],
+      "scene": "Observed booth successful exchange and shared ride lower start; recorded points3/gold4 seed branches",
+      "speaker": "Ticket booth attendant"
+    },
+    {
+      "entry_id": "MAIN_05920",
+      "slot": 42,
+      "slots": [
+        42
+      ],
+      "pointer": 39184,
+      "source_file_offset": 22816,
+      "end_exclusive": 22825,
+      "source_raw_sha256": "02c43a3b39d094ea7b882b17058d150259dc2049e07f8be198e435b28f8058af",
+      "text": "출발!",
+      "font_bank": 190,
+      "padding": [
+        1
+      ],
+      "scene": "Observed booth successful exchange and shared ride lower start; recorded points3/gold4 seed branches",
+      "speaker": "Buster"
+    }
+  ],
+  "native_punctuation": {
+    "?": 107,
+    "!": 108,
+    "「": 109,
+    "」": 110,
+    "4": 116
+  },
+  "scope": "Observed successful booth farewell15 and shared ride lower start2A; all27 prior drafts retained",
+  "review": "Draft; attendant identity and final translation review pending; no release"
+}

@@ -1,0 +1,8 @@
+{
+  "source_text": "STOP",
+  "translation_ko": "정지",
+  "status": "draft",
+  "human_approved": false,
+  "consumer": "extracted/graphics/stop_001/consumer.json",
+  "font_method": "Galmuri7 native6x7 ink, two vertical glyphs sheared to native inner label field"
+}

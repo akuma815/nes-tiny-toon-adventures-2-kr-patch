@@ -1,0 +1,26 @@
+{
+  "work": 224,
+  "files": {
+    "dist/TinyToonAdventures2_KR_v1.0_Release_20261009/apply.cmd": "c5f595a2f77d63006576e2d154ec033a574cd8f596275b18ad0196a0e98e2b05",
+    "dist/TinyToonAdventures2_KR_v1.0_Release_20261009/apply.ps1": "6f767cc1c50945e2c5f0dd2251b7e7e1f03da0339e984d5119ccb3004b772c64",
+    "dist/TinyToonAdventures2_KR_v1.0_Release_20261009/licenses/Galmuri11_v2.40.4_OFL.txt": "86a3ee9495f942f0243f18c103da9faca27adb88142613edb8bb852e56c892c1",
+    "dist/TinyToonAdventures2_KR_v1.0_Release_20261009/licenses/Galmuri_OFL.md": "9a9e5a342c430c3fcf01a408b680f4405d5bf4ac659c931be35f8a1b27ea69c9",
+    "dist/TinyToonAdventures2_KR_v1.0_Release_20261009/README_\uc801\uc6a9\ubc29\ubc95.txt": "97095c738b4faac9c743f3e66c5e361d9a3483a7f649cf337db6e74bcaea8f45",
+    "dist/TinyToonAdventures2_KR_v1.0_Release_20261009/RELEASE_NOTES_KO.md": "afa05c50984039b4a8faa38434ef989ba58eb76da4717943cd23237950fdd385",
+    "dist/TinyToonAdventures2_KR_v1.0_Release_20261009/release_report.json": "7a1160e44e44f1ef0df73c4b9d8e4c60a1a8e34576eb874d6691b2160d6ab7e9",
+    "dist/TinyToonAdventures2_KR_v1.0_Release_20261009/SHA256.txt": "e0e69865cbc94cc6f75747664b6407e64422750f78b78357fbf0bdd0ef42ba4e",
+    "dist/TinyToonAdventures2_KR_v1.0_Release_20261009/TinyToonAdventures2_KR_v1.0_Release_20261009.xdelta": "ddd29d4b8c12d242356be5b488259fc0feab05a1ae8d66e05e32211f34e48076",
+    "dist/TinyToonAdventures2_KR_v1.0_Release_20261009/tools/LICENSE_xdelta3.txt": "6cf63d87586c7c25c3ab8e62eef5c75bbaa982b0a6f9c00c59e2720255aac9ec",
+    "dist/TinyToonAdventures2_KR_v1.0_Release_20261009/tools/README_xdelta3.md": "577abe9ba3726bf00bd37f9d2c88e3d6efb3acb450fd40bcaef57bb937c61d12",
+    "dist/TinyToonAdventures2_KR_v1.0_Release_20261009/tools/xdelta3.exe": "53d90226615f217d3380c39892833311b4e24acd863e1ca01f14b5e772e2e6d0",
+    "dist/TinyToonAdventures2_KR_v1.0_Release_20261009/USER_REVIEW_KO.md": "35cf5f7911e5d77b3bce7bd43df94c2c685f5baedbefd90a84084466a6ae879c",
+    "dist/TinyToonAdventures2_KR_v1.0_Release_20261009/Windows_apply_verification.json": "d36c64f600bde4098b5780bf491721c90c496c64aff81820f82a6254e85ad358",
+    "dist/TinyToonAdventures2_KR_v1.zip": "0e470e45968cb388f296a3103c0004641ede834f14872921d087250d9f0c0aaa",
+    "dist/TinyToonAdventures2_KR_v1.zip.sha256": "3001337b9c4f37508ff36cf9ca9d3d4afb4bed8cd5714fb78fcfc8c34ac736ac",
+    "qa/reports/release224_verified.json": "31036bb9e2e2a78f6264f5971d66967dda63e1054daa17494ea245b6ab75f342",
+    "qa/reports/user_review224.json": "d4da5bb059ba3dc656d684c8279bb45baca7c56705a23715468813b6f7d5b83a",
+    "scripts/release224_review_update.py": "15c9fcfe742d0bd0fa0be21ba8b29dcc1f87248c161a902f558a14132975ac27",
+    "scripts/seal_nonplay171.py": "847e7b5c4030035e6cb3ea3b54daf7fbe73546e89e286029051aebfd79790a9a",
+    "docs/FINAL_RELEASE_USER_FIRST_QA_224.md": "543130182703ea7f4ce7752ab017c21122c691002dc4dd701ccff82ff167b08f"
+  }
+}

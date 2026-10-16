@@ -1,0 +1,32 @@
+{
+  "work": 225,
+  "files": {
+    "dist/TinyToon2_KR_v1.0_NaverCafe_Worklog_Release_20261009.zip": "32ac4f3938ea0659216e1fae61a6ad6463ed2091c8470a0af5db360a686e1e9c",
+    "dist/TinyToon2_KR_v1.0_NaverCafe_Worklog_Release_20261009.zip.sha256": "85d480ebeb80565b5ed47f988444a52ad5727384ac915730e28ea583084bee84",
+    "qa/publication/render225_final/desktop_bug_section.png": "8049a150edb7850954281db91ec814ecade3d98165098fc9fec37604b500c9d3",
+    "qa/publication/render225_final/desktop_top.png": "77cd5f2c294c6da3992d750cdf4324ab1655bc87ba45cc2d8c3b727d7b89dfd1",
+    "qa/publication/render225_final/mobile_bug_section.png": "9f5bb21cec11fd64d9f9b643c003748b0d0640cac52b471e9edd04497e711e6a",
+    "qa/publication/render225_final/mobile_top.png": "0bf061a8e981da32370c958a6eb472d89bef575fb6b7a07a574cb37caff16c7f",
+    "qa/publication/render225_final/render_report.json": "e105636f17060bb5c6a10903a09b1cc789ef46c38ec52dc48f1b7ae1333932cd",
+    "qa/reports/publication225_sources.json": "df5920cfae784831d6f69be81a5173eead14fdaac332fd64b3d5e8bdb73a4ea0",
+    "qa/reports/publication225_verified.json": "b5680a30612273133043ab540b92abe7ca63b259dacb4d653f30d2dc8f9dc7d5",
+    "scripts/publication225_review_update.py": "e162cf3df526aa504cc5ebdaf7e362e43426c4044d312c94c83e1e309acfa770",
+    "scripts/render_publication221.py": "ffca7362062897044db6e16138457aa156fded2cd98d5489b416a1e51b92c05a",
+    "scripts/seal_nonplay171.py": "847e7b5c4030035e6cb3ea3b54daf7fbe73546e89e286029051aebfd79790a9a",
+    "scripts/seal_publication225.py": "c4b85d0e2f9343af997313025d3654122a12e03a9f0f9b3270269c7648d2b68a",
+    "workspace/publication/TinyToon2_KR_v1.0_NaverCafe_Worklog_Release_20261009/images/01.png": "4b1e9e3abe01889d185981e74d9cf85af7a08a9b9031b9fd43ecb8dcf7b44b18",
+    "workspace/publication/TinyToon2_KR_v1.0_NaverCafe_Worklog_Release_20261009/images/02.png": "41752a1d20a234e48302413376824ed1e70063cb23979b7de1ee0ef29258c7de",
+    "workspace/publication/TinyToon2_KR_v1.0_NaverCafe_Worklog_Release_20261009/images/03.png": "37857c9f1f699c0184671a964a25a6c9ece996f2771b7edcc2bfb531a50d2b9d",
+    "workspace/publication/TinyToon2_KR_v1.0_NaverCafe_Worklog_Release_20261009/images/04.png": "b83b5f2d7057e826d4728be2f1d45002668cfba900361c606bf885d0ad441b52",
+    "workspace/publication/TinyToon2_KR_v1.0_NaverCafe_Worklog_Release_20261009/images/05.png": "16593972090460599288706067eeb3273badbc8fba2a9dd9933844ac2aa3226e",
+    "workspace/publication/TinyToon2_KR_v1.0_NaverCafe_Worklog_Release_20261009/images/06.png": "cd9e44c305bb3a6c81fd1249888ec5b7dc8b514423c392af60a0a427fc3958a0",
+    "workspace/publication/TinyToon2_KR_v1.0_NaverCafe_Worklog_Release_20261009/images/07.png": "2a608a6beae49964bdfa82909906630a56dd1261045b08f959c774de26e0e6f7",
+    "workspace/publication/TinyToon2_KR_v1.0_NaverCafe_Worklog_Release_20261009/images/08.png": "7c27c3a283dfe1a8e75d7519a0dafa87a5b96e6f6a6ef03b9497c88134b53b32",
+    "workspace/publication/TinyToon2_KR_v1.0_NaverCafe_Worklog_Release_20261009/\uc5c5\ub85c\ub4dc_\uc548\ub0b4.txt": "82386b350fa9a2171f652b1cdfa01dd24c2c8d9cf232c6db49924b7c1923f4e8",
+    "workspace/publication/TinyToon2_KR_v1.0_NaverCafe_Worklog_Release_20261009/\uc774\ubbf8\uc9c0_\ucd9c\ucc98_\uad6c\ubd84.json": "2ae275eefb8cc1e219f4f58b7c4de35af3f1c81752b850b3f0d51ec2f770039e",
+    "workspace/publication/TinyToon2_KR_v1.0_NaverCafe_Worklog_Release_20261009/\uc791\uc5c5\uae30.html": "d1558838eae0c93d5bd76092cae0de6ee4b51d663934e0c055c287c19ae65ba1",
+    "workspace/publication/TinyToon2_KR_v1.0_NaverCafe_Worklog_Release_20261009/\uc791\uc5c5\uae30.md": "71415a0cab6ee3b9692449ae95a20ed34389766c75fec08e0162cef26477ba3f",
+    "workspace/publication/TinyToon2_KR_v1.0_NaverCafe_Worklog_Release_20261009/\uce74\ud398_\ubcf5\uc0ac\uc6a9_\ubcf8\ubb38.txt": "ba23e74256d17f5a8ba6b43dee721d6f7428b6abb26000bef9fdfb5b9d128fc1",
+    "docs/NAVER_CAFE_FINAL_USER_REVIEW_225.md": "3aa30cb835c64e4c180d779a9c450a67d4ed885297091474441314146adc93b1"
+  }
+}

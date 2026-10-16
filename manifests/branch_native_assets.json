@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-05",
+  "work": 30,
+  "status": "PASS",
+  "ROM_unchanged": "c39750936c24f354d199c5c0cb17756979deb80b546ccfd2b5db541160d2ae1e",
+  "inputs": {
+    "scripts/run_branch_seed_qa.py": "1dcda0fbb73b4f4ac37edd4d387b8defda9284ac6252fe9c136e1422a7bbca1c",
+    "scripts/trace_branch_seed_v1.lua": "420400acbb0b2329401b03be0bf7363afd31026f55f639c3de1de8330ce68f6e",
+    "config/menu_castle_001.json": "4e651a40cdb3dc6a57fd50f10168b093dab7a67a85b7c9c11fb9c14e6356d316",
+    "config/menu_ticket_001.json": "645ccfce7fbf4046d616a255bb1fedace145df31392a980bc9df62e1f73db3f1",
+    "config/gate_gold4_seed_001.json": "c8b26565297e894195bcda7c0b88bf6adb05808673758b415285c21c749ba70a",
+    "config/gate_normal50_seed_001.json": "a4597c96f6284ac06633b341a2388f18efbe9afb24cc9b17e365b6edc64cfc99",
+    "config/gate_normal49_seed_001.json": "99e9193fcf88a9bd32ca0fb41fce6bb8efae20c2a47d9f21062ac1ffc037ea36",
+    "config/booth_points3_seed_001.json": "ca9cb8d0fb241433396e5e53274fc458772c97fa5ed3acbd7537638687f94ef0"
+  },
+  "outputs": {
+    "qa/reports/branch028_native_survey.json": "d8977e59296399a24f392878566b51c0c4bf7b22068458367f868eaeeb00d35d",
+    "qa/reports/branch028_native_cpu.json": "8c9d39fa3fe40b24ff13295446efe6462c653eb2ebb3a701b0e32722fbfb5c0b",
+    "extracted/analysis/castle_native_branches_20261005.json": "4ce04c0d2ee3ec7d9d1c87bde77cb1ba7081272c0c55a5b6a8d0b18826020ae5",
+    "qa/dialogue/branch028_gold4/environment.json": "e2943d0ee5c8cd334f15629e327c1c40d808517adf3b37d690d35aae7770876c",
+    "qa/dialogue/branch028_normal50/environment.json": "0992c817df8e7c6c306b6e98c0d8057624db456ad8b52681683b2d6f29b06b2d",
+    "qa/dialogue/branch028_normal49/environment.json": "1e0a8c52ef8c896e237cddab895f6774cf859fa018f8f1fb143e33cf16a9460e",
+    "qa/dialogue/branch028_points3/environment.json": "ec58e758ee8ff3859e05c01b86af3ac77b985a003a37252fda7eecb47729713f",
+    "qa/dialogue/branch028_actual_contact.png": "2d515434bd172935b2f68c8678bff23e0cb43dc8179e5f28b130bea2af9d01b8",
+    "qa/dialogue/branch028_actual_review_1.png": "3c0e71d24362fe5f7c2672cb1125d066ca2f1e448cea1b09af1ef0dcb46b91c7",
+    "qa/dialogue/branch028_actual_review_2.png": "b2a5e550d5ec45a03ad3a6b1fb1dd15a536ea2f4dda5c20b5561a907760b3059",
+    "qa/dialogue/branch028_actual_review_3.png": "11261a61170821316e60658cce24fa1128f90aa96dafc00af88537f51f9eb5de"
+  }
+}

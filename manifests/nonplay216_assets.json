@@ -1,0 +1,15 @@
+{
+  "work": 216,
+  "files": {
+    "qa/dialogue/cards033_cart/frame_01650_ram.bin": "ea501a29bce6405c1bb4c0ebcc2396e0d401e16a943fdbd520cbfbcb425f8658",
+    "qa/dialogue/cards033_coaster/frame_01650_ram.bin": "833df6f118a5225f4661c16dcfef89484958d674232785e2b6f4c4c85331c779",
+    "qa/dialogue/cards033_gold4/frame_02520_ram.bin": "26a49deade698403060d1a49b5d6fcd7d047a10618a553685eb49209314ec16f",
+    "qa/dialogue/cards033_train/frame_01650_ram.bin": "9751463ec9ded45529e23502671585cdf4fa43318f99914c6bc535e4f5e21c77",
+    "qa/dialogue/cards033_water/frame_01650_ram.bin": "59ab69a02504f24231a648498f57e4e14197620af93234c872e6b92208983413",
+    "qa/reports/nmi216_actual_entry_budget.json": "e58020f9d0a0c28fcb2095bf99965afd7a2d3bdac7a217f96c59cec0eed93e19",
+    "scripts/audit_actual_nmi216.py": "b61340e462b0e7dc3f31ef372f14d34ba2597ed0c65b6b81ea17ff1890da8736",
+    "scripts/seal_actual_nmi216.py": "0df0332eb321a0012a8abf9ff1fa6a3e17f6ce0b7afb37a25e9c7cab6a21bbec",
+    "scripts/seal_nonplay171.py": "847e7b5c4030035e6cb3ea3b54daf7fbe73546e89e286029051aebfd79790a9a",
+    "docs/TEXT11_ACTUAL_ENTRY_NMI_BUDGET_CORRECTION_216.md": "3838622f0e612484de53a5bb757c6f1239f4beb9c311eacb43357ec89461fb54"
+  }
+}

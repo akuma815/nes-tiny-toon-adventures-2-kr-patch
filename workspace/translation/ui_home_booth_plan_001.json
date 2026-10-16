@@ -1,0 +1,141 @@
+{
+  "date": "2026-10-05",
+  "source_sha256": "f41607b80904a2e1150a155121405dd1fed007ce98ff00a274a7891cafd7e32d",
+  "prior_build": "dialogue_kr_poc_019",
+  "prior_ROM_sha256": "1243fcf1450c1a46df55edd63d6528565cb49204b5f53d24dd731183dbcb7c5d",
+  "backup_CSV_sha256": "76bcc0d985c41dff6ce19cf0dd1a8a02e58bbb6814ca0b2f26e9e8239b9e8c48",
+  "CSV_sha256": "1528501efb8983ff77b9514fd859a7a7cca91eb23eb5ca752132cd645c3fbcd6",
+  "profiles": [
+    {
+      "entry_id": "MAIN_0574D",
+      "slot": 11,
+      "pointer": 38717,
+      "source_file_offset": 22349,
+      "end_exclusive": 22352,
+      "source_raw_sha256": "b7bfdda538c5fcc24fed2cd6f0520e43829b1f28577cb41d142968c147ae64e9",
+      "text": "롤러코스터",
+      "font_bank": 150,
+      "padding": [
+        0
+      ],
+      "scene": "home selection, roller coaster",
+      "speaker": "Buster"
+    },
+    {
+      "entry_id": "MAIN_05750",
+      "slot": 12,
+      "pointer": 38720,
+      "source_file_offset": 22352,
+      "end_exclusive": 22355,
+      "source_raw_sha256": "c38d0dd90a2bc1f776d910ce7278679e2158a543933d5782c3713be9e8e836d0",
+      "text": "쇼킹카트",
+      "font_bank": 152,
+      "padding": [
+        0
+      ],
+      "scene": "home selection, Shocking Cart",
+      "speaker": "Buster"
+    },
+    {
+      "entry_id": "MAIN_05759",
+      "slot": 15,
+      "pointer": 38729,
+      "source_file_offset": 22361,
+      "end_exclusive": 22370,
+      "source_raw_sha256": "ed53caffc83ec4b39821e8d0858a2664d03009cd0cadecf11bfc716b635ad1bc",
+      "text": "수수께끼의 성",
+      "font_bank": 154,
+      "padding": [
+        0
+      ],
+      "scene": "home selection, mystery castle",
+      "speaker": "Buster"
+    },
+    {
+      "entry_id": "MAIN_05762",
+      "slot": 16,
+      "pointer": 38738,
+      "source_file_offset": 22370,
+      "end_exclusive": 22377,
+      "source_raw_sha256": "b81d8749161175fa0c0f8ff4a8d84546e2565043524bd570a770e466212d0402",
+      "text": "매표소",
+      "font_bank": 156,
+      "padding": [
+        0
+      ],
+      "scene": "home selection, ticket booth",
+      "speaker": "Buster"
+    },
+    {
+      "entry_id": "MAIN_05769",
+      "slot": 17,
+      "pointer": 38745,
+      "source_file_offset": 22377,
+      "end_exclusive": 22391,
+      "source_raw_sha256": "173dcef465b3fec63df2264f2e979d889c1a9f1934a5605ba01466114e9db203",
+      "text": "나중에 또 보자!\n",
+      "font_bank": 158,
+      "padding": [
+        0,
+        0
+      ],
+      "scene": "leaving home for ticket booth/ride",
+      "speaker": "Buster"
+    },
+    {
+      "entry_id": "MAIN_05777",
+      "slot": 18,
+      "pointer": 38759,
+      "source_file_offset": 22391,
+      "end_exclusive": 22402,
+      "source_raw_sha256": "03f688bb1d0af4a46bb350fbf475e2ca475abf91dd89a86a362aedcc938f524b",
+      "text": "매표소에 어서 오세요",
+      "font_bank": 160,
+      "padding": [
+        0
+      ],
+      "scene": "ticket booth welcome",
+      "speaker": "Babs"
+    },
+    {
+      "entry_id": "MAIN_05782",
+      "slot": 19,
+      "pointer": 38770,
+      "source_file_offset": 22402,
+      "end_exclusive": 22420,
+      "source_raw_sha256": "98233aae21fc23322ffd17d0288fa7d9ad657a8141443c21f627e363769c26ff",
+      "text": "포인트를 티켓으로\n바꿔 드릴게요",
+      "font_bank": 162,
+      "padding": [
+        0,
+        0
+      ],
+      "scene": "ticket booth exchange intent",
+      "speaker": "Babs"
+    },
+    {
+      "entry_id": "MAIN_05794",
+      "slot": 20,
+      "pointer": 38788,
+      "source_file_offset": 22420,
+      "end_exclusive": 22444,
+      "source_raw_sha256": "0e10acd9bb44354f3cbf3864f3a0e670637c1a48167a91396e2b9ce0c8a63e38",
+      "text": "아쉽지만\n포인트가 부족해요",
+      "font_bank": 164,
+      "padding": [
+        0,
+        0
+      ],
+      "scene": "ticket booth insufficient points",
+      "speaker": "Babs"
+    }
+  ],
+  "native_punctuation": {
+    "?": 107,
+    "!": 108,
+    "「": 109,
+    "」": 110
+  },
+  "scope": "Eight observed home/booth drafts only; source macros remain untranslated SSOT entries and other consumers keep Japanese passthrough",
+  "review": "Draft; final proper-name/service-tone review pending; no release"
+}

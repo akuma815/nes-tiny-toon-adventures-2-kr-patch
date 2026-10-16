@@ -1,0 +1,52 @@
+[
+  {
+    "frame": 720,
+    "duration": 8,
+    "button": "start"
+  },
+  {
+    "frame": 1100,
+    "duration": 8,
+    "button": "up"
+  },
+  {
+    "frame": 1280,
+    "duration": 8,
+    "button": "up"
+  },
+  {
+    "frame": 1500,
+    "duration": 8,
+    "button": "a"
+  },
+  {
+    "frame": 1800,
+    "duration": 8,
+    "button": "a"
+  },
+  {
+    "frame": 3720,
+    "duration": 8,
+    "button": "start"
+  },
+  {
+    "frame": 4100,
+    "duration": 8,
+    "button": "up"
+  },
+  {
+    "frame": 4280,
+    "duration": 8,
+    "button": "up"
+  },
+  {
+    "frame": 4500,
+    "duration": 8,
+    "button": "a"
+  },
+  {
+    "frame": 4800,
+    "duration": 8,
+    "button": "a"
+  }
+]

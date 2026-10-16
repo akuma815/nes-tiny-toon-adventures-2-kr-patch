@@ -1,0 +1,10 @@
+{
+  "work": 101,
+  "files": {
+    "docs/PAUSE_SUPPLY_BOUNDS.md": "99a9257161440385b04f44f014dcc32b8b56f74d8a782e5a8dbaeded426046d3",
+    "scripts/analyze_pause_supply101.py": "87a443e6061f40fd3a7b8456348a452e771b2f5e051c65c7ce5779d1246ca75a",
+    "scripts/analyze_pause_supply101_v2.py": "b066775549bac42ffa427eeaf0b147cbb9c9b30addea9423be1a070ff88b3ad3",
+    "qa/reports/pause101_supply_bounds.json": "8e8aba1caf60e73eb4299d6ef7ca9d1b162d81ba7c33a1aa82a44f61bb483c24",
+    "qa/reports/pause101_v1_observation.json": "4cc0b8c46ac8f993ba65dc501a93cff29b8a842457c03e321fcb24e8768f3cb4"
+  }
+}

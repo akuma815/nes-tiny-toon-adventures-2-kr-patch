@@ -1,0 +1,6 @@
+Use case: text-localization.
+Input image is the extracted original red-ribbon Japanese subtitle plus a very small white secondary game-name line below. Logical dimensions 192x32 shown at 8x nearest-neighbor enlargement. Replace the Japanese with Korean.
+Exact primary ribbon text: "몬타나랜드에 어서 오세요"
+Exact small secondary line on black below: "타이니 툰 어드벤처"
+Preserve the original red ribbon silhouette and black surrounding background. Primary Hangul should be compact, bold, irregular playful cartoon pixel lettering in white on the ribbon, accurately formed and centered in logical x=22..170, y=3..21. Secondary Korean should be a simple readable tiny pixel label centered in logical y=25..31 with clear separated syllables.
+Only black #000000, ribbon red #B53120, white #FFFEFF. No gradients or antialiasing. Build on the logical 192x32 pixel grid with square blocks. No English, Japanese, numerals, characters, watermark or extra symbols. Return one complete 6:1 ribbon asset with both text lines and black edges.

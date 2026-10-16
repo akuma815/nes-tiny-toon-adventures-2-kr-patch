@@ -1,0 +1,13 @@
+{
+  "work": 192,
+  "files": {
+    "docs/POC_DIALOGUE_HOME.md": "d3cba4f36550ce28609ef1a41091bd105eb05728237b28ab6acc1e8783e46ca0",
+    "qa/dialogue/train142_native_049/prg_text_reads.csv": "42fae49db77dd89a286cf1ce9099c6b537c88116bfae2399277d1730e2d8f796",
+    "qa/reports/home11_191_audit.json": "5961c7002de74e79bd5735a895da1a366fa9c25975a0023c976f28cdeceb6eb7",
+    "qa/reports/home11_192_consumer_and_layout_choice.json": "c96874d466a4dc07a8b906ffe2fcbd590a4d008b2988855b47ad47bd96e40a46",
+    "qa/reports/text11_190_audit.json": "c20788c5115d74baf0b0ee8cc049fc691e4541f56e4c9e998aa2f2a5cd30211f",
+    "scripts/seal_home_consumer192.py": "1898f29dfa035c9fafb47178e677e5e3696a3e609bab5faf28e9cff5ed6821c5",
+    "scripts/seal_nonplay171.py": "847e7b5c4030035e6cb3ea3b54daf7fbe73546e89e286029051aebfd79790a9a",
+    "docs/HOME11_CONSUMER_AND_PAGE6_LAYOUT_CHOICE_192.md": "79f990049438492defefd90f9f7cc51ca6bdc87bfa63974e68d3a1587bbc062e"
+  }
+}

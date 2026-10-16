@@ -1,0 +1,22 @@
+{
+  "work": 222,
+  "files": {
+    "qa/archive/release222_history.sqlite": "73e8933289771ade8eb4fc731695836c9709b24a230166f599d2bc0bc6cb2cbd",
+    "qa/dialogue/moving_stop182_051/frame_04272.png": "92e460899be015aec63ff38179c57c57715c2a6977c0903b613f34e3de6e48aa",
+    "qa/reports/cleanup222_deletion.json": "b7473ed87e1eb7f439786342bddae322848880497bcfcf4402d60760bd45c7af",
+    "qa/reports/cleanup222_predelete.json": "8546ce493907a02acb97b79d34af143b3b4071328f569d03062f0d7da0cdb78f",
+    "qa/reports/final_release222_audit.json": "5fe808b1cde62e243bad0283dc75d045df55390836f9bcc785e2f02f4a67d5f0",
+    "scripts/audit_final_release222.py": "55bea76d5ec2ffe74894b64f1b72ee18af2f01632cccdad8b7c35b5ff7d182b7",
+    "scripts/close_failed_renderer222.py": "b1549b96df18d7aeb0717a5c04282ace80ebb9dfe43fec8b4ebc809f2557c92c",
+    "scripts/execute_cleanup222.ps1": "bf9485d3d10df8abee992fce35f6547ff2879fbfab7335c931f9003cce0e1bed",
+    "scripts/prepare_cleanup222.py": "fc6acf575a3e6913730535e330ab661837f4de7129bdb223da9d9d6e59ad9884",
+    "scripts/restore_history222.py": "3f03dd78baf99c3b79e77d1c8a6ee4a7fff11be774b13fe314bf1b9ce9be181f",
+    "scripts/resume_cleanup222.ps1": "8f9d19699057a0cd2199ff76e4390fdc68cdb3c00d23b653012eabdf65e1a5d2",
+    "scripts/seal_cleanup222223.py": "e7261a661417d57402301b2fbdf7c5781f9a6fc84655bbe37902d4536d5ea2cf",
+    "scripts/seal_nonplay171.py": "847e7b5c4030035e6cb3ea3b54daf7fbe73546e89e286029051aebfd79790a9a",
+    "work/cleanup222/deletion_plan.json": "f76538f99f85de711c5b24229e1bfd74e5e5bf82910fc6990d011d4f28956718",
+    "work/cleanup222/deletion_progress.jsonl": "852e5acf1a60af1952f925ee148e8b1a98d0b7dd1b4c5dd041cc8f35b56f0be4",
+    "work/cleanup222/final_plan.json": "44fe9e383b731da4c128d2b727954230b72d09a7ef4ed9c90572f3d38763992a",
+    "docs/LOSSLESS_RELEASE_CLEANUP_222.md": "943f48f95a2a742940d9f5281a273689614ee14767f420cfcedbf7a03ed8251c"
+  }
+}

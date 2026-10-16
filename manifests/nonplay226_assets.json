@@ -1,0 +1,18 @@
+{
+  "work": 226,
+  "files": {
+    "dist/TinyToonAdventures2_KR_v1.0_Release_20261009.zip": "0e470e45968cb388f296a3103c0004641ede834f14872921d087250d9f0c0aaa",
+    "dist/TinyToonAdventures2_KR_v1.0_Release_20261009.zip.sha256": "233bc0141a3c310c3ea90924c253ed32e73626f2ac2ce65d5908ff9851865684",
+    "qa/archive/release226_superseded.zip": "0b5b500e554343c6f3fdd2b07e219366ed0f7f22af4009a27d5ac40efae270c2",
+    "qa/reports/cleanup226_deletion.json": "1f67dd5cab37d9d92cf38865a98119488fd313606185ccc90af21ac204414c65",
+    "qa/reports/cleanup226_plan.json": "aa6fb4fd7d74329eae773774e4e90c0cc14d40262fa87ccdb5ff82fbb6ab0534",
+    "qa/reports/final_delivery226_audit.json": "e76904376279e5f83b1b7d2595a73b9898a906ae54b747ab4c54a53e88110fea",
+    "qa/reports/release226_apply.json": "b4b777a92a3f1380ea83df27a60c4574bdbd9b75eb7bd3c640b722da5b33a779",
+    "scripts/execute_final226.ps1": "7b27ce74082dca5f1473482d7c2c449eda56585cddb11849c036fde81cdbd4d5",
+    "scripts/finalize_release226.py": "48858bd8d60189adc72c9ec4f45241f7c1b6b53b08386f237a032b4e23eb3227",
+    "scripts/prepare_final226.py": "ed0560b741600fd53b35420c8ebc17a7b469b7ff111d2498f3f0d32c9cbb4a74",
+    "scripts/restore_superseded226.py": "bb6270b9f98ecff810fbe3b74c1eaf585a54f2a5376b37d5baee11daad1917ce",
+    "scripts/seal_nonplay171.py": "847e7b5c4030035e6cb3ea3b54daf7fbe73546e89e286029051aebfd79790a9a",
+    "docs/FINAL_DELIVERY_CLEANUP_226.md": "d834fc5f8474926b28f17f96dc4783fb84df852c16351ce0627437a8fc5f15e1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "work": 119,
+  "files": {
+    "build/dialogue_kr_poc_047/TinyToon2_dialogue_kr_poc.nes": "82ccec59ea23e899d0bcdb22123d67cc935a13305a843ca3f1f42fb24dc80c10",
+    "docs/NT1C_CANDIDATE_BOUNDS.md": "991b7589a4fb272026fba39ac85f55dfe486afa1dc21188e931cd1fe93d18d10",
+    "qa/reports/animation102_bank36.json": "249284d66f9604099c7256971fe45ef5eaace2ce67ea209de881d96b7cf6f77e",
+    "qa/reports/candidate099_bank_nt.json": "0a76f4d4d8766b330ab763296317b95d52ddc990187e374de91fc6c993a0cfe7",
+    "qa/reports/candidate119_NT1C.json": "cf50ba87b3a7e6e0e8f560af094a34f82455a447aefc1f32ad258795b1cb224a",
+    "qa/reports/latch103_supply.json": "f1444084e9847aa1affcdceb4fc287c301e7407cbc9636cff468c514b4fcd897",
+    "qa/reports/nt112_supplier_bounds.json": "01be0b0772f2fe9fd1eb31889b48eca75e73d7c7f48560e1cd21f118abc8265e",
+    "qa/reports/pause101_supply_bounds.json": "8e8aba1caf60e73eb4299d6ef7ca9d1b162d81ba7c33a1aa82a44f61bb483c24",
+    "scripts/analyze_nt_candidate119.py": "2af32928a092223f02bfdffea0fcb018cc295237f9f3af69692f770d1223550d",
+    "workspace/review/consumer047_104_20261005/consumer_records.json": "915a1a20e4af8e0a478428df4994cdd8cdefdc91e01cbe951aa2cb9fcfe1e2f4",
+    "workspace/translation/text_ja.csv": "ac22c5842e4f8d1600925e0837508c82f198157553031bd7cc3371fb6e4cf556"
+  }
+}

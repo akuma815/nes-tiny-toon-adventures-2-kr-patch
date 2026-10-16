@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-05",
+  "source_sha256": "f41607b80904a2e1150a155121405dd1fed007ce98ff00a274a7891cafd7e32d",
+  "prior_build": "dialogue_kr_poc_027",
+  "prior_ROM_sha256": "d9db24539a021723c42dd40c9b65d45bb59878226cc10349a862b5c06ffcd513",
+  "backup_CSV_sha256": "d57b739152817572a0f1833572ca7991eb7684a77a1c00a2ef44931ee2c228fe",
+  "CSV_sha256": "2a5c062710daf43969146b699c3269409666230ee2d3bbf72609b698567ee8b8",
+  "profiles": [
+    {
+      "entry_id": "MAIN_057B8",
+      "slot": 22,
+      "pointer": 38824,
+      "source_file_offset": 22456,
+      "end_exclusive": 22465,
+      "source_raw_sha256": "1cfecf3bb5a1f79be8db409bb40c7dfb07a7e8d332499fb6e5aa1f11fbb697af",
+      "text": "어서 오세요",
+      "font_bank": 173,
+      "padding": [
+        0
+      ],
+      "scene": "Castle gate native insufficient-gold/normal-ticket route; menu_castle_001",
+      "speaker": "Castle gate attendant; identity unresolved"
+    },
+    {
+      "entry_id": "MAIN_057C1",
+      "slot": 23,
+      "pointer": 38833,
+      "source_file_offset": 22465,
+      "end_exclusive": 22501,
+      "source_raw_sha256": "473564fcc4cd6c5974429535b1b04955287c879833137c7d642365775f129ef8",
+      "text": "입장 조건은 골드 티켓 4장\n있으면 입장할 수 있어요",
+      "font_bank": 175,
+      "padding": [
+        1,
+        1
+      ],
+      "scene": "Castle gate native insufficient-gold/normal-ticket route; menu_castle_001",
+      "speaker": "Castle gate attendant; identity unresolved"
+    },
+    {
+      "entry_id": "MAIN_057E5",
+      "slot": 24,
+      "pointer": 38869,
+      "source_file_offset": 22501,
+      "end_exclusive": 22519,
+      "source_raw_sha256": "d50dd08810441efe9ae9b67a327161d2a85dbae9365728682a93c1c281530303",
+      "text": "아쉽지만 티켓이 부족해요",
+      "font_bank": 177,
+      "padding": [
+        2
+      ],
+      "scene": "Castle gate native insufficient-gold/normal-ticket route; menu_castle_001",
+      "speaker": "Castle gate attendant; identity unresolved"
+    },
+    {
+      "entry_id": "MAIN_057F7",
+      "slot": 25,
+      "pointer": 38887,
+      "source_file_offset": 22519,
+      "end_exclusive": 22533,
+      "source_raw_sha256": "cded7de9809b6c5432de2b74f221063dc474bc3edc1b7a3ff4d1d01a13de13fd",
+      "text": "다시 오세요\n",
+      "font_bank": 179,
+      "padding": [
+        0,
+        0
+      ],
+      "scene": "Castle gate native insufficient-gold/normal-ticket route; menu_castle_001",
+      "speaker": "Castle gate attendant; identity unresolved"
+    },
+    {
+      "entry_id": "MAIN_0581B",
+      "slot": 27,
+      "pointer": 38923,
+      "source_file_offset": 22555,
+      "end_exclusive": 22564,
+      "source_raw_sha256": "61fbf75ba593f8368fffee0c85a1708fa94695fb7ddcadd8781428bcba9080e9",
+      "text": "갖고 계세요?",
+      "font_bank": 181,
+      "padding": [
+        0
+      ],
+      "scene": "Castle gate native insufficient-gold/normal-ticket route; menu_castle_001",
+      "speaker": "Castle gate attendant; identity unresolved"
+    }
+  ],
+  "native_punctuation": {
+    "?": 107,
+    "!": 108,
+    "「": 109,
+    "」": 110,
+    "4": 116
+  },
+  "scope": "Five observed castle drafts; variable normal-price1A and unobserved entry1C remain Japanese, macro SSOT unchanged",
+  "review": "Draft; attendant identity and final translation review pending; no release"
+}

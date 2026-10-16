@@ -1,0 +1,32 @@
+{
+  "work": 210,
+  "files": {
+    "build/text11_210_rebuild061/build_report.json": "8306af263b9376f2e9a1b6db422c749943cb703e55ecbbb59dd9de1cebe32f76",
+    "build/text11_210_rebuild061/builder_used.py": "17447711d19d9636804db82ca5735ce48d3dcc4f11b219447c7c7840125662f2",
+    "build/text11_210_rebuild061/credits11_plan.json": "0120ad8efd16f7a602f5f0392975616d053654b219385be162457987a31cab3e",
+    "build/text11_210_rebuild061/expected_writes.json": "db4d6fdf6832c7e431b39ba453bce5670795f07e7a0c2d6f2d9de234f7dfa2ef",
+    "build/text11_210_rebuild061/opening11_plan.json": "8d38f0744b471c6f4ce45518e801747bc79196aa1d28e8329d5baa27c57de75c",
+    "build/text11_210_rebuild061/ordinary11_plan.json": "ffa68bb1c5ded148e1fb5f7c820ea74a97cc1f93bbcd9ab42bd246d3d4464a37",
+    "build/text11_210_rebuild061/TinyToon2_Text11_Candidate061.ips": "8a6725f2f6118e420f564b4ec09450a04bdf3175030b2d2ff002cfedb11ba939",
+    "build/text11_210_rebuild061/TinyToon2_Text11_Candidate061.nes": "5d334b9fef7ce50edaa19744ae101c10e523160df80c01bab889305eddd945f6",
+    "build/text11_210_rebuild061/translation_used.csv": "43bc5fe4218d8d01d29425f4dacdc5e92b7eae3db40cb1bb1852ca3e4e7f990f",
+    "build/text11_candidate_061/build_report.json": "8306af263b9376f2e9a1b6db422c749943cb703e55ecbbb59dd9de1cebe32f76",
+    "build/text11_candidate_061/builder_used.py": "17447711d19d9636804db82ca5735ce48d3dcc4f11b219447c7c7840125662f2",
+    "build/text11_candidate_061/credits11_plan.json": "0120ad8efd16f7a602f5f0392975616d053654b219385be162457987a31cab3e",
+    "build/text11_candidate_061/expected_writes.json": "db4d6fdf6832c7e431b39ba453bce5670795f07e7a0c2d6f2d9de234f7dfa2ef",
+    "build/text11_candidate_061/opening11_plan.json": "8d38f0744b471c6f4ce45518e801747bc79196aa1d28e8329d5baa27c57de75c",
+    "build/text11_candidate_061/ordinary11_plan.json": "ffa68bb1c5ded148e1fb5f7c820ea74a97cc1f93bbcd9ab42bd246d3d4464a37",
+    "build/text11_candidate_061/TinyToon2_Text11_Candidate061.ips": "8a6725f2f6118e420f564b4ec09450a04bdf3175030b2d2ff002cfedb11ba939",
+    "build/text11_candidate_061/TinyToon2_Text11_Candidate061.nes": "5d334b9fef7ce50edaa19744ae101c10e523160df80c01bab889305eddd945f6",
+    "build/text11_candidate_061/translation_used.csv": "43bc5fe4218d8d01d29425f4dacdc5e92b7eae3db40cb1bb1852ca3e4e7f990f",
+    "qa/reports/credits11_210_rejection.json": "9bcc92164ae4769cb0fcc280d0c04e0d72402512de03b35fbf8e0385541e4287",
+    "scripts/build_credits11_210.py": "17447711d19d9636804db82ca5735ce48d3dcc4f11b219447c7c7840125662f2",
+    "scripts/debug_credits210.py": "0a3bb983a3efbd643da3f1c6af7dc9d558664dd4f8f94ee39988062782249f96",
+    "scripts/prepare_credits210.py": "ccb02ea5fdd75082ba8ef2078b6406a83d051c956e6e7feed9ce3844232382a1",
+    "scripts/seal_credits_rejection210.py": "3442745bc73576991042355d562ba312b39d7dfe195d94c518314a933fc4d2f4",
+    "scripts/seal_nonplay171.py": "847e7b5c4030035e6cb3ea3b54daf7fbe73546e89e286029051aebfd79790a9a",
+    "scripts/verify_credits11_210.py": "e45cb6c4ac9b09dbaaad504b76ec7e64b91889063c9c1ec3df684aa087411a2d",
+    "scripts/verify_text11_ordinary210.py": "81713d3dfdb2f9d45a68e793fb73690996c3a5a5beb0790516465b5c0d59f67b",
+    "docs/CREDITS11_CANDIDATE061_RETURN_AND_DELAY_REJECTION_210.md": "6b3b2f74f5b174f18ba93064307def5028bfdfbe74938186642487ba16914623"
+  }
+}

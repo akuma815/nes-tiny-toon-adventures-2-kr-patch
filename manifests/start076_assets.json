@@ -1,0 +1,16 @@
+{
+  "work": 76,
+  "files": {
+    "docs/START_CONSUMER_SURVEY.md": "4db34cec4eb690c046e0126dd30c71bfea032b66adfac08f9f952d5ccb885f8a",
+    "extracted/graphics/start_001/consumer.json": "2df568fc7a3a53f1b1dba25015ef8745e804772f0384c90ca34c9bbe303f5483",
+    "extracted/graphics/start_001/font122_123_original.bin": "512e39dbc7cf00754de592056faf321ce711cd96691b24ae1d995e5350bcc327",
+    "extracted/graphics/start_001/native_CHR_preservation_population.json": "6bc836180c551fd8fa86b216765158ff71a9fa02c486d3a786b3c751b451831a",
+    "extracted/graphics/start_001/start_indices.png": "13bce7cbc0430adb23a9843e0bb8c3d247e26753c1ab5fcdac81ad6cc1fe6bbd",
+    "extracted/graphics/start_001/start_original.png": "7dc6004b985c9c3c88f6b89b7d37277e98c8820e95d8bcec40a6175b21620887",
+    "extracted/graphics/start_001/start_original_8x.png": "71a9e28e8edc3f8c428d2b6375980d9d5506352f439437c28a92d8f0a706583a",
+    "scripts/extract_start_notice.py": "86964f5ea951c5fe8aa04e278cddf661f8c64af61f0b40431f8f9c5e91e26b49",
+    "work/graphics_population_003/scope.json": "45195bc2cf2107b98874c67bd8d43b584d41c8c70f870b009020f154fa248f68",
+    "work/graphics_population_003/source_all_8x16_static.png": "786a150d251443029a9ca10bf183a4289a338b7621cc3d289024a5ff5b9eecca",
+    "work/graphics_population_003/source_all_8x16_static_2x.png": "377ac097a87dc5312ac960e9608a8ca640297ba53048bbc28c428e0c8bbb0080"
+  }
+}

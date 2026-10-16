@@ -1,0 +1,18 @@
+{
+  "purpose": "Controlled initial normal ticket count1; native gameplay/failure thereafter; not naturally earned initialcurrency",
+  "frame": 1000,
+  "writes": [
+    {
+      "address": 2000,
+      "value": 1
+    },
+    {
+      "address": 2001,
+      "value": 0
+    },
+    {
+      "address": 2002,
+      "value": 0
+    }
+  ]
+}

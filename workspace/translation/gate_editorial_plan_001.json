@@ -1,0 +1,29 @@
+{
+  "work": 90,
+  "source_sha256": "f41607b80904a2e1150a155121405dd1fed007ce98ff00a274a7891cafd7e32d",
+  "prior_ROM_sha256": "a58a28bcb1449ad44b02cccbf6503af0e2792cbf96c9b9409bcc05025552a0f8",
+  "backup_CSV": "backups/translation/text_ja_before_gate_editorial_001.csv",
+  "backup_CSV_sha256": "26274fdced8c950ec64d3b3dae7afbc7b92a49f8fd8fe4a31b6f92327e584c27",
+  "CSV_sha256": "ac22c5842e4f8d1600925e0837508c82f198157553031bd7cc3371fb6e4cf556",
+  "profile": {
+    "entry_id": "MAIN_057C1",
+    "slot": 23,
+    "pointer": 38833,
+    "source_file_offset": 22465,
+    "end_exclusive": 22501,
+    "source_raw_sha256": "473564fcc4cd6c5974429535b1b04955287c879833137c7d642365775f129ef8",
+    "text": "골드 티켓 4장이 있으면\n입장할 수 있어요",
+    "font_bank": 175,
+    "padding": [
+      1,
+      1
+    ],
+    "scene": "Castle gate native insufficient-gold/normal-ticket route; menu_castle_001",
+    "speaker": "Castle gate attendant; identity unresolved"
+  },
+  "original_view": "ここは 4まいのゴールド{macro:88}が\nあれば はいることができます",
+  "prior_translation": "입장 조건은 골드 티켓 4장\n있으면 입장할 수 있어요",
+  "revision_reason": "Manual single-entry source/context correction of dangling conditional and repeated admission clause. No rule-based batch prose edits.",
+  "status": "draft",
+  "human_final_review": false
+}

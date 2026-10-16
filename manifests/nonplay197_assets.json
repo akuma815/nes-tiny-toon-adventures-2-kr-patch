@@ -1,0 +1,10 @@
+{
+  "work": 197,
+  "files": {
+    "qa/reports/text11_190_plan.json": "eb0c040063cbc4f12989bae3dfb776e39e3e89f35f5cc50851822ac74db67dba",
+    "qa/reports/text11_197_scope.json": "888c14ab073f4bff1705f922d4dc29d8a3016fa7588ce253c2a5949576452dd3",
+    "scripts/plan_text11_scope197.py": "706b86d5b1153e3c3536435383dc91f0dfc875c854403e6aff055beec6496be7",
+    "scripts/seal_nonplay171.py": "847e7b5c4030035e6cb3ea3b54daf7fbe73546e89e286029051aebfd79790a9a",
+    "docs/TEXT11_SCRIPT_SCOPE_AND_FEASIBILITY_197.md": "43135c1f7d9f3018d3d08810f10a8b535e623b09d6fe025861f907c5c23ce4b7"
+  }
+}

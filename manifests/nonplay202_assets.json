@@ -1,0 +1,17 @@
+{
+  "work": 202,
+  "files": {
+    "qa/reports/credits11_202_capacity.json": "580d92c3dfb9b054c54467e566f005ca49472bb9c33c6049ba97d121f9486dae",
+    "scripts/plan_credits11_202.py": "b08b977ec24d6fdb070dbbe1a9cb93c8c6ada4464ca4f2241e002ca98805ebf3",
+    "scripts/seal_nonplay171.py": "847e7b5c4030035e6cb3ea3b54daf7fbe73546e89e286029051aebfd79790a9a",
+    "workspace/review/credits11_202/credits11_latin16_font.chr": "566779971c778bea80ed63a086c1aa0f09209472305b4acb5ccc2183f786b542",
+    "workspace/review/credits11_202/MAIN_05939_latin12.png": "708c860ee23a0a860918f5ac713cbfacb8d9e0979eea08cf18f76061a41f47cf",
+    "workspace/review/credits11_202/MAIN_05939_latin16.png": "9eecb0fef692bd48897cb97c380aa6d70246f016be318bbe259265a97ec2498f",
+    "workspace/review/credits11_202/MAIN_05999_latin12.png": "8b882d3875a6335729a95bc48ef571a8b6c8076ad993f0a0ec0c4ff56b5ae1a8",
+    "workspace/review/credits11_202/MAIN_05999_latin16.png": "d6b9936fdbdd4c192f16c9b7a6d9ef07c563118efeb895d8c5421df191d78b02",
+    "workspace/review/credits11_202/MAIN_059E7_latin12.png": "d7943ebfb26377a2d730136df8d6a1730ce9b7dbe978d61b44a2a195778dd92d",
+    "workspace/review/credits11_202/MAIN_059E7_latin16.png": "8756e25773baf69b82f72a0bc552c8b5fa217d1d01de03c2b1988fbb79398cbb",
+    "workspace/review/credits11_202/review.html": "9c6f2a2b9f63cbc6c352a6c89fc01b28ffc36a57dc9717256fd5614c47010915",
+    "docs/CREDITS11_SHARED_FONT106_SPACING_OPTION_202.md": "9f6f369cbe33a81825a24cdafb18c961672da5e3da3a806c9822707dbd84a638"
+  }
+}

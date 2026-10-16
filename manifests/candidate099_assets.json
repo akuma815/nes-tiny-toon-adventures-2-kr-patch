@@ -1,0 +1,24 @@
+{
+  "work": 99,
+  "files": {
+    "docs/HOWTO_BANK_NT_BOUNDS.md": "591a037760f217ceaf445106009cad517de7c70e3de9b6db929980952f236e36",
+    "qa/reports/candidate099_bank_nt.json": "0a76f4d4d8766b330ab763296317b95d52ddc990187e374de91fc6c993a0cfe7",
+    "scripts/analyze_candidate_fonts099.py": "f61eeb8c8458ce3358b96f3df16760faea4e04a0c607bbce4ea9f39800e2d532",
+    "scripts/analyze_candidate_fonts099_v2.py": "27415c58a30078a9907b7e90351945cc8e39f4ac67ee4c40803da65740cbc2c1",
+    "scripts/analyze_candidate_fonts099_v3.py": "fb6936bee1ac7aaa7a940333e04f32521f42c2b733354860d331d39db7d110e6",
+    "scripts/analyze_candidate_fonts099_v4.py": "917c3b6e880dd3320408837685fb48d1697fc27a8f3bfd9516a5fbf283ab2ab6",
+    "scripts/analyze_candidate_fonts099_v5.py": "4548363bdc53c0a53292d2849f4db205b2be17ea1e04b377293a135991a6243b",
+    "qa/reports/candidate099_v1_observation.json": "ef1b49572e0a0f8056875acd2e65135c4388cf1879f5e6d57acbb1a8eeda526b",
+    "qa/reports/candidate099_v2_observation.json": "45e00c7906763937a14c725f08763212c5031f10eefa1fa3d6fd370996394e23",
+    "qa/reports/candidate099_v3_observation.json": "191ac20e45a8bfe2f4dee859ad2156ebe8c7dc3008a76d0f6398e5e763be5d02",
+    "qa/reports/candidate099_v4_observation.json": "be651720f59d65fc1b4645ae5bce464fc3114f34d3cef013ea0ebbaf75d4a767",
+    "work/candidate_font099/CHR_page_1D_6x_static.png": "b81a240bc74f0afc6af641230eaa7fa053e9ad7f515f70972d2858d08c268053",
+    "work/candidate_font099/CHR_page_1E_6x_static.png": "048452fe25e26649eb7d289b321e6647e27e3fce03f7dbe54b7536fb867b3737",
+    "qa/dialogue/cards033_coaster/frame_01800.png": "de82c3f1ad5b183ee222695cca21bc03103652c71d8733421c0b5b61f3dbc85a",
+    "qa/dialogue/cards033_coaster/frame_01800_ram.bin": "d503870fa3a968747d7e78c0e116348c549dd4fd8f66945b53ad66f6fc00a3d5",
+    "qa/dialogue/cards033_coaster/frame_01800_ppu.bin": "7b7190a009ef58c0b85445bcf7039a1855a589dc918ab8f7f1a250266913e38a",
+    "qa/dialogue/cards033_coaster/frame_01800_mapping.csv": "7752cd7fac0d7ded8ab522771872cdf5b8de2c1d38e55d858be3c3e64e135149",
+    "qa/dialogue/cards033_coaster/frame_01800_state.txt": "dfbcfe2730db2032c5a81abeee78c0997faaed3b778735b6ae06fef4f76b8c8e",
+    "qa/dialogue/cards033_coaster/environment.json": "d28c920afba7537d4bb8bac2b8b895fc848df5bf8ede3af5e94fd095c7cd2f3e"
+  }
+}

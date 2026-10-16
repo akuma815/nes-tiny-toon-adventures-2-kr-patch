@@ -1,0 +1,13 @@
+{
+  "entry_id": "MAIN_056C1",
+  "page": 6,
+  "source": "User page6 layout request on 2026-10-09",
+  "lines": ["친구들도 데려와!", "깜짝 놀랄 거다!", "", "의문의 대부호로부터"],
+  "alignments": ["center", "center", "center", "right"],
+  "width_pixels": 192,
+  "line_height": 16,
+  "right_inset_pixels": 0,
+  "font_change": false,
+  "prose_change": false,
+  "scope": "One opening paragraph only. Not global font or presentation approval."
+}

@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-04",
+  "status": "Verified experimental title build; user final design review pending",
+  "source_sha256": "f41607b80904a2e1150a155121405dd1fed007ce98ff00a274a7891cafd7e32d",
+  "adopted_build": "title_kr_ai_003",
+  "text": {
+    "main": "타이니 툰 / 어드벤처",
+    "subtitle": "몬타나랜드에 어서 오세요",
+    "secondary": "타이니 툰 어드벤처"
+  },
+  "generation_method": "Built-in image_gen; no API/CLI fallback; generated raw assets copied into project",
+  "prompts": [
+    "workspace/graphics/title/ai_main_001/PROMPT.txt",
+    "workspace/graphics/title/ai_ribbon_001/PROMPT.txt",
+    "workspace/graphics/title/ai_caption_002/PROMPT.txt"
+  ],
+  "inputs": [
+    {
+      "path": "extracted/title/title_20261004_001/main_original.png",
+      "role": "original PNG",
+      "sha256": "03d4acfcab138756ad01fb306a9c84b099dc21acc622ad7e2833f186c632ebf3",
+      "dimensions": [
+        176,
+        88
+      ]
+    },
+    {
+      "path": "extracted/title/title_20261004_001/ribbon_original.png",
+      "role": "original PNG",
+      "sha256": "a06a32632ed2f2feed13e74ce076ce6a9a163540d5802af0829c15fe0890db33",
+      "dimensions": [
+        192,
+        32
+      ]
+    },
+    {
+      "path": "workspace/graphics/title/ai_main_001/main_ai_raw.png",
+      "role": "built-in image_gen Korean main logo",
+      "sha256": "d99cbb7e5c8948bd50dcc7976da7f3112c581b22923939651ec83995a3dc26e0",
+      "dimensions": [
+        1774,
+        887
+      ]
+    },
+    {
+      "path": "workspace/graphics/title/ai_ribbon_001/ribbon_ai_raw.png",
+      "role": "built-in image_gen Korean primary ribbon text",
+      "sha256": "e86e1d2b3de929928f5c5e2c76f01bc2c7ff3a46198c08db3ff65a908d03dfb0",
+      "dimensions": [
+        2172,
+        724
+      ]
+    },
+    {
+      "path": "workspace/graphics/title/ai_caption_002/caption_ai_raw.png",
+      "role": "built-in image_gen corrected secondary caption",
+      "sha256": "d2176df3b57536bebd789321b6d9dbfde9eccd09398e3ad0b87702c30a27731a",
+      "dimensions": [
+        2170,
+        725
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "path": "build/title_kr_ai_003/TinyToon2_title_kr_poc.nes",
+      "sha256": "d7e8870c98909339486ae6448346d6ba2c65dbaacbe7861fab05bbe35ad8737a"
+    },
+    {
+      "path": "build/title_kr_ai_003/TinyToon2_title_kr_poc.ips",
+      "sha256": "6f6d7c46409ed1b638cdd0651695d4015ce17b7ca75a2b79320d56341118af39"
+    },
+    {
+      "path": "build/title_kr_ai_003/main_nes.png",
+      "sha256": "25fa903adf2f12aa1062db4e7104edad888ff9bc8b867c8375b5c089095355ff"
+    },
+    {
+      "path": "build/title_kr_ai_003/ribbon_nes.png",
+      "sha256": "02ebcdf2fb1b2c4f37a9aca80d1c707487b5ff7f5f8cca1635192e744446dd90"
+    },
+    {
+      "path": "build/title_kr_ai_003/title_static_preview.png",
+      "sha256": "36984bc4727ebedf4307706c10e0040545820c7336c40f6c2b4e08e7b9370a35"
+    },
+    {
+      "path": "qa/title/title_kr_ai_003_actual_4x.png",
+      "sha256": "2c75f7e2eecfecf39734b53b1c21445c900827e16e129f350757f02737aa41eb"
+    },
+    {
+      "path": "qa/title/title_kr_ai_003_comparison.png",
+      "sha256": "51a02eb3b902dd50f3b852670050c3530796c6b043d3dd5c8afee0cc10b68fd2"
+    },
+    {
+      "path": "qa/reports/title_kr_ai_003_validation.json",
+      "sha256": "b8f10fd721eace577cc5ca36a0ddae7adef5237f3982a8e84060f315750cd993"
+    }
+  ],
+  "external_font_used": false,
+  "native_conversion": "BOX downsampling, nearest original NES RGB palette; primary lettering148x14, corrected caption100x8, immutable ribbon silhouette; traced tile/layout allocation",
+  "scope": "Title graphics only; PUSH START and copyright preserved in this build; no project-wide English policy inferred",
+  "rejected_builds": [
+    "title_kr_ai_001",
+    "title_kr_ai_002"
+  ],
+  "evidence_classes": {
+    "static": "Expected Writes, whole ROM diff, pixel/NT/codec checks passed",
+    "build_apply": "Rebuild and actual IPS apply hash equality passed",
+    "runtime": "5400 no-input / 3000 Start720 frames, exit0; 72 baseline comparisons passed",
+    "direct_visual": "Actual frame720 enlargement and four original/Korean comparison scenes reviewed; small caption8px readability limited"
+  },
+  "limits": [
+    "user final design approval pending",
+    "no full playthrough or all-scene shared-tile QA",
+    "no physical console or audio review",
+    "no formal release or cafe upload"
+  ]
+}

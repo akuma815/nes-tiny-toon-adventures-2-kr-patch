@@ -1,0 +1,10 @@
+{
+  "purpose": "Native bonus initialization aftercontroller-only gameplay; RAM54=20 only, notnaturally cleared",
+  "frame": 3200,
+  "writes": [
+    {
+      "address": 84,
+      "value": 20
+    }
+  ]
+}

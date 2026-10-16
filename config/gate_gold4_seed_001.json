@@ -1,0 +1,10 @@
+{
+  "purpose": "Controlled branch QA, not normal gameplay",
+  "frame": 1000,
+  "writes": [
+    {
+      "address": 2016,
+      "value": 4
+    }
+  ]
+}

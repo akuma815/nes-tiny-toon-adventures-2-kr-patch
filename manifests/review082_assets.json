@@ -1,0 +1,23 @@
+{
+  "work": 82,
+  "files": {
+    "docs/TRANSLATION_REVIEW_046.md": "15fb682661d9c0de3fc8ca5206f9c357106ff468b8706f77ad34d681c6f14bce",
+    "qa/reports/review046_records.json": "06d81efc1e80479fa1cee6f750f540259a10909c77b49883a969b954e04737e7",
+    "qa/review/translation046_082/desktop_readable_credits.png": "e0766bbceb74fad924eff48c1175cc2e0d54aad235eccc61ae9d6ae649b1134e",
+    "qa/review/translation046_082/desktop_top.png": "f807cbfd15577888dff15f28fb7ce268dd0656fb1872121157b980ff4e477320",
+    "qa/review/translation046_082/desktop_unit05805.png": "98e484465131bee2bb3d898e11ad9475aac3048f63a519315fcdb29d9410af49",
+    "qa/review/translation046_082/edge_stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "qa/review/translation046_082/mobile_readable_credits.png": "6618361dfc9f0f4f9cff0d8a5729053224339cce9db8eee36672d6ef736b9763",
+    "qa/review/translation046_082/mobile_top.png": "8780b7ce3af22798e344d96072b428867df458be79863cc038dfcb1a4905b518",
+    "qa/review/translation046_082/mobile_unit05805.png": "91576a60a106979ae1d08aa6e62176678fecc6a8c1b772a274f3fed91b20a930",
+    "qa/review/translation046_082/render_report.json": "ff45f637b33d0f9583a3990229819df9dc83400034e29c77f67526c1ee3dd26d",
+    "scripts/make_translation_review046.py": "81b968500e2b1ad09603b4d931dda060042ac7c138bad8ff32f17ef1c7e0072a",
+    "scripts/render_review_kit046.py": "55946329116f13db29b70aead2d678dabbc4bb2854da6e132e360277f837cb4d",
+    "workspace/review/TinyToon2_Translation_Review_046_20261005.zip": "ef818bdcdc65bc8a961fadd83de5d4d7110f4cf806ad92f1c9da549eb19c11b7",
+    "workspace/review/translation046_20261005/artifact_manifest.json": "3f277de42cfabe963e3db23e249fe52d6bb6038de14888287d7c9fdb936c5525",
+    "workspace/review/translation046_20261005/DECISIONS_PENDING.md": "3127f05854ceb2939d18ae2c452f2fe218c0221db3386377e94f01976ab32867",
+    "workspace/review/translation046_20261005/README.txt": "17b18d1fd967846ffa40f455b2d4dc2fcf5c582022dfc1e400fd99dd1b6ff055",
+    "workspace/review/translation046_20261005/review.html": "fba0bf5b633a4f6a60238572ab8a41fd1a35a2330cc5050ce54739ab009b2caa",
+    "workspace/review/translation046_20261005/review_records.json": "64dfe581900a99760d59d504c1fcb93d6f22f293296b4d78f927beaa2540361a"
+  }
+}

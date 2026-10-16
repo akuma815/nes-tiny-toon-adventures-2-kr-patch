@@ -1,0 +1,37 @@
+[
+  {
+    "frame": 720,
+    "duration": 8,
+    "button": "start"
+  },
+  {
+    "frame": 1100,
+    "duration": 8,
+    "button": "left"
+  },
+  {
+    "frame": 1500,
+    "duration": 8,
+    "button": "a"
+  },
+  {
+    "frame": 2000,
+    "duration": 8,
+    "button": "a"
+  },
+  {
+    "frame": 2600,
+    "duration": 8,
+    "button": "a"
+  },
+  {
+    "frame": 2800,
+    "duration": 8,
+    "button": "a"
+  },
+  {
+    "frame": 2890,
+    "duration": 8,
+    "button": "a"
+  }
+]

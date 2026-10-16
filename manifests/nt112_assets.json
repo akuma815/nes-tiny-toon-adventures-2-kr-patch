@@ -1,0 +1,13 @@
+{
+  "work": 112,
+  "files": {
+    "qa/reports/nt109_consumers.json": "d06e70000bdc55e790bdcb42669e40da8473470d7279f23e109e1a2266fb552f",
+    "qa/dialogue/castle111_source/castle111_native.csv": "262039b23cea77e4abec3f3d769150c10785b3c80836c2cd15cfdd2cc9814202",
+    "qa/dialogue/castle111_source/environment.json": "3ec0c612c417ad707019f6660e6d403ebc5d05ba54962b5b197ec5afb33add9f",
+    "qa/dialogue/castle111_current047/castle111_native.csv": "24bd49f07496fabb140bc0335de24d626043af1b855e156e3543d93db9bfa616",
+    "qa/dialogue/castle111_current047/environment.json": "6696ccda880b65787ddee5fb1b6e8bc8d6b99c6c77b34bc6f3949811c64ce5c0",
+    "scripts/analyze_nt112.py": "a96da825e6cfe167efe92076f48c12a55d5583bff3ce13c67fb969a7eae5f4c3",
+    "qa/reports/nt112_supplier_bounds.json": "01be0b0772f2fe9fd1eb31889b48eca75e73d7c7f48560e1cd21f118abc8265e",
+    "docs/NT_SELECTOR_SUPPLIER_BOUNDS.md": "5b06992b7b4bbe158f20901436916eb278503f09670d9f13984233aaa26cba78"
+  }
+}
